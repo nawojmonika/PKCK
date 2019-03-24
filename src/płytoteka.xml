@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<?xml-stylesheet type="text/css" href="płytoteka.css"?>
 
 <!DOCTYPE __ROOT__ SYSTEM 'płytoteka.dtd'>
 
 <__ROOT__>
-    
+    <autorzy>
+        <autor>Artur Dziedziczak</autor>
+        <autor>Karol Puchałkę</autor>
+    </autorzy>
+    <utwory>
+        <utwór id="" albumId="">
+            <tytuł></tytuł>
+            <cena></cena>
+        </utwór>
+    </utwory>
+    <albumy>
+        <album id="">
+            <autor id=""/>
+            <tytuł>Testowy tytuł</tytuł>
+            <data-wydania></data-wydania>
+        </album>
+    </albumy>
+    <płyty>
+        <płyta>
+            <autor id="artur-dziedziczak" />
+            <albumy>
+                <album albumId=""/>
+            </albumy>
+            <single utwórId=""></single>
+        </płyta>
+    </płyty>
 </__ROOT__>
+
+
+<?xml version="1.0" encoding="ISO-8859-2" standalone="no"?>
