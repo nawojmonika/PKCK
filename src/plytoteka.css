@@ -9,6 +9,7 @@ __ROOT__{
     flex-direction: column;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 #nagłówek{
@@ -62,6 +63,15 @@ plyty{
 
 plyta{
     display: table-row;
+}
+
+plyta *{
+    border-bottom: 1px #000  solid;
+}
+
+plyta:nth-child(even){
+    background-color: #666;
+    color: #fff;
 }
 
 plyta *, tabela-plyt naglowek *{
