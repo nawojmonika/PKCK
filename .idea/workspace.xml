@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9bbb76-51c3-49ce-a968-52fa955dc2a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plytoteka.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/płytoteka.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/plytoteka.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/płytoteka.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/plytoteka.dtd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/płytoteka.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plytoteka.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/plytoteka.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plytoteka.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plytoteka.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,32 +37,63 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="xml" value="165" />
+          <entry key="xml" value="413" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="XML" value="165" />
+          <entry key="XML" value="413" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/plytoteka.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="854">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="440">
+              <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+              <folding>
+                <element signature="e#1089#1094#0" expanded="true" />
+                <element signature="e#1296#1301#0" expanded="true" />
+                <element signature="n#plyta#0;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#1087#1092#0" expanded="true" />
+                <element signature="n#plyta#1;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#1314#1319#0" expanded="true" />
+                <element signature="n#plyta#2;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#plyta#3;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#1706#1711#0" expanded="true" />
+                <element signature="n#plyta#4;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#1882#1887#0" expanded="true" />
+                <element signature="n#plyta#5;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#2020#2025#0" expanded="true" />
+                <element signature="n#plyta#6;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#2241#2246#0" expanded="true" />
+                <element signature="n#plyta#7;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#2430#2435#0" expanded="true" />
+                <element signature="n#plyta#8;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#2664#2669#0" expanded="true" />
+                <element signature="n#plyta#9;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#2839#2844#0" expanded="true" />
+                <element signature="n#plyta#10;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#3033#3038#0" expanded="true" />
+                <element signature="n#plyta#11;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#3226#3231#0" expanded="true" />
+                <element signature="n#plyta#12;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#3417#3422#0" expanded="true" />
+                <element signature="n#plyta#13;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#3614#3619#0" expanded="true" />
+                <element signature="n#plyta#14;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#3792#3797#0" expanded="true" />
+                <element signature="n#plyta#15;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#3980#3985#0" expanded="true" />
+                <element signature="n#plyta#16;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#4186#4191#0" expanded="true" />
+                <element signature="n#plyta#17;n#plyty#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#4376#4381#0" expanded="true" />
+                <element signature="e#4588#4593#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +107,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/płytoteka.xml" />
-        <option value="$PROJECT_DIR$/src/plytoteka.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/plytoteka.xml" />
       </list>
     </option>
   </component>
@@ -150,12 +176,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554323531001</updated>
-      <workItem from="1554323535765" duration="1869000" />
+      <workItem from="1554323535765" duration="4690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1869000" />
+    <option name="totallyTimeSpent" value="4690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -190,17 +216,57 @@
     <entry file="file://$PROJECT_DIR$/src/płytoteka.xsd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/plytoteka.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="854">
           <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/plytoteka.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="46" column="41" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+          <folding>
+            <element signature="e#1089#1094#0" expanded="true" />
+            <element signature="e#1296#1301#0" expanded="true" />
+            <element signature="n#plyta#0;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#1087#1092#0" expanded="true" />
+            <element signature="n#plyta#1;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#1314#1319#0" expanded="true" />
+            <element signature="n#plyta#2;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="n#plyta#3;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#1706#1711#0" expanded="true" />
+            <element signature="n#plyta#4;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#1882#1887#0" expanded="true" />
+            <element signature="n#plyta#5;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#2020#2025#0" expanded="true" />
+            <element signature="n#plyta#6;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#2241#2246#0" expanded="true" />
+            <element signature="n#plyta#7;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#2430#2435#0" expanded="true" />
+            <element signature="n#plyta#8;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#2664#2669#0" expanded="true" />
+            <element signature="n#plyta#9;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#2839#2844#0" expanded="true" />
+            <element signature="n#plyta#10;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#3033#3038#0" expanded="true" />
+            <element signature="n#plyta#11;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#3226#3231#0" expanded="true" />
+            <element signature="n#plyta#12;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#3417#3422#0" expanded="true" />
+            <element signature="n#plyta#13;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#3614#3619#0" expanded="true" />
+            <element signature="n#plyta#14;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#3792#3797#0" expanded="true" />
+            <element signature="n#plyta#15;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#3980#3985#0" expanded="true" />
+            <element signature="n#plyta#16;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#4186#4191#0" expanded="true" />
+            <element signature="n#plyta#17;n#plyty#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#4376#4381#0" expanded="true" />
+            <element signature="e#4588#4593#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

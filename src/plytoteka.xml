@@ -36,4 +36,132 @@
             <YYYY>2019</YYYY>
         </data-oddania>
     </naglowek>
+    <plyty>
+        <plyta>
+            <tytul>On Avery Island</tytul>
+            <wykonawca>Neutral Milk Hotel</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>36,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>Areoplane over the sea</tytul>
+            <wykonawca>Neutral Milk Hotel</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>36,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>Małomiasteczkowy</tytul>
+            <wykonawca>Podsiadło Dawid</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>36,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>When We All Fall Asleep, Where Do We Go?</tytul>
+            <wykonawca>Eilish Billie</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>51,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>Radar</tytul>
+            <wykonawca>Fisz, Emade, Tworzywo</wykonawca>
+            <gatunek>Alternatywna</gatunek>
+            <cena>38,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>Still On My Mind</tytul>
+            <wykonawca>Dido</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>39,99</cena>
+        </plyta>
+        <plyta>
+        <tytul>Mini dom</tytul>
+        <wykonawca>Kortez</wykonawca>
+        <gatunek>Pop &amp; Rock</gatunek>
+        <cena>28,99</cena>
+        </plyta>
+        <plyta>
+        <tytul>Ballady </tytul>
+        <wykonawca>Lady Pank</wykonawca>
+        <gatunek>Pop &amp; Rock</gatunek>
+        <cena>28,99 </cena>
+        </plyta>
+        <plyta>
+            <tytul>Widmo</tytul>
+            <wykonawca>PRO8L3M</wykonawca>
+            <gatunek>Rap &amp; Hip Hop</gatunek>
+            <cena>49,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>Fryderyk Festival 2019</tytul>
+            <wykonawca>Various Artists</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>27,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>Wojtek Sokół</tytul>
+            <wykonawca>Sokół</wykonawca>
+            <gatunek>Rap &amp; Hip Hop</gatunek>
+            <cena>38,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>Bohemian Rhapsody</tytul>
+            <wykonawca>Queen</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>38,99</cena>
+        </plyta>
+        <plyta>
+        <tytul>Żyć się chce</tytul>
+        <wykonawca>Majewska Alicja</wykonawca>
+        <gatunek>Pop &amp; Rock</gatunek>
+        <cena>43,99</cena>
+    </plyta>
+        <plyta>
+            <tytul>Helsinki</tytul>
+            <wykonawca>Zawiałow Daria</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>34,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>Helsinki</tytul>
+            <wykonawca>Zawiałow Daria</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>34,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>Klubowe</tytul>
+            <wykonawca>Tymek</wykonawca>
+            <gatunek>Rap &amp; Hip Hop</gatunek>
+            <cena>32,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>Mój dom</tytul>
+            <wykonawca>Kortez</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>31,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>Męskie Granie 2018</tytul>
+            <wykonawca>Various Artists</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>49,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>Złoto </tytul>
+            <wykonawca>Zalewski Krzysztof</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>34,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>A kysz!</tytul>
+            <wykonawca>Zawiałow Daria</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>19,99</cena>
+        </plyta>
+        <plyta>
+            <tytul>1984</tytul>
+            <wykonawca>Domagała Paweł</wykonawca>
+            <gatunek>Pop &amp; Rock</gatunek>
+            <cena>36,99</cena>
+        </plyta>
+    </plyty>
 </__ROOT__>

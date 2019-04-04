@@ -20,7 +20,7 @@
 -->
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT __ROOT__ (naglowek)*>
+<!ELEMENT __ROOT__ (naglowek|plyty)*>
 <!ATTLIST __ROOT__
     version CDATA #IMPLIED
   >
@@ -57,3 +57,21 @@
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT YYYY (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT plyty (plyta)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT plyta (tytul|wykonawca|gatunek|cena)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT tytul (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT wykonawca (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT gatunek (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT cena (#PCDATA)>
