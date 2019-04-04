@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="plytoteka.css"?>
+
+<!DOCTYPE __ROOT__ SYSTEM 'plytoteka.dtd'>
+
+<__ROOT__ version="1">
+    <naglowek>
+        <autorzy>
+            <autor>
+                <imie>
+                    Artur
+                </imie>
+                <nazwisko>
+                    Dziedziczak
+                </nazwisko>
+                <index>
+                    211802
+                </index>
+            </autor>
+            <autor>
+                <imie>
+                    Monika
+                </imie>
+                <nazwisko>
+                    Nawój
+                </nazwisko>
+                <index>
+                    211828
+                </index>
+            </autor>
+        </autorzy>
+        <data-oddania>
+            <dzień>Sobota</dzień>
+            <DD>06</DD>
+            <MM>03</MM>
+            <YYYY>2019</YYYY>
+        </data-oddania>
+    </naglowek>
+</__ROOT__>
