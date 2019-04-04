@@ -1,10 +1,81 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
     Created on : Mar 24, 2019, 9:33:05 PM
-    Author     : grayrattus
+    Authorzy:
+        * Artur Dziedziczak 211802
+        * Monika Nawój 211828
 */
+__ROOT__{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
 
+#nagłówek{
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+    align-items: center;
+}
+#nagłówek *{
+    width: 200px;
+}
+
+autorzy{
+    padding-bottom: 10px;
+}
+
+autorzy:before{
+    content: "Autorzy projektu:";
+}
+
+autor{
+    display: list-item;
+    margin-left: 25px;
+    margin-left: 25px;
+}
+
+data-oddania:before{
+    content: "Data oddania:";
+    display: block;
+}
+
+dzień-tygodnia:after{
+    content: ",";
+}
+
+dzień:after, miesiąc:after{
+    content: ".";
+}
+
+tabela-plyt{
+    display: table;
+}
+
+tabela-plyt naglowek{
+    display: table-header-group;
+}
+
+plyty{
+    display: table-row-group;
+}
+
+plyta{
+    display: table-row;
+}
+
+plyta *, tabela-plyt naglowek *{
+    display: table-cell;
+    padding: 20px 15px;
+}
+
+tabela-plyt naglowek *{
+    font-weight: bold;
+    background-color: rgb(52, 58, 64);
+    color: #fff;
+}
+
+
+cena:after{
+    content: " zł";
+}

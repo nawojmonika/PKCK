@@ -20,13 +20,13 @@
 -->
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT __ROOT__ (naglowek|plyty)*>
+<!ELEMENT __ROOT__ (naglowek|tabela-plyt)*>
 <!ATTLIST __ROOT__
     version CDATA #IMPLIED
   >
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT naglowek (autorzy|data-oddania)*>
+<!ELEMENT naglowek (autorzy|data-oddania|kolumna)*>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT autorzy (autor)*>
@@ -44,19 +44,25 @@
 <!ELEMENT index (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT data-oddania (dzień|DD|MM|YYYY)*>
+<!ELEMENT data-oddania (dzień-tygodnia|dzień|miesiąc|rok)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT dzień-tygodnia (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT dzień (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT DD (#PCDATA)>
+<!ELEMENT miesiąc (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT MM (#PCDATA)>
+<!ELEMENT rok (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT YYYY (#PCDATA)>
+<!ELEMENT tabela-plyt (naglowek|plyty)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT kolumna (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT plyty (plyta)*>
