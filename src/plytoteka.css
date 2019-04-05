@@ -80,7 +80,7 @@ plyta{
     display: table-row;
 }
 
-plyta *{
+plyta > *{
     border-bottom: 1px #000  solid;
 }
 
@@ -89,7 +89,7 @@ plyta:nth-child(even){
     color: #fff;
 }
 
-plyta *, tabela-plyt naglowek *{
+plyta > *, tabela-plyt naglowek *{
     display: table-cell;
     padding: 20px 15px;
 }

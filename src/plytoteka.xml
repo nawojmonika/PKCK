@@ -42,6 +42,8 @@
             <kolumna>Wykonawca</kolumna>
             <kolumna>Gatunek</kolumna>
             <kolumna>Cena</kolumna>
+            <kolumna>Ocena</kolumna>
+            <kolumna>Data premiery</kolumna>
         </naglowek>
         <plyty>
             <plyta>
@@ -49,126 +51,245 @@
                 <wykonawca>Neutral Milk Hotel</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>36,99</cena>
+                <ocena> 3,00 </ocena>
+                <premiera>
+                    <dzień>2</dzień>
+                    <miesiąc>03</miesiąc>
+                    <rok>1996</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Areoplane over the sea</tytul>
                 <wykonawca>Neutral Milk Hotel</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>36,99</cena>
+                <ocena> 4,00 </ocena>
+                <premiera>
+                    <dzień>10</dzień>
+                    <miesiąc>02</miesiąc>
+                    <rok>1998</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Małomiasteczkowy</tytul>
                 <wykonawca>Podsiadło Dawid</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>36,99</cena>
+                <ocena> 4,64 </ocena>
+                <premiera>
+                    <dzień>19</dzień>
+                    <miesiąc>10</miesiąc>
+                    <rok>2018</rok>
+                </premiera>
+                <!--<opis>-->
+                    <!--Stare przysłowie mówi, że ze szczytu wszystkie drogi wiodą w dół. Ale choć jesienią 2016 roku Dawid Podsiadło był na szczycie – z dwiema diamentowymi płytami w dorobku, całym wagonem nagród i wyprzedaną wielką trasą koncertową – ani myślał schodzić. Zrobił więc sobie kilka miesięcy przerwy od sceny, by wymyślić się na nowo.-->
+
+                    <!--Choć złota zasada mówi, że w zwycięskiej drużynie nie dokonuje się zmian, Podsiadło zrezygnował tym razem ze współpracy z Bogdanem Kondrackim, producentem jego dotychczasowych nagrań. Zaryzykował, ale powierzył swój los w ręce innego wybitnego fachowca – Bartosz Dziedzic stoi bowiem za sukcesami albumów „Granda” Moniki Brodki i „Składam się z ciągłych powtórzeń” Artura Rojka.-->
+                <!--</opis>-->
             </plyta>
             <plyta>
                 <tytul>When We All Fall Asleep, Where Do We Go?</tytul>
                 <wykonawca>Eilish Billie</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>51,99</cena>
+                <ocena> 4,00</ocena>
+                <premiera>
+                    <dzień>29</dzień>
+                    <miesiąc>03</miesiąc>
+                    <rok>2019</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Radar</tytul>
                 <wykonawca>Fisz, Emade, Tworzywo</wykonawca>
                 <gatunek>Alternatywna</gatunek>
                 <cena>38,99</cena>
+                <ocena> 4,00</ocena>
+                <premiera>
+                    <dzień>08</dzień>
+                    <miesiąc>03</miesiąc>
+                    <rok>2019</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Still On My Mind</tytul>
                 <wykonawca>Dido</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>39,99</cena>
+                <ocena> 3,00</ocena>
+                <premiera>
+                    <dzień>13</dzień>
+                    <miesiąc>02</miesiąc>
+                    <rok>2019</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Mini dom</tytul>
                 <wykonawca>Kortez</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>28,99</cena>
+                <ocena> 3,40</ocena>
+                <premiera>
+                    <dzień>04</dzień>
+                    <miesiąc>01</miesiąc>
+                    <rok>2019</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Ballady </tytul>
                 <wykonawca>Lady Pank</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>28,99 </cena>
+                <ocena> 4,00</ocena>
+                <premiera>
+                    <dzień>22</dzień>
+                    <miesiąc>03</miesiąc>
+                    <rok>2019</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Widmo</tytul>
                 <wykonawca>PRO8L3M</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
                 <cena>49,99</cena>
+                <ocena> 2,00</ocena>
+                <premiera>
+                    <dzień>12</dzień>
+                    <miesiąc>03</miesiąc>
+                    <rok>2018</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Fryderyk Festival 2019</tytul>
                 <wykonawca>Various Artists</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>27,99</cena>
+                <ocena> 4,46</ocena>
+                <premiera>
+                    <dzień>08</dzień>
+                    <miesiąc>03</miesiąc>
+                    <rok>2019</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Wojtek Sokół</tytul>
                 <wykonawca>Sokół</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
                 <cena>38,99</cena>
+                <ocena> 2,00</ocena>
+                <premiera>
+                    <dzień>08</dzień>
+                    <miesiąc>03</miesiąc>
+                    <rok>2018</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Bohemian Rhapsody</tytul>
                 <wykonawca>Queen</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>38,99</cena>
+                <ocena> 5,00</ocena>
+                <premiera>
+                    <dzień>19</dzień>
+                    <miesiąc>10</miesiąc>
+                    <rok>2018</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Żyć się chce</tytul>
                 <wykonawca>Majewska Alicja</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>43,99</cena>
+                <ocena> 3,00</ocena>
+                <premiera>
+                    <dzień>19</dzień>
+                    <miesiąc>12</miesiąc>
+                    <rok>2018</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Helsinki</tytul>
                 <wykonawca>Zawiałow Daria</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>34,99</cena>
-            </plyta>
-            <plyta>
-                <tytul>Helsinki</tytul>
-                <wykonawca>Zawiałow Daria</wykonawca>
-                <gatunek>Pop &amp; Rock</gatunek>
-                <cena>34,99</cena>
+                <ocena> 2,00</ocena>
+                <premiera>
+                    <dzień>24</dzień>
+                    <miesiąc>03</miesiąc>
+                    <rok>2019</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Klubowe</tytul>
                 <wykonawca>Tymek</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
                 <cena>32,99</cena>
+                <ocena> 3,00</ocena>
+                <premiera>
+                    <dzień>19</dzień>
+                    <miesiąc>12</miesiąc>
+                    <rok>2018</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Mój dom</tytul>
                 <wykonawca>Kortez</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>31,99</cena>
+                <ocena> 2,00</ocena>
+                <premiera>
+                    <dzień>24</dzień>
+                    <miesiąc>03</miesiąc>
+                    <rok>2019</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Męskie Granie 2018</tytul>
                 <wykonawca>Various Artists</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>49,99</cena>
+                <ocena> 4,68</ocena>
+                <premiera>
+                    <dzień>19</dzień>
+                    <miesiąc>12</miesiąc>
+                    <rok>2018</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>Złoto </tytul>
                 <wykonawca>Zalewski Krzysztof</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>34,99</cena>
+                <ocena> 4,00</ocena>
+                <premiera>
+                    <dzień>19</dzień>
+                    <miesiąc>10</miesiąc>
+                    <rok>2018</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>A kysz!</tytul>
                 <wykonawca>Zawiałow Daria</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>19,99</cena>
+                <ocena> 3,36</ocena>
+                <premiera>
+                    <dzień>08</dzień>
+                    <miesiąc>03</miesiąc>
+                    <rok>2018</rok>
+                </premiera>
             </plyta>
             <plyta>
                 <tytul>1984</tytul>
                 <wykonawca>Domagała Paweł</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena>36,99</cena>
+                <ocena> 4,00</ocena>
+                <premiera>
+                    <dzień>19</dzień>
+                    <miesiąc>10</miesiąc>
+                    <rok>2018</rok>
+                </premiera>
             </plyta>
         </plyty>
     </tabela-plyt>
