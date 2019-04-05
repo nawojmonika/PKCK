@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9bbb76-51c3-49ce-a968-52fa955dc2a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plytoteka.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/plytoteka.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,7 +19,8 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,66 +40,46 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1038" />
+          <entry key="css" value="1203" />
           <entry key="xml" value="546" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1038" />
+          <entry key="CSS" value="1203" />
           <entry key="XML" value="546" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/plytoteka.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="102">
               <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
-                <element signature="e#1239#1244#0" expanded="true" />
                 <element signature="n#plyta#1;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#1453#1458#0" expanded="true" />
                 <element signature="n#plyta#2;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#1658#1663#0" expanded="true" />
                 <element signature="n#plyta#3;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#1885#1890#0" expanded="true" />
                 <element signature="n#plyta#4;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
                 <element signature="n#plyta#5;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#2277#2282#0" expanded="true" />
                 <element signature="n#plyta#6;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#2453#2458#0" expanded="true" />
                 <element signature="n#plyta#7;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#2628#2633#0" expanded="true" />
                 <element signature="n#plyta#8;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#2811#2816#0" expanded="true" />
                 <element signature="n#plyta#9;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#3025#3030#0" expanded="true" />
                 <element signature="n#plyta#10;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#3216#3221#0" expanded="true" />
                 <element signature="n#plyta#11;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#3415#3420#0" expanded="true" />
                 <element signature="n#plyta#12;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#3604#3609#0" expanded="true" />
                 <element signature="n#plyta#13;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#3792#3797#0" expanded="true" />
                 <element signature="n#plyta#14;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#3988#3993#0" expanded="true" />
                 <element signature="n#plyta#15;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#4174#4179#0" expanded="true" />
                 <element signature="n#plyta#16;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#4364#4369#0" expanded="true" />
                 <element signature="n#plyta#17;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#4571#4576#0" expanded="true" />
                 <element signature="n#plyta#18;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#4769#4774#0" expanded="true" />
                 <element signature="n#plyta#19;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#4964#4969#0" expanded="true" />
                 <element signature="n#plyta#20;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-                <element signature="e#5156#5161#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/plytoteka.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+            <state relative-caret-position="459">
+              <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -150,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,7 +149,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,23 +180,20 @@
       <option name="presentableId" value="Default" />
       <updated>1554323531001</updated>
       <workItem from="1554323535765" duration="9940000" />
+      <workItem from="1554493517628" duration="775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9940000" />
+    <option name="totallyTimeSpent" value="10715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1654373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -222,6 +201,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -234,9 +217,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/płytoteka.xsd">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/płytoteka.xsd" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="854">
@@ -246,57 +227,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/plytoteka.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="102">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
-            <element signature="e#1239#1244#0" expanded="true" />
             <element signature="n#plyta#1;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#1453#1458#0" expanded="true" />
             <element signature="n#plyta#2;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#1658#1663#0" expanded="true" />
             <element signature="n#plyta#3;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#1885#1890#0" expanded="true" />
             <element signature="n#plyta#4;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
             <element signature="n#plyta#5;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#2277#2282#0" expanded="true" />
             <element signature="n#plyta#6;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#2453#2458#0" expanded="true" />
             <element signature="n#plyta#7;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#2628#2633#0" expanded="true" />
             <element signature="n#plyta#8;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#2811#2816#0" expanded="true" />
             <element signature="n#plyta#9;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#3025#3030#0" expanded="true" />
             <element signature="n#plyta#10;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#3216#3221#0" expanded="true" />
             <element signature="n#plyta#11;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#3415#3420#0" expanded="true" />
             <element signature="n#plyta#12;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#3604#3609#0" expanded="true" />
             <element signature="n#plyta#13;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#3792#3797#0" expanded="true" />
             <element signature="n#plyta#14;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#3988#3993#0" expanded="true" />
             <element signature="n#plyta#15;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#4174#4179#0" expanded="true" />
             <element signature="n#plyta#16;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#4364#4369#0" expanded="true" />
             <element signature="n#plyta#17;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#4571#4576#0" expanded="true" />
             <element signature="n#plyta#18;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#4769#4774#0" expanded="true" />
             <element signature="n#plyta#19;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#4964#4969#0" expanded="true" />
             <element signature="n#plyta#20;n#plyty#0;n#tabela-plyt#0;n#__ROOT__#0;n#!!top" />
-            <element signature="e#5156#5161#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/plytoteka.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        <state relative-caret-position="459">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
         </state>
       </provider>
     </entry>

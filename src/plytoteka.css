@@ -12,11 +12,24 @@ __ROOT__{
     box-sizing: border-box;
 }
 
+#nagłówek:before{
+    content: "Płytoteka";
+    display: block;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
 #nagłówek{
     display: flex;
-    padding: 20px 0;
+    margin-bottom: 20px;
+    padding: 20px;
     flex-direction: column;
     align-items: center;
+    background-color: #1e3456;
+    color: #fff;
+    align-self: stretch;
 }
 #nagłówek *{
     width: 200px;
@@ -28,6 +41,7 @@ autorzy{
 
 autorzy:before{
     content: "Autorzy projektu:";
+    font-weight: bold;
 }
 
 autor{
@@ -38,6 +52,7 @@ autor{
 
 data-oddania:before{
     content: "Data oddania:";
+    font-weight: bold;
     display: block;
 }
 
