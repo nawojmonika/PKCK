@@ -21,19 +21,54 @@ __ROOT__{
     margin-bottom: 10px;
 }
 
-#nagłówek{
-    display: flex;
+plyta {
     margin-bottom: 20px;
     padding: 20px;
-    flex-direction: column;
-    align-items: center;
     background-color: #1e3456;
     color: #fff;
-    align-self: stretch;
+    display: grid;
+    grid-template-columns: minmax(200px, 3fr) 9fr;
+    grid-template-areas: "tytul wykonawca gatunek cena ocena data" "desc desc desc desc desc desc";
+}
+naglowek {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #1e3456;
+    color: #fff;
+    display: grid;
+    grid-template-columns: minmax(200px, 3fr) 9fr;
+    grid-template-areas: "kolumna kolumna kolumna kolumna kolumna kolumna";
 }
 #nagłówek *{
     width: 200px;
 }
+tytul {
+  grid-area: tytul;
+}
+wykonawca {
+  grid-area: wykonawca;
+}
+gatunek {
+  grid-area: gatunek;
+}
+cena {
+  grid-area: cena;
+}
+
+ocena {
+  grid-area: ocena;
+}
+data {
+  grid-area: data;
+}
+data {
+  grid-area: data;
+}
+opis {
+  grid-area: desc;
+}
+
+
 
 autorzy{
     padding-bottom: 10px;
@@ -64,26 +99,6 @@ dzień:after, miesiąc:after{
     content: ".";
 }
 
-tabela-plyt{
-    display: table;
-}
-
-tabela-plyt naglowek{
-    display: table-header-group;
-}
-
-plyty{
-    display: table-row-group;
-}
-
-plyta{
-    display: table-row;
-}
-
-plyta > *{
-    border-bottom: 1px #000  solid;
-}
-
 plyta:nth-child(even){
     background-color: #666;
     color: #fff;
@@ -99,7 +114,6 @@ tabela-plyt naglowek *{
     background-color: rgb(52, 58, 64);
     color: #fff;
 }
-
 
 cena:after{
     content: attr(waluta);
