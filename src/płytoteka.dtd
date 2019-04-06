@@ -72,9 +72,7 @@
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT płyta (tytuł|wykonawca|gatunek|cena|ocena|premiera|opis)*>
-<!ATTLIST płyta
-    bestseller CDATA #IMPLIED
-  >
+<!ATTLIST płyta bestseller (tak | nie) "nie">
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT tytuł (#PCDATA)>
@@ -87,9 +85,7 @@
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT cena (#PCDATA)>
-<!ATTLIST cena
-    waluta CDATA #IMPLIED
-  >
+<!ATTLIST cena waluta (PLN | USD | EUR) "PLN">
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT ocena (#PCDATA)>
