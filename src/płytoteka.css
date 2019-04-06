@@ -41,14 +41,15 @@ tabela-płyt{
 
 tabela-płyt płyta {
     margin-bottom: 20px;
+    padding: 20px 15px;
     display: grid;
     grid-template-columns: 30% 30% 10% 10% 10% 10%;
-    grid-template-areas: "tytuł nazwa-wykonawcy gatunek cena ocena premiera" "opis opis opis opis opis opis";
+    grid-template-areas: "tytuł nazwa-wykonawcy gatunek cena tabela-plyt-ocena premiera" "opis opis opis opis opis opis";
 }
 tabela-płyt kolumny{
     display: grid;
     grid-template-columns: 30% 30% 10% 10% 10% 10%;
-    grid-template-areas: "kolumna kolumna kolumna kolumna kolumna kolumna";
+    grid-template-areas: "tabela-plyt-kolumna tabela-plyt-kolumna tabela-plyt-kolumna tabela-plyt-kolumna tabela-plyt-kolumna tabela-plyt-kolumna";
 }
 
 tabela-płyt tytuł {
@@ -65,7 +66,7 @@ tabela-płyt cena {
 }
 
 tabela-płyt ocena {
-  grid-area: ocena;
+  grid-area: tabela-plyt-ocena;
 }
 
 tabela-płyt opis:before{
@@ -122,13 +123,9 @@ tabela-płyt płyta:nth-child(even){
     color: #fff;
 }
 
-
-tabela-płyt kolumna{
-    display: table-cell;
-    padding: 20px 15px;
-}
-
 tabela-płyt kolumna {
+    grid-area: "tabela-plyt-kolumna";
+    padding: 20px 15px;
     font-weight: bold;
     background-color: rgb(52, 58, 64);
     color: #fff;
@@ -136,6 +133,10 @@ tabela-płyt kolumna {
 
 tabela-płyt cena:after{
     content: attr(waluta);
+}
+
+wykonawcy {
+    width: 80vw;
 }
 
 wykonawcy kolumny{
@@ -152,20 +153,20 @@ wykonawcy kolumna {
 	grid-area: "wykonawcy-kolumny";
 }
 
-wykonawca {
+wykonawcy wykonawca {
     display: grid;
     padding: 20px 15px;
     grid-template-columns: 50% 50%;
     grid-template-areas: "nazwa ocena";
 }
-wykonawca:nth-child(even) {
+wykonawcy wykonawca:nth-child(even) {
     background-color: #666;
     color: #fff;
 }
-nazwa {
+wykonawcy nazwa {
   grid-area: nazwa;    
 }
-ocena {
+wykonawcy ocena {
   text-align: center;
   grid-area: ocena;    
 }
