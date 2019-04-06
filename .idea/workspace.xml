@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9bbb76-51c3-49ce-a968-52fa955dc2a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/płytoteka.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/płytoteka.dtd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/płytoteka.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/płytoteka.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,14 +44,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1541" />
-          <entry key="dtd" value="216" />
+          <entry key="dtd" value="250" />
           <entry key="xml" value="1257" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1541" />
-          <entry key="DTD" value="216" />
+          <entry key="DTD" value="250" />
           <entry key="XML" value="1257" />
         </counts>
       </usages-collector>
@@ -66,8 +64,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/płytoteka.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+                <state relative-caret-position="68">
+                  <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
                   <folding>
                     <element signature="n#autorzy#0;n#nagłówek#0;n#__ROOT__#0;n#!!top" />
                     <element signature="n#płyta#0;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
@@ -106,8 +104,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/płytoteka.dtd">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+                <state relative-caret-position="230">
+                  <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -181,8 +179,8 @@
       <find>implie</find>
       <find>wykonawca</find>
       <find>nagł</find>
-      <find>nagłówek</find>
       <find>nth</find>
+      <find>nagłówek</find>
       <find>nagłóek</find>
     </findStrings>
   </component>
@@ -269,12 +267,12 @@
       <updated>1554323531001</updated>
       <workItem from="1554323535765" duration="9940000" />
       <workItem from="1554493517628" duration="7195000" />
-      <workItem from="1554541855177" duration="4026000" />
+      <workItem from="1554541855177" duration="4550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25810000" />
+    <option name="totallyTimeSpent" value="26334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1294" height="694" extended-state="6" />
@@ -330,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/płytoteka.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="68">
+          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding>
             <element signature="n#autorzy#0;n#nagłówek#0;n#__ROOT__#0;n#!!top" />
             <element signature="n#płyta#0;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
@@ -359,8 +357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/płytoteka.dtd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        <state relative-caret-position="230">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
         </state>
       </provider>
     </entry>
