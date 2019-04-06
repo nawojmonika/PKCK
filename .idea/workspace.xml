@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6a9bbb76-51c3-49ce-a968-52fa955dc2a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/płytoteka.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/płytoteka.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/płytoteka.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/płytoteka.dtd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/płytoteka.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/płytoteka.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,31 +46,48 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1497" />
-          <entry key="dtd" value="50" />
-          <entry key="xml" value="1028" />
+          <entry key="css" value="1513" />
+          <entry key="dtd" value="169" />
+          <entry key="xml" value="1065" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1497" />
-          <entry key="DTD" value="50" />
-          <entry key="XML" value="1028" />
+          <entry key="CSS" value="1513" />
+          <entry key="DTD" value="169" />
+          <entry key="XML" value="1065" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/płytoteka.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+            <state relative-caret-position="272">
+              <caret line="53" column="41" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="41" />
               <folding>
                 <element signature="n#autorzy#0;n#nagłówek#0;n#__ROOT__#0;n#!!top" />
                 <element signature="n#nagłówek#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                <marker date="1554541938008" expanded="true" signature="2011:2013" ph="..." />
+                <element signature="e#2992#2997#0" expanded="true" />
+                <element signature="e#4393#4398#0" expanded="true" />
+                <element signature="e#5760#5765#0" expanded="true" />
+                <element signature="e#6585#6590#0" expanded="true" />
+                <element signature="e#9217#9222#0" expanded="true" />
+                <element signature="e#10597#10602#0" expanded="true" />
+                <element signature="e#11979#11984#0" expanded="true" />
+                <element signature="e#13357#13362#0" expanded="true" />
+                <element signature="e#14763#14768#0" expanded="true" />
+                <element signature="e#16146#16151#0" expanded="true" />
+                <element signature="e#17537#17542#0" expanded="true" />
+                <element signature="e#18930#18935#0" expanded="true" />
+                <element signature="e#20318#20323#0" expanded="true" />
+                <element signature="e#21696#21701#0" expanded="true" />
+                <element signature="e#23078#23083#0" expanded="true" />
+                <element signature="e#24477#24482#0" expanded="true" />
+                <element signature="e#25866#25871#0" expanded="true" />
+                <element signature="e#27253#27258#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/płytoteka.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+            <state relative-caret-position="337">
+              <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
               <folding>
                 <element signature="e#492#635#0" />
               </folding>
@@ -86,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/płytoteka.dtd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="113">
+              <caret line="82" column="67" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -107,7 +126,6 @@
       <find>&lt;cena&gt;</find>
       <find>&lt;plyta&gt;</find>
       <find>tak</find>
-      <find>nagłówek</find>
       <find>naglowe</find>
       <find>opi</find>
       <find>best</find>
@@ -120,6 +138,14 @@
       <find>tytul</find>
       <find>tabela</find>
       <find>Opis</find>
+      <find>walu</find>
+      <find>płyta</find>
+      <find>nagłówek</find>
+      <find>wyko</find>
+      <find>wykonawca</find>
+      <find>ocena</find>
+      <find>nazwa</find>
+      <find>ATTLIST</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,9 +158,9 @@
         <option value="$PROJECT_DIR$/src/plytoteka.css" />
         <option value="$PROJECT_DIR$/src/plytoteka.dtd" />
         <option value="$PROJECT_DIR$/src/plytoteka.xml" />
-        <option value="$PROJECT_DIR$/src/płytoteka.dtd" />
-        <option value="$PROJECT_DIR$/src/płytoteka.css" />
         <option value="$PROJECT_DIR$/src/płytoteka.xml" />
+        <option value="$PROJECT_DIR$/src/płytoteka.css" />
+        <option value="$PROJECT_DIR$/src/płytoteka.dtd" />
       </list>
     </option>
   </component>
@@ -205,12 +231,12 @@
       <updated>1554323531001</updated>
       <workItem from="1554323535765" duration="9940000" />
       <workItem from="1554493517628" duration="7195000" />
-      <workItem from="1554541855177" duration="82000" />
+      <workItem from="1554541855177" duration="2119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21866000" />
+    <option name="totallyTimeSpent" value="23903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1294" height="694" extended-state="6" />
@@ -257,32 +283,49 @@
     <entry file="file://$PROJECT_DIR$/../studia/VI semestr/PKCK/zad1/filmoteka.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/płytoteka.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-          <folding>
-            <element signature="n#autorzy#0;n#nagłówek#0;n#__ROOT__#0;n#!!top" />
-            <element signature="n#nagłówek#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-            <marker date="1554541938008" expanded="true" signature="2011:2013" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/płytoteka.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="67" column="19" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+        <state relative-caret-position="337">
+          <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
           <folding>
             <element signature="e#492#635#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/płytoteka.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="41" />
+          <folding>
+            <element signature="n#autorzy#0;n#nagłówek#0;n#__ROOT__#0;n#!!top" />
+            <element signature="n#nagłówek#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
+            <element signature="e#2992#2997#0" expanded="true" />
+            <element signature="e#4393#4398#0" expanded="true" />
+            <element signature="e#5760#5765#0" expanded="true" />
+            <element signature="e#6585#6590#0" expanded="true" />
+            <element signature="e#9217#9222#0" expanded="true" />
+            <element signature="e#10597#10602#0" expanded="true" />
+            <element signature="e#11979#11984#0" expanded="true" />
+            <element signature="e#13357#13362#0" expanded="true" />
+            <element signature="e#14763#14768#0" expanded="true" />
+            <element signature="e#16146#16151#0" expanded="true" />
+            <element signature="e#17537#17542#0" expanded="true" />
+            <element signature="e#18930#18935#0" expanded="true" />
+            <element signature="e#20318#20323#0" expanded="true" />
+            <element signature="e#21696#21701#0" expanded="true" />
+            <element signature="e#23078#23083#0" expanded="true" />
+            <element signature="e#24477#24482#0" expanded="true" />
+            <element signature="e#25866#25871#0" expanded="true" />
+            <element signature="e#27253#27258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/płytoteka.dtd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="113">
+          <caret line="82" column="67" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
         </state>
       </provider>
     </entry>

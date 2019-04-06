@@ -1,97 +1,104 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
-<!--
-    TODO define vocabulary identification
-    PUBLIC ID: -//vendor//vocabulary//EN
-    SYSTEM ID: http://server/path/płytoteka.dtd
+        <!--
+            TODO define vocabulary identification
+            PUBLIC ID: -//vendor//vocabulary//EN
+            SYSTEM ID: http://server/path/płytoteka.dtd
 
--->
+        -->
 
-<!--
-    An example how to use this DTD from your XML document:
+        <!--
+            An example how to use this DTD from your XML document:
 
-    <?xml version="1.0"?>
+            <?xml version="1.0"?>
 
-    <!DOCTYPE __ROOT__ SYSTEM "płytoteka.dtd">
+            <!DOCTYPE __ROOT__ SYSTEM "płytoteka.dtd">
 
-    <__ROOT__>
-    ...
-    </__ROOT__>
--->
+            <__ROOT__>
+            ...
+            </__ROOT__>
+        -->
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT __ROOT__ (nagłówek|tabela-płyt)*>
-<!ATTLIST __ROOT__
-    version CDATA #IMPLIED
-  >
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT __ROOT__ (nagłówek|wykonawcy|tabela-płyt)*>
+        <!ATTLIST __ROOT__
+                version CDATA #IMPLIED
+                >
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT nagłówek (autorzy|data-oddania|kolumna)*>
-<!ATTLIST nagłówek
-    id CDATA #IMPLIED
-  >
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT nagłówek (autorzy|data-oddania|kolumna)*>
+        <!ATTLIST nagłówek
+                id CDATA #IMPLIED
+                >
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT autorzy (autor)*>
+        <!ELEMENT wykonawcy (wykonawca)*>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT autor (imie|nazwisko|index)*>
+        <!ELEMENT wykonawca (nazwa|ocena)*>
+<!ATTLIST wykonawca ID #IMPLIED>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT imie (#PCDATA)>
+        <!ELEMENT nazwa (#PCDATA)>
+        <!ELEMENT ocena (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT nazwisko (#PCDATA)>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT autorzy (autor)*>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT index (#PCDATA)>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT autor (imie|nazwisko|index)*>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT data-oddania (dzień-tygodnia|dzień|miesiąc|rok)*>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT imie (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT dzień-tygodnia (#PCDATA)>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT nazwisko (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT dzień (#PCDATA)>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT index (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT miesiąc (#PCDATA)>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT data-oddania (dzień-tygodnia|dzień|miesiąc|rok)*>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT rok (#PCDATA)>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT dzień-tygodnia (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT tabela-płyt (nagłówek|płyty)*>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT dzień (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT kolumna (#PCDATA)>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT miesiąc (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT płyty (płyta)*>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT rok (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT płyta (tytuł|wykonawca|gatunek|cena|ocena|premiera|opis)*>
-<!ATTLIST płyta bestseller (tak | nie) "nie">
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT tabela-płyt (nagłówek|płyty)*>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT tytuł (#PCDATA)>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT kolumna (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT wykonawca (#PCDATA)>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT płyty (płyta)*>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT gatunek (#PCDATA)>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT płyta (tytuł|nazwa-wykonawcy|gatunek|cena|ocena|premiera|opis)*>
+        <!ATTLIST płyta bestseller (tak | nie) "nie" IDREF #IMPLIED>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT cena (#PCDATA)>
-<!ATTLIST cena waluta (PLN | USD | EUR) "PLN">
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT tytuł (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT ocena (#PCDATA)>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT nazwa-wykonawcy (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT premiera (dzień|miesiąc|rok)*>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT gatunek (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT opis (#PCDATA)>
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT cena (#PCDATA)>
+        <!ATTLIST cena waluta (PLN | USD | EUR) "PLN">
+
+        <!--- Put your DTDDoc comment here. -->
+
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT premiera (dzień|miesiąc|rok)*>
+
+        <!--- Put your DTDDoc comment here. -->
+        <!ELEMENT opis (#PCDATA)>
