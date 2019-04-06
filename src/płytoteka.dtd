@@ -5,18 +5,18 @@
         <!ELEMENT nagłówek (autorzy,data-oddania)>
         <!ATTLIST nagłówek id ID #IMPLIED>
 
-        <!ELEMENT wykonawcy (wykonawca, kolumny)>
+        <!ELEMENT wykonawcy (kolumny, wykonawca+)>
 
-        <!ELEMENT wykonawca (nazwa|ocena)>
+        <!ELEMENT wykonawca (nazwa, ocena)>
         <!ATTLIST wykonawca id-wykonawcy ID #REQUIRED>
 
-        <!ELEMENT kolumny (kolumna)>
+        <!ELEMENT kolumny (kolumna)+>
         <!ELEMENT kolumna (#PCDATA)>
 
         <!ELEMENT nazwa (#PCDATA)>
         <!ELEMENT ocena (#PCDATA)>
 
-        <!ELEMENT autorzy (autor)>
+        <!ELEMENT autorzy (autor)+>
 
         <!ELEMENT autor (imie,nazwisko,index)>
 
