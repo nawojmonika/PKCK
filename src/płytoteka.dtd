@@ -28,10 +28,10 @@
         <!--- Put your DTDDoc comment here. -->
         <!ELEMENT nagłówek (autorzy|data-oddania|kolumna)*>
         <!ATTLIST nagłówek
-                ID CDATA #IMPLIED
+                id CDATA #IMPLIED
                 >
 
-        <!ELEMENT wykonawcy (wykonawca)*>
+        <!ELEMENT wykonawcy (wykonawca, kolumny)*>
 
         <!ELEMENT wykonawca (nazwa|ocena)*>
 <!ATTLIST wykonawca ID #REQUIRED>

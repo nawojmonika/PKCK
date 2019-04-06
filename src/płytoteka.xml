@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" ?>
 <!DOCTYPE __ROOT__ SYSTEM 'płytoteka.dtd'>
 <__ROOT__ version="1">
-    <nagłówek ID="nagłówek">
+    <nagłówek id="nagłówek">
         <autorzy>
             <autor>
                 <imie>
@@ -36,10 +36,10 @@
         </data-oddania>
     </nagłówek>
     <wykonawcy>
-        <nagłówek>
+        <kolumny>
             <kolumna>Autor</kolumna>
             <kolumna>Ocena</kolumna>
-        </nagłówek>
+        </kolumny>
         <wykonawca ID="1">
             <nazwa>Podsiadło Dawid</nazwa>
             <ocena>4,75</ocena>
