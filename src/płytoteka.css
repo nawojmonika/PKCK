@@ -73,6 +73,7 @@ opis:before{
     content: "Opis";
     font-weight: bold;
     display: block;
+    margin-bottom: 10px;
 }
 data {
   grid-area: data;
