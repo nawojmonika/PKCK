@@ -86,7 +86,7 @@
             <kolumna>Data premiery</kolumna>
         </nagłówek>
         <płyty>
-            <płyta bestseller="tak">
+            <płyta bestseller="tak" plytaId="plyta1">
                 <tytuł>Małomiasteczkowy</tytuł>
                 <wykonawca REFID="1">Podsiadło Dawid</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -109,7 +109,7 @@
                     albumów „Granda” Moniki Brodki i „Składam się z ciągłych powtórzeń” Artura Rojka.
                 </opis>
             </płyta>
-            <płyta bestseller="tak">
+            <płyta bestseller="tak" plytaId="plyta2">
                 <tytuł>When We All Fall Asleep, Where Do We Go?</tytuł>
                 <wykonawca>Eilish Billie</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -132,7 +132,7 @@
                     koncerty, grając coraz dłuższe trasy i w coraz większych obiektach.
                 </opis>
             </płyta>
-            <płyta bestseller="nie">
+            <płyta bestseller="nie" plytaId="plyta3">
                 <tytuł>Areoplane over the sea</tytuł>
                 <wykonawca>Neutral Milk Hotel</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -149,7 +149,7 @@
                     1998 roku przez Blue Rose Records w Wielkiej Brytanii.
                 </opis>
             </płyta>
-            <płyta bestseller="nie">
+            <płyta bestseller="nie" plytaId="plyta4">
                 <tytuł>On Avery Island</tytuł>
                 <wykonawca>Neutral Milk Hotel</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -171,7 +171,7 @@
                     Carnes of Thimble Circus.
                 </opis>
             </płyta>
-            <płyta bestseller="tak">
+            <płyta bestseller="tak" plytaId="plyta5">
                 <tytuł>Radar</tytuł>
                 <wykonawca>Fisz, Emade, Tworzywo</wykonawca>
                 <gatunek>Alternatywna</gatunek>
@@ -193,7 +193,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="nie">
+            <płyta bestseller="nie" plytaId="plyta6">
                 <tytuł>Still On My Mind</tytuł>
                 <wykonawca>Dido</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -215,7 +215,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="tak">
+            <płyta bestseller="tak" plytaId="plyta7">
                 <tytuł>Mini dom</tytuł>
                 <wykonawca>Kortez</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -237,7 +237,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="tak">
+            <płyta bestseller="tak" plytaId="plyta8">
                 <tytuł>Ballady</tytuł>
                 <wykonawca>Lady Pank</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -259,7 +259,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="nie">
+            <płyta bestseller="nie" plytaId="plyta9">
                 <tytuł>Widmo</tytuł>
                 <wykonawca>PRO8L3M</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
@@ -281,7 +281,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="nie">
+            <płyta bestseller="nie" plytaId="plyta10">
                 <tytuł>Fryderyk Festival 2019</tytuł>
                 <wykonawca>Various Artists</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -303,7 +303,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="tak">
+            <płyta bestseller="tak" plytaId="plyta11">
                 <tytuł>Wojtek Sokół</tytuł>
                 <wykonawca>Sokół</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
@@ -325,7 +325,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="tak">
+            <płyta bestseller="tak" plytaId="plyta12">
                 <tytuł>Bohemian Rhapsody</tytuł>
                 <wykonawca>Queen</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -347,7 +347,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="tak">
+            <płyta bestseller="tak" plytaId="plyta13">
                 <tytuł>Żyć się chce</tytuł>
                 <wykonawca>Majewska Alicja</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -369,7 +369,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="nie">
+            <płyta bestseller="nie" plytaId="plyta14">
                 <tytuł>Helsinki</tytuł>
                 <wykonawca>Zawiałow Daria</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -391,7 +391,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="nie">
+            <płyta bestseller="nie" plytaId="plyta15">
                 <tytuł>Klubowe</tytuł>
                 <wykonawca>Tymek</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
@@ -413,7 +413,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="nie">
+            <płyta bestseller="nie" plytaId="plyta16">
                 <tytuł>Mój dom</tytuł>
                 <wykonawca>Kortez</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -435,7 +435,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="tak">
+            <płyta bestseller="tak" plytaId="plyta17">
                 <tytuł>Męskie Granie 2018</tytuł>
                 <wykonawca>Various Artists</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -457,7 +457,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="nie">
+            <płyta bestseller="nie" plytaId="plyta18">
                 <tytuł>Złoto</tytuł>
                 <wykonawca>Zalewski Krzysztof</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -479,7 +479,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="tak">
+            <płyta bestseller="tak" plytaId="plyta19">
                 <tytuł>A kysz!</tytuł>
                 <wykonawca>Zawiałow Daria</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
@@ -501,7 +501,7 @@
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
             </płyta>
-            <płyta bestseller="nie">
+            <płyta bestseller="nie" plytaId="plyta20">
                 <tytuł>1984</tytuł>
                 <wykonawca>Domagała Paweł</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
