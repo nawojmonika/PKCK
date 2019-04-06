@@ -41,14 +41,13 @@ tabela-płyt{
 
 płyta {
     margin-bottom: 20px;
-    padding: 20px;
     display: grid;
-    grid-template-columns: minmax(200px, 3fr) 9fr;
-    grid-template-areas: "tytuł wykonawca gatunek cena ocena data" "desc desc desc desc desc desc";
+    grid-template-columns: 30% 30% 10% 10% 10% 10%;
+    grid-template-areas: "tytuł wykonawca gatunek cena ocena premiera" "opis opis opis opis opis opis";
 }
 nagłówek{
     display: grid;
-    grid-template-columns: minmax(200px, 3fr) 9fr;
+    grid-template-columns: 30% 30% 10% 10% 10% 10%;
     grid-template-areas: "kolumna kolumna kolumna kolumna kolumna kolumna";
 }
 
@@ -75,14 +74,12 @@ opis:before{
     display: block;
     margin-bottom: 10px;
 }
-data {
-  grid-area: data;
+premiera {
+  grid-area: premiera;
 }
-data {
-  grid-area: data;
-}
+
 opis {
-  grid-area: desc;
+  grid-area: opis;
 }
 
 autorzy{
