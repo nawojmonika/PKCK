@@ -103,22 +103,23 @@ tabela-płyt opis {
   padding: 20px 15px;
 }
 
-tabela-płyt autorzy{
+autorzy{
     padding-bottom: 10px;
 }
 
-tabela-płyt autorzy:before{
+autorzy:before{
     content: "Autorzy projektu:";
     font-weight: bold;
+    display: block;
 }
 
-tabela-płyt autor{
+autor{
     display: list-item;
     margin-left: 25px;
     margin-left: 25px;
 }
 
-tabela-płyt data-oddania:before{
+data-oddania:before{
     content: "Data oddania:";
     font-weight: bold;
     display: block;
