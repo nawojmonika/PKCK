@@ -41,7 +41,7 @@ tabela-płyt{
 }
 
 tabela-płyt płyta {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     display: grid;
     grid-template-columns: 30% 30% 10% 10% 10% 10%;
     grid-template-areas: "tytuł nazwa-wykonawcy gatunek cena tabela-płyt-ocena premiera" "opis opis opis opis opis opis";
