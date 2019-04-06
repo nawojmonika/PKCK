@@ -109,6 +109,10 @@ dzień-tygodnia:after{
     content: ",";
 }
 
+dzień, miesiąc{
+    margin-right: -0.25em;
+}
+
 dzień:after, miesiąc:after{
     content: ".";
 }
