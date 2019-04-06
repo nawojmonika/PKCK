@@ -3,12 +3,12 @@
         <!ATTLIST __ROOT__ version CDATA #IMPLIED >
 
         <!ELEMENT nagłówek (autorzy,data-oddania)>
-        <!ATTLIST nagłówek id CDATA #IMPLIED>
+        <!ATTLIST nagłówek id ID #IMPLIED>
 
         <!ELEMENT wykonawcy (wykonawca, kolumny)>
 
         <!ELEMENT wykonawca (nazwa|ocena)>
-        <!ATTLIST wykonawca ID #REQUIRED>
+        <!ATTLIST wykonawca id-wykonawcy ID #REQUIRED>
 
         <!ELEMENT kolumny (kolumna)>
         <!ELEMENT kolumna (#PCDATA)>
@@ -41,7 +41,7 @@
         <!ELEMENT płyty (płyta)+>
 
         <!ELEMENT płyta (tytuł,nazwa-wykonawcy,gatunek,cena,ocena,premiera,opis)>
-        <!ATTLIST płyta bestseller (tak | nie) "nie" IDREF #REQUIRED>
+        <!ATTLIST płyta bestseller (tak | nie) "nie" id-wykonawcy IDREF #REQUIRED>
 
         <!ELEMENT tytuł (#PCDATA)>
 
