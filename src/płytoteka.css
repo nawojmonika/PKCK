@@ -136,7 +136,9 @@ tabela-płyt cena:after{
 }
 
 wykonawcy {
-    width: 80vw;
+    width: 40vw;
+    border: #000 solid 1px;
+    margin-bottom: 20px;
 }
 
 wykonawcy kolumny{

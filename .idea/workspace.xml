@@ -44,14 +44,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1541" />
+          <entry key="css" value="1578" />
           <entry key="dtd" value="286" />
           <entry key="xml" value="1277" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1541" />
+          <entry key="CSS" value="1578" />
           <entry key="DTD" value="286" />
           <entry key="XML" value="1277" />
         </counts>
@@ -59,116 +59,67 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/płytoteka.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-                  <folding>
-                    <element signature="n#autorzy#0;n#nagłówek#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#kolumny#0;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#0;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#1;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#2;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#3;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#4;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#5;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#6;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#7;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#8;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#9;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#10;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#11;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#12;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#13;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#14;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#wykonawca#15;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="e#2992#2997#0" expanded="true" />
-                    <element signature="e#4393#4398#0" expanded="true" />
-                    <element signature="e#5760#5765#0" expanded="true" />
-                    <element signature="e#6585#6590#0" expanded="true" />
-                    <element signature="e#9217#9222#0" expanded="true" />
-                    <element signature="e#11568#11573#0" expanded="true" />
-                    <element signature="e#11979#11984#0" expanded="true" />
-                    <element signature="e#14386#14391#0" expanded="true" />
-                    <element signature="e#14763#14768#0" expanded="true" />
-                    <element signature="e#17234#17239#0" expanded="true" />
-                    <element signature="e#17537#17542#0" expanded="true" />
-                    <element signature="e#20078#20083#0" expanded="true" />
-                    <element signature="e#20318#20323#0" expanded="true" />
-                    <element signature="e#22904#22909#0" expanded="true" />
-                    <element signature="e#23078#23083#0" expanded="true" />
-                    <element signature="e#25743#25748#0" expanded="true" />
-                    <element signature="e#25866#25871#0" expanded="true" />
-                    <element signature="e#28579#28584#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/płytoteka.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="114" selection-start-line="114" selection-end-line="114" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/płytoteka.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="257">
-                  <caret line="532" column="53" selection-start-line="532" selection-start-column="53" selection-end-line="532" selection-end-column="53" />
-                  <folding>
-                    <element signature="n#autorzy#0;n#nagłówek#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#0;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#1;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#2;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#3;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#4;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#5;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#6;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#7;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#8;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#9;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#10;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#11;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#12;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#13;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#14;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#15;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#16;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#17;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                    <element signature="n#płyta#18;n#płyty#0;n#tabela-płyt#0;n#__ROOT__#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/płytoteka.dtd">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="561">
-                  <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/płytoteka.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <element signature="n#autorzy#0;n#nagłówek#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#kolumny#0;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#0;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#1;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#2;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#3;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#4;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#5;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#6;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#7;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#8;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#9;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#10;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#11;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#12;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#13;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#14;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="n#wykonawca#15;n#wykonawcy#0;n#__ROOT__#0;n#!!top" />
+                <element signature="e#2992#2997#0" expanded="true" />
+                <element signature="e#4393#4398#0" expanded="true" />
+                <element signature="e#5760#5765#0" expanded="true" />
+                <element signature="e#6585#6590#0" expanded="true" />
+                <element signature="e#9217#9222#0" expanded="true" />
+                <element signature="e#11568#11573#0" expanded="true" />
+                <element signature="e#11979#11984#0" expanded="true" />
+                <element signature="e#14386#14391#0" expanded="true" />
+                <element signature="e#14763#14768#0" expanded="true" />
+                <element signature="e#17234#17239#0" expanded="true" />
+                <element signature="e#17537#17542#0" expanded="true" />
+                <element signature="e#20078#20083#0" expanded="true" />
+                <element signature="e#20318#20323#0" expanded="true" />
+                <element signature="e#22904#22909#0" expanded="true" />
+                <element signature="e#23078#23083#0" expanded="true" />
+                <element signature="e#25743#25748#0" expanded="true" />
+                <element signature="e#25866#25871#0" expanded="true" />
+                <element signature="e#28579#28584#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/płytoteka.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>naglowek</find>
       <find>nagłó`wek</find>
       <find>ply</find>
       <find>tytuł</find>
@@ -176,7 +127,6 @@
       <find>tabela</find>
       <find>Opis</find>
       <find>walu</find>
-      <find>płyta</find>
       <find>wyko</find>
       <find>ocena</find>
       <find>nazwa</find>
@@ -196,8 +146,10 @@
       <find>IDREF=</find>
       <find>IDRE</find>
       <find>id-wykonawcy=&quot;</find>
-      <find>wykonawcy</find>
       <find>id-wyko</find>
+      <find>walut</find>
+      <find>płyta</find>
+      <find>wykonawcy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -225,7 +177,7 @@
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-98" />
     <option name="y" value="125" />
-    <option name="width" value="1938" />
+    <option name="width" value="1623" />
     <option name="height" value="884" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -288,7 +240,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28224000" />
+    <option name="totallyTimeSpent" value="28366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1294" height="694" extended-state="6" />
@@ -335,13 +287,6 @@
     <entry file="file://$PROJECT_DIR$/../studia/VI semestr/PKCK/zad1/filmoteka.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/płytoteka.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/płytoteka.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -387,10 +332,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/płytoteka.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/płytoteka.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="164">
+          <caret line="140" column="21" selection-start-line="140" selection-start-column="21" selection-end-line="140" selection-end-column="21" />
         </state>
       </provider>
     </entry>
