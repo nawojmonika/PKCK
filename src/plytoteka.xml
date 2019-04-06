@@ -37,7 +37,7 @@
     </nagłówek>
     <wykonawcy>
         <kolumny>
-            <kolumna>Autor</kolumna>
+            <kolumna>Wykonawca</kolumna>
             <kolumna>Ocena</kolumna>
         </kolumny>
         <wykonawca id-wykonawcy="_1">
