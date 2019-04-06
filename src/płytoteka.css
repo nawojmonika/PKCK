@@ -38,14 +38,118 @@ tabela-płyt{
     width: 80vw;
     font-size: 13px;
 }
-wykonawcy > nagłówek {
+
+tabela-płyt płyta {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 10% 10% 10% 10%;
+    grid-template-areas: "tytuł nazwa-wykonawcy gatunek cena ocena premiera" "opis opis opis opis opis opis";
+}
+tabela-płyt kolumny{
+    display: grid;
+    grid-template-columns: 30% 30% 10% 10% 10% 10%;
+    grid-template-areas: "kolumna kolumna kolumna kolumna kolumna kolumna";
+}
+
+tabela-płyt tytuł {
+  grid-area: tytuł;
+}
+tabela-płyt nazwa-wykonawcy {
+  grid-area: nazwa-wykonawcy;
+}
+tabela-płyt gatunek {
+  grid-area: gatunek;
+}
+tabela-płyt cena {
+  grid-area: cena;
+}
+
+tabela-płyt ocena {
+  grid-area: ocena;
+}
+
+tabela-płyt opis:before{
+    content: "Opis";
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+tabela-płyt premiera {
+  grid-area: premiera;
+}
+
+tabela-płyt opis {
+  grid-area: opis;
+  margin-top: 20px;
+}
+
+tabela-płyt autorzy{
+    padding-bottom: 10px;
+}
+
+tabela-płyt autorzy:before{
+    content: "Autorzy projektu:";
+    font-weight: bold;
+}
+
+tabela-płyt autor{
+    display: list-item;
+    margin-left: 25px;
+    margin-left: 25px;
+}
+
+tabela-płyt data-oddania:before{
+    content: "Data oddania:";
+    font-weight: bold;
+    display: block;
+}
+
+tabela-płyt dzień-tygodnia:after{
+    content: ",";
+}
+
+tabela-płyt dzień, miesiąc{
+    margin-right: -0.25em;
+}
+
+tabela-płyt dzień:after, miesiąc:after{
+    content: ".";
+}
+
+tabela-płyt płyta:nth-child(even){
+    padding: 20px 15px;
+    background-color: #666;
+    color: #fff;
+}
+
+
+tabela-płyt kolumna{
+    display: table-cell;
+    padding: 20px 15px;
+}
+
+tabela-płyt kolumna {
+    font-weight: bold;
+    background-color: rgb(52, 58, 64);
+    color: #fff;
+}
+
+tabela-płyt cena:after{
+    content: attr(waluta);
+}
+
+wykonawcy kolumny{
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-template-areas: "wykonawcy-kolumny wykonawcy-kolumny";
     font-weight: bold;
     padding: 20px 15px;
     background-color: rgb(52, 58, 64);
     color: rgb(255, 255, 255);
     text-align: center;
+}
+wykonawcy kolumna {
+	grid-area: "wykonawcy-kolumny";
 }
 
 wykonawca {
@@ -64,99 +168,4 @@ nazwa {
 ocena {
   text-align: center;
   grid-area: ocena;    
-}
-płyta {
-    margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: 30% 30% 10% 10% 10% 10%;
-    grid-template-areas: "tytuł nazwa-wykonawcy gatunek cena ocena premiera" "opis opis opis opis opis opis";
-}
-kolumny{
-    display: grid;
-    grid-template-columns: 30% 30% 10% 10% 10% 10%;
-    grid-template-areas: "kolumna kolumna kolumna kolumna kolumna kolumna";
-}
-
-tytuł {
-  grid-area: tytuł;
-}
-nazwa-wykonawcy {
-  grid-area: nazwa-wykonawcy;
-}
-gatunek {
-  grid-area: gatunek;
-}
-cena {
-  grid-area: cena;
-}
-
-ocena {
-  grid-area: ocena;
-}
-
-opis:before{
-    content: "Opis";
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-}
-premiera {
-  grid-area: premiera;
-}
-
-opis {
-  grid-area: opis;
-}
-
-autorzy{
-    padding-bottom: 10px;
-}
-
-autorzy:before{
-    content: "Autorzy projektu:";
-    font-weight: bold;
-}
-
-autor{
-    display: list-item;
-    margin-left: 25px;
-    margin-left: 25px;
-}
-
-data-oddania:before{
-    content: "Data oddania:";
-    font-weight: bold;
-    display: block;
-}
-
-dzień-tygodnia:after{
-    content: ",";
-}
-
-dzień, miesiąc{
-    margin-right: -0.25em;
-}
-
-dzień:after, miesiąc:after{
-    content: ".";
-}
-
-płyta:nth-child(even){
-    background-color: #666;
-    color: #fff;
-}
-
-płyta > *, kolumna{
-    display: table-cell;
-    padding: 20px 15px;
-}
-
-kolumna{
-    font-weight: bold;
-    background-color: rgb(52, 58, 64);
-    color: #fff;
-}
-
-cena:after{
-    content: attr(waluta);
 }
