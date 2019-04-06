@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" ?>
 <!DOCTYPE __ROOT__ SYSTEM 'płytoteka.dtd'>
 <__ROOT__ version="1">
-    <nagłówek id="nagłówek">
+    <nagłówek ID="nagłówek">
         <autorzy>
             <autor>
                 <imie>
@@ -106,14 +106,14 @@
         </wykonawca>
     </wykonawcy>
     <tabela-płyt>
-        <nagłówek>
+        <kolumny>
             <kolumna>Tytuł</kolumna>
             <kolumna>Wykonawca</kolumna>
             <kolumna>Gatunek</kolumna>
             <kolumna>Cena</kolumna>
             <kolumna>Ocena</kolumna>
             <kolumna>Data premiery</kolumna>
-        </nagłówek>
+        </kolumny>
         <płyty>
             <płyta bestseller="tak" IDREF="1">
                 <tytuł>Małomiasteczkowy</tytuł>

@@ -71,7 +71,7 @@ płyta {
     grid-template-columns: 30% 30% 10% 10% 10% 10%;
     grid-template-areas: "tytuł nazwa-wykonawcy gatunek cena ocena premiera" "opis opis opis opis opis opis";
 }
-nagłówek{
+kolumny{
     display: grid;
     grid-template-columns: 30% 30% 10% 10% 10% 10%;
     grid-template-areas: "kolumna kolumna kolumna kolumna kolumna kolumna";
@@ -146,12 +146,12 @@ płyta:nth-child(even){
     color: #fff;
 }
 
-płyta > *, tabela-płyt nagłówek *{
+płyta > *, kolumna{
     display: table-cell;
     padding: 20px 15px;
 }
 
-tabela-płyt nagłówek *{
+kolumna{
     font-weight: bold;
     background-color: rgb(52, 58, 64);
     color: #fff;

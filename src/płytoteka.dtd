@@ -28,13 +28,13 @@
         <!--- Put your DTDDoc comment here. -->
         <!ELEMENT nagłówek (autorzy|data-oddania|kolumna)*>
         <!ATTLIST nagłówek
-                id CDATA #IMPLIED
+                ID CDATA #IMPLIED
                 >
 
         <!ELEMENT wykonawcy (wykonawca)*>
 
         <!ELEMENT wykonawca (nazwa|ocena)*>
-<!ATTLIST wykonawca ID #IMPLIED>
+<!ATTLIST wykonawca ID #REQUIRED>
 
         <!ELEMENT nazwa (#PCDATA)>
         <!ELEMENT ocena (#PCDATA)>
@@ -70,8 +70,9 @@
         <!ELEMENT rok (#PCDATA)>
 
         <!--- Put your DTDDoc comment here. -->
-        <!ELEMENT tabela-płyt (nagłówek|płyty)*>
+        <!ELEMENT tabela-płyt (kolumny|płyty)*>
 
+        <!ELEMENT kolumny (kolumna)>
         <!--- Put your DTDDoc comment here. -->
         <!ELEMENT kolumna (#PCDATA)>
 
@@ -80,7 +81,7 @@
 
         <!--- Put your DTDDoc comment here. -->
         <!ELEMENT płyta (tytuł|nazwa-wykonawcy|gatunek|cena|ocena|premiera|opis)*>
-        <!ATTLIST płyta bestseller (tak | nie) "nie" IDREF #IMPLIED>
+        <!ATTLIST płyta bestseller (tak | nie) "nie" IDREF #REQUIRED>
 
         <!--- Put your DTDDoc comment here. -->
         <!ELEMENT tytuł (#PCDATA)>
