@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="płytoteka.css"?>
+<?xml-stylesheet type="text/css" href="plytoteka.css"?>
 <?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" ?>
-<!DOCTYPE __ROOT__ SYSTEM 'płytoteka.dtd'>
+<!DOCTYPE __ROOT__ SYSTEM 'plytoteka.dtd'>
 <__ROOT__ version="1">
     <nagłówek id="nagłówek">
         <autorzy>
