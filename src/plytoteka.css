@@ -11,6 +11,16 @@ __ROOT__{
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
+#nagłówek{
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #1e3456;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
 
 #nagłówek:before{
     content: "Płytoteka";
@@ -20,28 +30,28 @@ __ROOT__{
     letter-spacing: 4px;
     margin-bottom: 10px;
 }
+#nagłówek *{
+    width: 200px;
+}
+
+tabela-plyt{
+    width: 80vw;
+    font-size: 13px;
+}
 
 plyta {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #1e3456;
-    color: #fff;
     display: grid;
     grid-template-columns: minmax(200px, 3fr) 9fr;
     grid-template-areas: "tytul wykonawca gatunek cena ocena data" "desc desc desc desc desc desc";
 }
 naglowek {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #1e3456;
-    color: #fff;
     display: grid;
     grid-template-columns: minmax(200px, 3fr) 9fr;
     grid-template-areas: "kolumna kolumna kolumna kolumna kolumna kolumna";
 }
-#nagłówek *{
-    width: 200px;
-}
+
 tytul {
   grid-area: tytul;
 }
@@ -57,6 +67,12 @@ cena {
 
 ocena {
   grid-area: ocena;
+}
+
+opis:before{
+    content: "Opis";
+    font-weight: bold;
+    display: block;
 }
 data {
   grid-area: data;
