@@ -46,6 +46,18 @@ tabela-płyt płyta {
     grid-template-columns: 30% 30% 10% 10% 10% 10%;
     grid-template-areas: "tytuł nazwa-wykonawcy gatunek cena tabela-płyt-ocena premiera" "opis opis opis opis opis opis";
 }
+
+tabela-płyt płyta[bestseller="tak"]:before{
+    content: "Bestseller";
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(220, 53, 69);
+    border-radius: 2px;
+    width: 100px;
+}
+
 tabela-płyt kolumny{
     display: grid;
     grid-template-columns: 30% 30% 10% 10% 10% 10%;
@@ -125,6 +137,7 @@ dzień:after, miesiąc:after{
 }
 
 tabela-płyt płyta:nth-child(even){
+    margin-bottom: 20px;
     background-color: #666;
     color: #fff;
 }
