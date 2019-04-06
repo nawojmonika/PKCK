@@ -41,7 +41,6 @@ tabela-płyt{
 
 tabela-płyt płyta {
     margin-bottom: 20px;
-    padding: 20px 15px;
     display: grid;
     grid-template-columns: 30% 30% 10% 10% 10% 10%;
     grid-template-areas: "tytuł nazwa-wykonawcy gatunek cena tabela-plyt-ocena premiera" "opis opis opis opis opis opis";
@@ -53,23 +52,29 @@ tabela-płyt kolumny{
 }
 
 tabela-płyt tytuł {
+  padding: 20px 15px;
   grid-area: tytuł;
 }
 tabela-płyt nazwa-wykonawcy {
   grid-area: nazwa-wykonawcy;
+  padding: 20px 15px;
 }
 tabela-płyt gatunek {
   grid-area: gatunek;
+  padding: 20px 15px;
 }
 tabela-płyt cena {
   grid-area: cena;
+  padding: 20px 15px;
 }
 
 tabela-płyt ocena {
   grid-area: tabela-plyt-ocena;
+  padding: 20px 15px;
 }
 
 tabela-płyt opis:before{
+    padding: 20px 15px;
     content: "Opis";
     font-weight: bold;
     display: block;
@@ -77,11 +82,12 @@ tabela-płyt opis:before{
 }
 tabela-płyt premiera {
   grid-area: premiera;
+  padding: 20px 15px;
 }
 
 tabela-płyt opis {
   grid-area: opis;
-  margin-top: 20px;
+  padding: 20px 15px;
 }
 
 tabela-płyt autorzy{
@@ -118,7 +124,6 @@ dzień:after, miesiąc:after{
 }
 
 tabela-płyt płyta:nth-child(even){
-    padding: 20px 15px;
     background-color: #666;
     color: #fff;
 }
