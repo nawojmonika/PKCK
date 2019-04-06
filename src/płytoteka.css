@@ -37,18 +37,19 @@ __ROOT__{
 tabela-płyt{
     width: 80vw;
     font-size: 13px;
+    border: #000 solid 1px;
 }
 
 tabela-płyt płyta {
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: 30% 30% 10% 10% 10% 10%;
-    grid-template-areas: "tytuł nazwa-wykonawcy gatunek cena tabela-plyt-ocena premiera" "opis opis opis opis opis opis";
+    grid-template-areas: "tytuł nazwa-wykonawcy gatunek cena tabela-płyt-ocena premiera" "opis opis opis opis opis opis";
 }
 tabela-płyt kolumny{
     display: grid;
     grid-template-columns: 30% 30% 10% 10% 10% 10%;
-    grid-template-areas: "tabela-plyt-kolumna tabela-plyt-kolumna tabela-plyt-kolumna tabela-plyt-kolumna tabela-plyt-kolumna tabela-plyt-kolumna";
+    grid-template-areas: "tabela-płyt-kolumna tabela-płyt-kolumna tabela-plyt-kolumna tabela-plyt-kolumna tabela-plyt-kolumna tabela-plyt-kolumna";
 }
 
 tabela-płyt tytuł {
@@ -69,7 +70,7 @@ tabela-płyt cena {
 }
 
 tabela-płyt ocena {
-  grid-area: tabela-plyt-ocena;
+  grid-area: tabela-płyt-ocena;
   padding: 20px 15px;
 }
 
@@ -129,7 +130,7 @@ tabela-płyt płyta:nth-child(even){
 }
 
 tabela-płyt kolumna {
-    grid-area: "tabela-plyt-kolumna";
+    grid-area: "tabela-płyt-kolumna";
     padding: 20px 15px;
     font-weight: bold;
     background-color: rgb(52, 58, 64);
