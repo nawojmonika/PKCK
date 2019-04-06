@@ -28,7 +28,8 @@
         <!ELEMENT płyty (płyta)*>
         <!ELEMENT płyta (tytuł|wykonawca|gatunek|cena|ocena|premiera|opis)*>
         <!ATTLIST płyta
-                bestseller CDATA #REQUIRED>
+                bestseller CDATA #REQUIRED
+                plytaId CDATA #REQUIRED>
         <!ELEMENT tytuł (#PCDATA)>
         <!ELEMENT gatunek (#PCDATA)>
         <!ELEMENT cena (#PCDATA)>
