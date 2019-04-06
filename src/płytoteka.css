@@ -38,7 +38,33 @@ tabela-płyt{
     width: 80vw;
     font-size: 13px;
 }
+wykonawcy > nagłówek {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-weight: bold;
+    padding: 20px 15px;
+    background-color: rgb(52, 58, 64);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
 
+wykonawca {
+    display: grid;
+    padding: 20px 15px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "nazwa ocena";
+}
+wykonawca:nth-child(even) {
+    background-color: #666;
+    color: #fff;
+}
+nazwa {
+  grid-area: nazwa;    
+}
+ocena {
+  text-align: center;
+  grid-area: ocena;    
+}
 płyta {
     margin-bottom: 20px;
     display: grid;

@@ -36,6 +36,10 @@
         </data-oddania>
     </nagłówek>
     <wykonawcy>
+        <nagłówek>
+            <kolumna>Autor</kolumna>
+            <kolumna>Ocena</kolumna>
+        </nagłówek>
         <wykonawca ID="1">
             <nazwa>Podsiadło Dawid</nazwa>
             <ocena>4,75</ocena>
