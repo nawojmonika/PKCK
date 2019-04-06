@@ -100,6 +100,7 @@ tabela-płyt premiera {
 
 tabela-płyt opis {
   grid-area: opis;
+  text-align: justify;
   padding: 20px 15px;
 }
 
