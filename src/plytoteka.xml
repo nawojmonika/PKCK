@@ -46,45 +46,27 @@
             <kolumna>Data premiery</kolumna>
         </naglowek>
         <plyty>
-            <plyta bestseller="nie">
-                <tytul>On Avery Island</tytul>
-                <wykonawca>Neutral Milk Hotel</wykonawca>
-                <gatunek>Pop &amp; Rock</gatunek>
-                <cena waluta="USD">5,99</cena>
-                <ocena> 3,00 </ocena>
-                <premiera>
-                    <dzień>2</dzień>
-                    <miesiąc>03</miesiąc>
-                    <rok>1996</rok>
-                </premiera>
-            </plyta>
-            <plyta bestseller="nie">
-                <tytul>Areoplane over the sea</tytul>
-                <wykonawca>Neutral Milk Hotel</wykonawca>
-                <gatunek>Pop &amp; Rock</gatunek>
-                <cena waluta="USD">6,99</cena>
-                <ocena> 4,00 </ocena>
-                <premiera>
-                    <dzień>10</dzień>
-                    <miesiąc>02</miesiąc>
-                    <rok>1998</rok>
-                </premiera>
-            </plyta>
             <plyta bestseller="tak">
                 <tytul>Małomiasteczkowy</tytul>
                 <wykonawca>Podsiadło Dawid</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">36,99</cena>
-                <ocena> 4,64 </ocena>
+                <ocena>4,64</ocena>
                 <premiera>
                     <dzień>19</dzień>
                     <miesiąc>10</miesiąc>
                     <rok>2018</rok>
                 </premiera>
                 <opis>
-                    Stare przysłowie mówi, że ze szczytu wszystkie drogi wiodą w dół. Ale choć jesienią 2016 roku Dawid Podsiadło był na szczycie – z dwiema diamentowymi płytami w dorobku, całym wagonem nagród i wyprzedaną wielką trasą koncertową – ani myślał schodzić. Zrobił więc sobie kilka miesięcy przerwy od sceny, by wymyślić się na nowo.
+                    Stare przysłowie mówi, że ze szczytu wszystkie drogi wiodą w dół. Ale choć jesienią 2016 roku Dawid
+                    Podsiadło był na szczycie – z dwiema diamentowymi płytami w dorobku, całym wagonem nagród i
+                    wyprzedaną wielką trasą koncertową – ani myślał schodzić. Zrobił więc sobie kilka miesięcy przerwy
+                    od sceny, by wymyślić się na nowo.
 
-                    Choć złota zasada mówi, że w zwycięskiej drużynie nie dokonuje się zmian, Podsiadło zrezygnował tym razem ze współpracy z Bogdanem Kondrackim, producentem jego dotychczasowych nagrań. Zaryzykował, ale powierzył swój los w ręce innego wybitnego fachowca – Bartosz Dziedzic stoi bowiem za sukcesami albumów „Granda” Moniki Brodki i „Składam się z ciągłych powtórzeń” Artura Rojka.
+                    Choć złota zasada mówi, że w zwycięskiej drużynie nie dokonuje się zmian, Podsiadło zrezygnował tym
+                    razem ze współpracy z Bogdanem Kondrackim, producentem jego dotychczasowych nagrań. Zaryzykował, ale
+                    powierzył swój los w ręce innego wybitnego fachowca – Bartosz Dziedzic stoi bowiem za sukcesami
+                    albumów „Granda” Moniki Brodki i „Składam się z ciągłych powtórzeń” Artura Rojka.
                 </opis>
             </plyta>
             <plyta bestseller="tak">
@@ -92,204 +74,414 @@
                 <wykonawca>Eilish Billie</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">51,99</cena>
-                <ocena> 4,00</ocena>
+                <ocena>4,00</ocena>
                 <premiera>
                     <dzień>29</dzień>
                     <miesiąc>03</miesiąc>
                     <rok>2019</rok>
                 </premiera>
+                <opis>
+                    Billie Eilish i jej debiut płytowy „When We All Fall Asleep, Where Do We Go?”. Singlem promującym
+                    album jest utwór „Bury A Friend”.
+
+                    Billie Eilish to prawdziwy fenomen, który trudno porównać z jakimkolwiek innym współczesnym artystą.
+                    Od czasu debiutanckiego singla „Ocean Eyes”, Billie powoli, ale skutecznie przebijała się do
+                    czołówki światowego popu. Wszystko za sprawą bardzo szybko rozrastającego się legionu oddanych fanów
+                    z całego świata. Debiutancka EP-ka wokalistki, „Don’t Smile At Me”, nie znikała z zestawienia
+                    Billboard Top 200 i ma już ponad 5 miliardów globalnych streamów. Eilish regularnie wyprzedaje
+                    koncerty, grając coraz dłuższe trasy i w coraz większych obiektach.
+                </opis>
+            </plyta>
+            <plyta bestseller="nie">
+                <tytul>Areoplane over the sea</tytul>
+                <wykonawca>Neutral Milk Hotel</wykonawca>
+                <gatunek>Pop &amp; Rock</gatunek>
+                <cena waluta="USD">6,99</cena>
+                <ocena>4,00</ocena>
+                <premiera>
+                    <dzień>10</dzień>
+                    <miesiąc>02</miesiąc>
+                    <rok>1998</rok>
+                </premiera>
+                <opis>
+                    In the Aeroplane Over the Sea – drugi i ostatni album indie rockowego zespołu Neutral Milk Hotel.
+                    Został wydany w Stanach Zjednoczonych 10 lutego 1998 roku przez wytwórnię Merge Records, a w maju
+                    1998 roku przez Blue Rose Records w Wielkiej Brytanii.
+                </opis>
+            </plyta>
+            <plyta bestseller="nie">
+                <tytul>On Avery Island</tytul>
+                <wykonawca>Neutral Milk Hotel</wykonawca>
+                <gatunek>Pop &amp; Rock</gatunek>
+                <cena waluta="USD">5,99</cena>
+                <ocena>3,00</ocena>
+                <premiera>
+                    <dzień>2</dzień>
+                    <miesiąc>03</miesiąc>
+                    <rok>1996</rok>
+                </premiera>
+                <opis>
+                    The title refers to Avery Island, a salt dome island in southern Louisiana, the band's home state.
+                    Avery Island is the headquarters of the McIlhenny Company, makers of Tabasco sauce.
+
+                    The UK version of this CD has two more tracks: "Everything Is" and "Snow Song Pt. 1," both of which
+                    are taken from the "Everything Is" single, reportedly without Jeff Mangum's permission.[9] On the
+                    vinyl LP, "Pree-Sisters Swallowing a Donkey's Eye" is 3:28 long, as opposed to the significantly
+                    longer digital version at 13:49. The UK version also has a different cover, with artwork by Jill
+                    Carnes of Thimble Circus.
+                </opis>
             </plyta>
             <plyta bestseller="tak">
                 <tytul>Radar</tytul>
                 <wykonawca>Fisz, Emade, Tworzywo</wykonawca>
                 <gatunek>Alternatywna</gatunek>
                 <cena waluta="PLN">38,99</cena>
-                <ocena> 4,00</ocena>
+                <ocena>4,00</ocena>
                 <premiera>
                     <dzień>08</dzień>
                     <miesiąc>03</miesiąc>
                     <rok>2019</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="nie">
                 <tytul>Still On My Mind</tytul>
                 <wykonawca>Dido</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">39,99</cena>
-                <ocena> 3,00</ocena>
+                <ocena>3,00</ocena>
                 <premiera>
                     <dzień>13</dzień>
                     <miesiąc>02</miesiąc>
                     <rok>2019</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="tak">
                 <tytul>Mini dom</tytul>
                 <wykonawca>Kortez</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">28,99</cena>
-                <ocena> 3,40</ocena>
+                <ocena>3,40</ocena>
                 <premiera>
                     <dzień>04</dzień>
                     <miesiąc>01</miesiąc>
                     <rok>2019</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="tak">
-                <tytul>Ballady </tytul>
+                <tytul>Ballady</tytul>
                 <wykonawca>Lady Pank</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena waluta="PLN">28,99 </cena>
-                <ocena> 4,00</ocena>
+                <cena waluta="PLN">28,99</cena>
+                <ocena>4,00</ocena>
                 <premiera>
                     <dzień>22</dzień>
                     <miesiąc>03</miesiąc>
                     <rok>2019</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="nie">
                 <tytul>Widmo</tytul>
                 <wykonawca>PRO8L3M</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
                 <cena waluta="PLN">49,99</cena>
-                <ocena> 2,00</ocena>
+                <ocena>2,00</ocena>
                 <premiera>
                     <dzień>12</dzień>
                     <miesiąc>03</miesiąc>
                     <rok>2018</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="nie">
                 <tytul>Fryderyk Festival 2019</tytul>
                 <wykonawca>Various Artists</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">27,99</cena>
-                <ocena> 4,46</ocena>
+                <ocena>4,46</ocena>
                 <premiera>
                     <dzień>08</dzień>
                     <miesiąc>03</miesiąc>
                     <rok>2019</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="tak">
                 <tytul>Wojtek Sokół</tytul>
                 <wykonawca>Sokół</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
                 <cena waluta="PLN">38,99</cena>
-                <ocena> 2,00</ocena>
+                <ocena>2,00</ocena>
                 <premiera>
                     <dzień>08</dzień>
                     <miesiąc>03</miesiąc>
                     <rok>2018</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="tak">
                 <tytul>Bohemian Rhapsody</tytul>
                 <wykonawca>Queen</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">38,99</cena>
-                <ocena> 5,00</ocena>
+                <ocena>5,00</ocena>
                 <premiera>
                     <dzień>19</dzień>
                     <miesiąc>10</miesiąc>
                     <rok>2018</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="tak">
                 <tytul>Żyć się chce</tytul>
                 <wykonawca>Majewska Alicja</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">43,99</cena>
-                <ocena> 3,00</ocena>
+                <ocena>3,00</ocena>
                 <premiera>
                     <dzień>19</dzień>
                     <miesiąc>12</miesiąc>
                     <rok>2018</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="nie">
                 <tytul>Helsinki</tytul>
                 <wykonawca>Zawiałow Daria</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">34,99</cena>
-                <ocena> 2,00</ocena>
+                <ocena>2,00</ocena>
                 <premiera>
                     <dzień>24</dzień>
                     <miesiąc>03</miesiąc>
                     <rok>2019</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="nie">
                 <tytul>Klubowe</tytul>
                 <wykonawca>Tymek</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
                 <cena waluta="PLN">32,99</cena>
-                <ocena> 3,00</ocena>
+                <ocena>3,00</ocena>
                 <premiera>
                     <dzień>19</dzień>
                     <miesiąc>12</miesiąc>
                     <rok>2018</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="nie">
                 <tytul>Mój dom</tytul>
                 <wykonawca>Kortez</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">31,99</cena>
-                <ocena> 2,00</ocena>
+                <ocena>2,00</ocena>
                 <premiera>
                     <dzień>24</dzień>
                     <miesiąc>03</miesiąc>
                     <rok>2019</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="tak">
                 <tytul>Męskie Granie 2018</tytul>
                 <wykonawca>Various Artists</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">49,99</cena>
-                <ocena> 4,68</ocena>
+                <ocena>4,68</ocena>
                 <premiera>
                     <dzień>19</dzień>
                     <miesiąc>12</miesiąc>
                     <rok>2018</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="nie">
-                <tytul>Złoto </tytul>
+                <tytul>Złoto</tytul>
                 <wykonawca>Zalewski Krzysztof</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">34,99</cena>
-                <ocena> 4,00</ocena>
+                <ocena>4,00</ocena>
                 <premiera>
                     <dzień>19</dzień>
                     <miesiąc>10</miesiąc>
                     <rok>2018</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="tak">
                 <tytul>A kysz!</tytul>
                 <wykonawca>Zawiałow Daria</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">19,99</cena>
-                <ocena> 3,36</ocena>
+                <ocena>3,36</ocena>
                 <premiera>
                     <dzień>08</dzień>
                     <miesiąc>03</miesiąc>
                     <rok>2018</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
             <plyta bestseller="nie">
                 <tytul>1984</tytul>
                 <wykonawca>Domagała Paweł</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">36,99</cena>
-                <ocena> 4,00</ocena>
+                <ocena>4,00</ocena>
                 <premiera>
                     <dzień>19</dzień>
                     <miesiąc>10</miesiąc>
                     <rok>2018</rok>
                 </premiera>
+                <opis>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                </opis>
             </plyta>
         </plyty>
     </tabela-plyt>
