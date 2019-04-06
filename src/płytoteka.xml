@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="plytoteka.css"?>
+<?xml-stylesheet type="text/css" href="płytoteka.css"?>
 <?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" ?>
-<!DOCTYPE __ROOT__ SYSTEM 'plytoteka.dtd'>
+<!DOCTYPE __ROOT__ SYSTEM 'płytoteka.dtd'>
 
 <__ROOT__ version="1">
-    <naglowek id="nagłówek">
+    <nagłówek id="nagłówek">
         <autorzy>
             <autor>
                 <imie>
@@ -35,19 +35,19 @@
             <miesiąc>03</miesiąc>
             <rok>2019</rok>
         </data-oddania>
-    </naglowek>
-    <tabela-plyt>
-        <naglowek>
+    </nagłówek>
+    <tabela-płyt>
+        <nagłówek>
             <kolumna>Tytuł</kolumna>
             <kolumna>Wykonawca</kolumna>
             <kolumna>Gatunek</kolumna>
             <kolumna>Cena</kolumna>
             <kolumna>Ocena</kolumna>
             <kolumna>Data premiery</kolumna>
-        </naglowek>
-        <plyty>
-            <plyta bestseller="tak">
-                <tytul>Małomiasteczkowy</tytul>
+        </nagłówek>
+        <płyty>
+            <płyta bestseller="tak">
+                <tytuł>Małomiasteczkowy</tytuł>
                 <wykonawca>Podsiadło Dawid</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">36,99</cena>
@@ -68,9 +68,9 @@
                     powierzył swój los w ręce innego wybitnego fachowca – Bartosz Dziedzic stoi bowiem za sukcesami
                     albumów „Granda” Moniki Brodki i „Składam się z ciągłych powtórzeń” Artura Rojka.
                 </opis>
-            </plyta>
-            <plyta bestseller="tak">
-                <tytul>When We All Fall Asleep, Where Do We Go?</tytul>
+            </płyta>
+            <płyta bestseller="tak">
+                <tytuł>When We All Fall Asleep, Where Do We Go?</tytuł>
                 <wykonawca>Eilish Billie</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">51,99</cena>
@@ -91,9 +91,9 @@
                     Billboard Top 200 i ma już ponad 5 miliardów globalnych streamów. Eilish regularnie wyprzedaje
                     koncerty, grając coraz dłuższe trasy i w coraz większych obiektach.
                 </opis>
-            </plyta>
-            <plyta bestseller="nie">
-                <tytul>Areoplane over the sea</tytul>
+            </płyta>
+            <płyta bestseller="nie">
+                <tytuł>Areoplane over the sea</tytuł>
                 <wykonawca>Neutral Milk Hotel</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="USD">6,99</cena>
@@ -108,9 +108,9 @@
                     Został wydany w Stanach Zjednoczonych 10 lutego 1998 roku przez wytwórnię Merge Records, a w maju
                     1998 roku przez Blue Rose Records w Wielkiej Brytanii.
                 </opis>
-            </plyta>
-            <plyta bestseller="nie">
-                <tytul>On Avery Island</tytul>
+            </płyta>
+            <płyta bestseller="nie">
+                <tytuł>On Avery Island</tytuł>
                 <wykonawca>Neutral Milk Hotel</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="USD">5,99</cena>
@@ -130,9 +130,9 @@
                     longer digital version at 13:49. The UK version also has a different cover, with artwork by Jill
                     Carnes of Thimble Circus.
                 </opis>
-            </plyta>
-            <plyta bestseller="tak">
-                <tytul>Radar</tytul>
+            </płyta>
+            <płyta bestseller="tak">
+                <tytuł>Radar</tytuł>
                 <wykonawca>Fisz, Emade, Tworzywo</wykonawca>
                 <gatunek>Alternatywna</gatunek>
                 <cena waluta="PLN">38,99</cena>
@@ -152,9 +152,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="nie">
-                <tytul>Still On My Mind</tytul>
+            </płyta>
+            <płyta bestseller="nie">
+                <tytuł>Still On My Mind</tytuł>
                 <wykonawca>Dido</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">39,99</cena>
@@ -174,9 +174,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="tak">
-                <tytul>Mini dom</tytul>
+            </płyta>
+            <płyta bestseller="tak">
+                <tytuł>Mini dom</tytuł>
                 <wykonawca>Kortez</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">28,99</cena>
@@ -196,9 +196,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="tak">
-                <tytul>Ballady</tytul>
+            </płyta>
+            <płyta bestseller="tak">
+                <tytuł>Ballady</tytuł>
                 <wykonawca>Lady Pank</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">28,99</cena>
@@ -218,9 +218,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="nie">
-                <tytul>Widmo</tytul>
+            </płyta>
+            <płyta bestseller="nie">
+                <tytuł>Widmo</tytuł>
                 <wykonawca>PRO8L3M</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
                 <cena waluta="PLN">49,99</cena>
@@ -240,9 +240,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="nie">
-                <tytul>Fryderyk Festival 2019</tytul>
+            </płyta>
+            <płyta bestseller="nie">
+                <tytuł>Fryderyk Festival 2019</tytuł>
                 <wykonawca>Various Artists</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">27,99</cena>
@@ -262,9 +262,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="tak">
-                <tytul>Wojtek Sokół</tytul>
+            </płyta>
+            <płyta bestseller="tak">
+                <tytuł>Wojtek Sokół</tytuł>
                 <wykonawca>Sokół</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
                 <cena waluta="PLN">38,99</cena>
@@ -284,9 +284,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="tak">
-                <tytul>Bohemian Rhapsody</tytul>
+            </płyta>
+            <płyta bestseller="tak">
+                <tytuł>Bohemian Rhapsody</tytuł>
                 <wykonawca>Queen</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">38,99</cena>
@@ -306,9 +306,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="tak">
-                <tytul>Żyć się chce</tytul>
+            </płyta>
+            <płyta bestseller="tak">
+                <tytuł>Żyć się chce</tytuł>
                 <wykonawca>Majewska Alicja</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">43,99</cena>
@@ -328,9 +328,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="nie">
-                <tytul>Helsinki</tytul>
+            </płyta>
+            <płyta bestseller="nie">
+                <tytuł>Helsinki</tytuł>
                 <wykonawca>Zawiałow Daria</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">34,99</cena>
@@ -350,9 +350,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="nie">
-                <tytul>Klubowe</tytul>
+            </płyta>
+            <płyta bestseller="nie">
+                <tytuł>Klubowe</tytuł>
                 <wykonawca>Tymek</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
                 <cena waluta="PLN">32,99</cena>
@@ -372,9 +372,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="nie">
-                <tytul>Mój dom</tytul>
+            </płyta>
+            <płyta bestseller="nie">
+                <tytuł>Mój dom</tytuł>
                 <wykonawca>Kortez</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">31,99</cena>
@@ -394,9 +394,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="tak">
-                <tytul>Męskie Granie 2018</tytul>
+            </płyta>
+            <płyta bestseller="tak">
+                <tytuł>Męskie Granie 2018</tytuł>
                 <wykonawca>Various Artists</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">49,99</cena>
@@ -416,9 +416,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="nie">
-                <tytul>Złoto</tytul>
+            </płyta>
+            <płyta bestseller="nie">
+                <tytuł>Złoto</tytuł>
                 <wykonawca>Zalewski Krzysztof</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">34,99</cena>
@@ -438,9 +438,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="tak">
-                <tytul>A kysz!</tytul>
+            </płyta>
+            <płyta bestseller="tak">
+                <tytuł>A kysz!</tytuł>
                 <wykonawca>Zawiałow Daria</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">19,99</cena>
@@ -460,9 +460,9 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-            <plyta bestseller="nie">
-                <tytul>1984</tytul>
+            </płyta>
+            <płyta bestseller="nie">
+                <tytuł>1984</tytuł>
                 <wykonawca>Domagała Paweł</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">36,99</cena>
@@ -482,7 +482,7 @@
                     purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
                     Cras eu rhoncus leo, ac rhoncus elit.
                 </opis>
-            </plyta>
-        </plyty>
-    </tabela-plyt>
+            </płyta>
+        </płyty>
+    </tabela-płyt>
 </__ROOT__>

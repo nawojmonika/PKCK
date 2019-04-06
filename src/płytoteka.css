@@ -34,26 +34,26 @@ __ROOT__{
     width: 200px;
 }
 
-tabela-plyt{
+tabela-płyt{
     width: 80vw;
     font-size: 13px;
 }
 
-plyta {
+płyta {
     margin-bottom: 20px;
     padding: 20px;
     display: grid;
     grid-template-columns: minmax(200px, 3fr) 9fr;
-    grid-template-areas: "tytul wykonawca gatunek cena ocena data" "desc desc desc desc desc desc";
+    grid-template-areas: "tytuł wykonawca gatunek cena ocena data" "desc desc desc desc desc desc";
 }
-naglowek {
+nagłówek{
     display: grid;
     grid-template-columns: minmax(200px, 3fr) 9fr;
     grid-template-areas: "kolumna kolumna kolumna kolumna kolumna kolumna";
 }
 
-tytul {
-  grid-area: tytul;
+tytuł {
+  grid-area: tytuł;
 }
 wykonawca {
   grid-area: wykonawca;
@@ -84,8 +84,6 @@ opis {
   grid-area: desc;
 }
 
-
-
 autorzy{
     padding-bottom: 10px;
 }
@@ -115,17 +113,17 @@ dzień:after, miesiąc:after{
     content: ".";
 }
 
-plyta:nth-child(even){
+płyta:nth-child(even){
     background-color: #666;
     color: #fff;
 }
 
-plyta > *, tabela-plyt naglowek *{
+płyta > *, tabela-płyt nagłówek *{
     display: table-cell;
     padding: 20px 15px;
 }
 
-tabela-plyt naglowek *{
+tabela-płyt nagłówek *{
     font-weight: bold;
     background-color: rgb(52, 58, 64);
     color: #fff;
