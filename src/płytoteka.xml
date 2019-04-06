@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="płytoteka.css"?>
-<?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" ?>
-<!DOCTYPE __ROOT__ SYSTEM 'płytoteka.dtd'>
-
+<!DOCTYPE __ROOT__ [
+        <!ELEMENT __ROOT__ (nagłówek|wykonawcy|tabela-płyt)*>
+        <!ATTLIST __ROOT__
+                version CDATA #REQUIRED>
+        <!ELEMENT nagłówek (autorzy|data-oddania|kolumna)*>
+        <!ATTLIST nagłówek
+                id CDATA #IMPLIED>
+        <!ELEMENT autorzy (autor)*>
+        <!ELEMENT autor (imie|nazwisko|index)*>
+        <!ELEMENT imie (#PCDATA)>
+        <!ELEMENT nazwisko (#PCDATA)>
+        <!ELEMENT index (#PCDATA)>
+        <!ELEMENT data-oddania (dzień-tygodnia|dzień|miesiąc|rok)*>
+        <!ELEMENT dzień-tygodnia (#PCDATA)>
+        <!ELEMENT dzień (#PCDATA)>
+        <!ELEMENT miesiąc (#PCDATA)>
+        <!ELEMENT rok (#PCDATA)>
+        <!ELEMENT wykonawcy (wykonawca)*>
+        <!ELEMENT wykonawca (nazwa|ocena)*>
+        <!ATTLIST wykonawca
+                ID CDATA #IMPLIED
+                REFID CDATA #IMPLIED>
+        <!ELEMENT nazwa (#PCDATA)>
+        <!ELEMENT ocena (#PCDATA)>
+        <!ELEMENT tabela-płyt (nagłówek|płyty)*>
+        <!ELEMENT kolumna (#PCDATA)>
+        <!ELEMENT płyty (płyta)*>
+        <!ELEMENT płyta (tytuł|wykonawca|gatunek|cena|ocena|premiera|opis)*>
+        <!ATTLIST płyta
+                bestseller CDATA #REQUIRED>
+        <!ELEMENT tytuł (#PCDATA)>
+        <!ELEMENT gatunek (#PCDATA)>
+        <!ELEMENT cena (#PCDATA)>
+        <!ATTLIST cena
+                waluta CDATA #REQUIRED>
+        <!ELEMENT premiera (dzień|miesiąc|rok)*>
+        <!ELEMENT opis (#PCDATA)>
+        ]>
 <__ROOT__ version="1">
     <nagłówek id="nagłówek">
         <autorzy>
@@ -36,6 +70,12 @@
             <rok>2019</rok>
         </data-oddania>
     </nagłówek>
+    <wykonawcy>
+        <wykonawca ID="1">
+            <nazwa>Podsiadło Dawid</nazwa>
+            <ocena>4,75</ocena>
+        </wykonawca>
+    </wykonawcy>
     <tabela-płyt>
         <nagłówek>
             <kolumna>Tytuł</kolumna>
@@ -48,7 +88,7 @@
         <płyty>
             <płyta bestseller="tak">
                 <tytuł>Małomiasteczkowy</tytuł>
-                <wykonawca>Podsiadło Dawid</wykonawca>
+                <wykonawca REFID="1">Podsiadło Dawid</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
                 <cena waluta="PLN">36,99</cena>
                 <ocena>4,64</ocena>
