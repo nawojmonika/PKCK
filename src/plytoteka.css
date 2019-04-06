@@ -86,7 +86,7 @@ tabela-płyt ocena {
   padding: 20px 15px;
 }
 
-tabela-płyt opis:before{
+tabela-płyt opis:before {
     padding: 20px 15px;
     content: "Opis";
     font-weight: bold;
@@ -155,6 +155,7 @@ tabela-płyt kolumna {
 
 tabela-płyt cena:after{
     content: attr(waluta);
+    margin-left: 2px;
 }
 
 wykonawcy {
