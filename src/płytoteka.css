@@ -104,15 +104,15 @@ tabela-płyt data-oddania:before{
     display: block;
 }
 
-tabela-płyt dzień-tygodnia:after{
+dzień-tygodnia:after{
     content: ",";
 }
 
-tabela-płyt dzień, miesiąc{
+dzień, miesiąc{
     margin-right: -0.25em;
 }
 
-tabela-płyt dzień:after, miesiąc:after{
+dzień:after, miesiąc:after{
     content: ".";
 }
 
