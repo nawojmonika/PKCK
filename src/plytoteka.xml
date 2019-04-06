@@ -46,11 +46,11 @@
             <kolumna>Data premiery</kolumna>
         </naglowek>
         <plyty>
-            <plyta>
+            <plyta bestseller="nie">
                 <tytul>On Avery Island</tytul>
                 <wykonawca>Neutral Milk Hotel</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>36,99</cena>
+                <cena waluta="USD">5,99</cena>
                 <ocena> 3,00 </ocena>
                 <premiera>
                     <dzień>2</dzień>
@@ -58,11 +58,11 @@
                     <rok>1996</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="nie">
                 <tytul>Areoplane over the sea</tytul>
                 <wykonawca>Neutral Milk Hotel</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>36,99</cena>
+                <cena waluta="USD">6,99</cena>
                 <ocena> 4,00 </ocena>
                 <premiera>
                     <dzień>10</dzień>
@@ -70,11 +70,11 @@
                     <rok>1998</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="tak">
                 <tytul>Małomiasteczkowy</tytul>
                 <wykonawca>Podsiadło Dawid</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>36,99</cena>
+                <cena waluta="PLN">36,99</cena>
                 <ocena> 4,64 </ocena>
                 <premiera>
                     <dzień>19</dzień>
@@ -87,11 +87,11 @@
                     <!--Choć złota zasada mówi, że w zwycięskiej drużynie nie dokonuje się zmian, Podsiadło zrezygnował tym razem ze współpracy z Bogdanem Kondrackim, producentem jego dotychczasowych nagrań. Zaryzykował, ale powierzył swój los w ręce innego wybitnego fachowca – Bartosz Dziedzic stoi bowiem za sukcesami albumów „Granda” Moniki Brodki i „Składam się z ciągłych powtórzeń” Artura Rojka.-->
                 <!--</opis>-->
             </plyta>
-            <plyta>
+            <plyta bestseller="tak">
                 <tytul>When We All Fall Asleep, Where Do We Go?</tytul>
                 <wykonawca>Eilish Billie</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>51,99</cena>
+                <cena waluta="PLN">51,99</cena>
                 <ocena> 4,00</ocena>
                 <premiera>
                     <dzień>29</dzień>
@@ -99,11 +99,11 @@
                     <rok>2019</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="tak">
                 <tytul>Radar</tytul>
                 <wykonawca>Fisz, Emade, Tworzywo</wykonawca>
                 <gatunek>Alternatywna</gatunek>
-                <cena>38,99</cena>
+                <cena waluta="PLN">38,99</cena>
                 <ocena> 4,00</ocena>
                 <premiera>
                     <dzień>08</dzień>
@@ -111,11 +111,11 @@
                     <rok>2019</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="nie">
                 <tytul>Still On My Mind</tytul>
                 <wykonawca>Dido</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>39,99</cena>
+                <cena waluta="PLN">39,99</cena>
                 <ocena> 3,00</ocena>
                 <premiera>
                     <dzień>13</dzień>
@@ -123,11 +123,11 @@
                     <rok>2019</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="tak">
                 <tytul>Mini dom</tytul>
                 <wykonawca>Kortez</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>28,99</cena>
+                <cena waluta="PLN">28,99</cena>
                 <ocena> 3,40</ocena>
                 <premiera>
                     <dzień>04</dzień>
@@ -135,11 +135,11 @@
                     <rok>2019</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="tak">
                 <tytul>Ballady </tytul>
                 <wykonawca>Lady Pank</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>28,99 </cena>
+                <cena waluta="PLN">28,99 </cena>
                 <ocena> 4,00</ocena>
                 <premiera>
                     <dzień>22</dzień>
@@ -147,11 +147,11 @@
                     <rok>2019</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="nie">
                 <tytul>Widmo</tytul>
                 <wykonawca>PRO8L3M</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
-                <cena>49,99</cena>
+                <cena waluta="PLN">49,99</cena>
                 <ocena> 2,00</ocena>
                 <premiera>
                     <dzień>12</dzień>
@@ -159,11 +159,11 @@
                     <rok>2018</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="nie">
                 <tytul>Fryderyk Festival 2019</tytul>
                 <wykonawca>Various Artists</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>27,99</cena>
+                <cena waluta="PLN">27,99</cena>
                 <ocena> 4,46</ocena>
                 <premiera>
                     <dzień>08</dzień>
@@ -171,11 +171,11 @@
                     <rok>2019</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="tak">
                 <tytul>Wojtek Sokół</tytul>
                 <wykonawca>Sokół</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
-                <cena>38,99</cena>
+                <cena waluta="PLN">38,99</cena>
                 <ocena> 2,00</ocena>
                 <premiera>
                     <dzień>08</dzień>
@@ -183,11 +183,11 @@
                     <rok>2018</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="tak">
                 <tytul>Bohemian Rhapsody</tytul>
                 <wykonawca>Queen</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>38,99</cena>
+                <cena waluta="PLN">38,99</cena>
                 <ocena> 5,00</ocena>
                 <premiera>
                     <dzień>19</dzień>
@@ -195,11 +195,11 @@
                     <rok>2018</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="tak">
                 <tytul>Żyć się chce</tytul>
                 <wykonawca>Majewska Alicja</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>43,99</cena>
+                <cena waluta="PLN">43,99</cena>
                 <ocena> 3,00</ocena>
                 <premiera>
                     <dzień>19</dzień>
@@ -207,11 +207,11 @@
                     <rok>2018</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="nie">
                 <tytul>Helsinki</tytul>
                 <wykonawca>Zawiałow Daria</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>34,99</cena>
+                <cena waluta="PLN">34,99</cena>
                 <ocena> 2,00</ocena>
                 <premiera>
                     <dzień>24</dzień>
@@ -219,11 +219,11 @@
                     <rok>2019</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="nie">
                 <tytul>Klubowe</tytul>
                 <wykonawca>Tymek</wykonawca>
                 <gatunek>Rap &amp; Hip Hop</gatunek>
-                <cena>32,99</cena>
+                <cena waluta="PLN">32,99</cena>
                 <ocena> 3,00</ocena>
                 <premiera>
                     <dzień>19</dzień>
@@ -231,11 +231,11 @@
                     <rok>2018</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="nie">
                 <tytul>Mój dom</tytul>
                 <wykonawca>Kortez</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>31,99</cena>
+                <cena waluta="PLN">31,99</cena>
                 <ocena> 2,00</ocena>
                 <premiera>
                     <dzień>24</dzień>
@@ -243,11 +243,11 @@
                     <rok>2019</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="tak">
                 <tytul>Męskie Granie 2018</tytul>
                 <wykonawca>Various Artists</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>49,99</cena>
+                <cena waluta="PLN">49,99</cena>
                 <ocena> 4,68</ocena>
                 <premiera>
                     <dzień>19</dzień>
@@ -255,11 +255,11 @@
                     <rok>2018</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="nie">
                 <tytul>Złoto </tytul>
                 <wykonawca>Zalewski Krzysztof</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>34,99</cena>
+                <cena waluta="PLN">34,99</cena>
                 <ocena> 4,00</ocena>
                 <premiera>
                     <dzień>19</dzień>
@@ -267,11 +267,11 @@
                     <rok>2018</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="tak">
                 <tytul>A kysz!</tytul>
                 <wykonawca>Zawiałow Daria</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>19,99</cena>
+                <cena waluta="PLN">19,99</cena>
                 <ocena> 3,36</ocena>
                 <premiera>
                     <dzień>08</dzień>
@@ -279,11 +279,11 @@
                     <rok>2018</rok>
                 </premiera>
             </plyta>
-            <plyta>
+            <plyta bestseller="nie">
                 <tytul>1984</tytul>
                 <wykonawca>Domagała Paweł</wykonawca>
                 <gatunek>Pop &amp; Rock</gatunek>
-                <cena>36,99</cena>
+                <cena waluta="PLN">36,99</cena>
                 <ocena> 4,00</ocena>
                 <premiera>
                     <dzień>19</dzień>

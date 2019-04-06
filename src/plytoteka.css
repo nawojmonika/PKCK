@@ -102,5 +102,5 @@ tabela-plyt naglowek *{
 
 
 cena:after{
-    content: " zł";
+    content: attr(waluta);
 }

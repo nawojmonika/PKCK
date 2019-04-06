@@ -71,7 +71,10 @@
 <!ELEMENT plyty (plyta)*>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT plyta (tytul|wykonawca|gatunek|cena|ocena)*>
+<!ELEMENT plyta (tytul|wykonawca|gatunek|cena|ocena|premiera)*>
+<!ATTLIST plyta
+    bestseller CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT tytul (#PCDATA)>
@@ -84,6 +87,12 @@
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT cena (#PCDATA)>
+<!ATTLIST cena
+    waluta CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT ocena (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT premiera (dzień|miesiąc|rok)*>
