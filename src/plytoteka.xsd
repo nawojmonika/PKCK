@@ -74,7 +74,7 @@
             <xs:element type="cenaType" name="cena"/>
             <xs:element type="polishDecimal" name="ocena"/>
             <xs:element type="dataType" name="premiera"/>
-            <xs:element type="xs:string" name="opis"/>
+            <xs:element type="opisType" name="opis"/>
         </xs:sequence>
         <xs:attribute name="bestseller" type="xs:boolean"/>
         <xs:attribute name="id-wykonawcy" type="xs:string" use="required"/>
@@ -102,6 +102,11 @@
     <xs:simpleType name="polishDecimal">
         <xs:restriction base="xs:string">
             <xs:pattern value="\d+((,|\.)\d+)?"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="opisType">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="1000"/>
         </xs:restriction>
     </xs:simpleType>
 
