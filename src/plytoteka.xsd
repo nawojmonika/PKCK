@@ -94,9 +94,8 @@
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="ocenaType">
-        <xs:restriction base="xs:double">
-            <xs:minInclusive value="1.0"/>
-            <xs:maxInclusive value="5"/>
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="2"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="polishDecimal">
@@ -107,6 +106,7 @@
     <xs:simpleType name="opisType">
         <xs:restriction base="xs:string">
             <xs:maxLength value="1000"/>
+            <xs:whiteSpace value="preserve"/>
         </xs:restriction>
     </xs:simpleType>
 
