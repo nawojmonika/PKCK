@@ -11,7 +11,7 @@
     </xs:complexType>
     <xs:complexType name="autorzyType">
         <xs:sequence>
-            <xs:element type="autorType" name="autor" maxOccurs="unbounded"/>
+            <xs:element type="autorType" name="autor" maxOccurs="2"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="autorType">
@@ -21,31 +21,23 @@
             <xs:element type="index" name="index"/>
         </xs:sequence>
     </xs:complexType>
-    <xs:complexType name="dataType">
-        <xs:all>
-            <xs:element type="xs:string" name="dzień-tygodnia" minOccurs="0"/>
-            <xs:element type="xs:date" name="data" minOccurs="1" maxOccurs="1"/>
-        </xs:all>
-    </xs:complexType>
     <xs:simpleType name="index">
         <xs:restriction base="xs:nonNegativeInteger">
             <xs:length value="6"/>
         </xs:restriction>
     </xs:simpleType>
 
+    <xs:complexType name="dataType">
+        <xs:all>
+            <xs:element type="xs:string" name="dzień-tygodnia" minOccurs="0"/>
+            <xs:element type="xs:date" name="data" minOccurs="1" maxOccurs="1"/>
+        </xs:all>
+    </xs:complexType>
+
+
     <xs:complexType name="kolumnyType">
         <xs:sequence>
-            <xs:element name="kolumna" maxOccurs="unbounded" minOccurs="0">
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:enumeration value="Wykonawca"/>
-                        <xs:enumeration value="Ocena"/>
-                        <xs:enumeration value="Tytuł"/>
-                        <xs:enumeration value="Gatunek"/>
-                        <xs:enumeration value="Cena"/>
-                        <xs:enumeration value="Data premiery"/>
-                    </xs:restriction>
-                </xs:simpleType>
+            <xs:element name="kolumna" type="xs:string" maxOccurs="unbounded" minOccurs="0">
             </xs:element>
         </xs:sequence>
     </xs:complexType>
@@ -68,7 +60,6 @@
             <xs:element type="kolumnyType" name="kolumny"/>
             <xs:element type="płytyType" name="płyty"/>
         </xs:sequence>
-        <xs:attribute type="xs:string" name="id-wykonawcy" use="optional"/>
     </xs:complexType>
     <xs:complexType name="płytyType">
         <xs:sequence>
@@ -86,7 +77,7 @@
             <xs:element type="xs:string" name="opis"/>
         </xs:sequence>
         <xs:attribute name="bestseller" type="xs:boolean"/>
-        <xs:attribute name="id-wykonawcy" type="xs:string"/>
+        <xs:attribute name="id-wykonawcy" type="xs:string" use="required"/>
     </xs:complexType>
     <xs:complexType name="cenaType">
         <xs:simpleContent>
