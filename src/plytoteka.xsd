@@ -95,6 +95,7 @@
     </xs:simpleType>
     <xs:simpleType name="ocenaType">
         <xs:restriction base="xs:double">
+            <xs:minInclusive value="1.0"/>
             <xs:maxExclusive value="5.0"/>
         </xs:restriction>
     </xs:simpleType>
