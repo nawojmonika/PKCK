@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="__ROOT__" type="__ROOT__Type"/>
+  <xs:complexType name="autorType">
+    <xs:sequence>
+      <xs:element name="imie">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="
+                    Artur
+                "/>
+            <xs:enumeration value="
+                    Monika
+                "/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="nazwisko">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="
+                    Dziedziczak
+                "/>
+            <xs:enumeration value="
+                    Nawój
+                "/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="index">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="
+                    211802
+                "/>
+            <xs:enumeration value="
+                    211828
+                "/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="autorzyType">
+    <xs:sequence>
+      <xs:element type="autorType" name="autor" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="data-oddaniaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="dzień-tygodnia"/>
+      <xs:element type="xs:string" name="dzień"/>
+      <xs:element type="xs:string" name="miesiąc"/>
+      <xs:element type="xs:string" name="rok"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="nagłówekType">
+    <xs:sequence>
+      <xs:element type="autorzyType" name="autorzy"/>
+      <xs:element type="data-oddaniaType" name="data-oddania"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id"/>
+  </xs:complexType>
+  <xs:complexType name="kolumnyType">
+    <xs:sequence>
+      <xs:element name="kolumna" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Wykonawca"/>
+            <xs:enumeration value="Ocena"/>
+            <xs:enumeration value="Tytuł"/>
+            <xs:enumeration value="Gatunek"/>
+            <xs:enumeration value="Cena"/>
+            <xs:enumeration value="Data premiery"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="wykonawcaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="nazwa"/>
+      <xs:element type="xs:string" name="ocena"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id-wykonawcy" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="wykonawcyType">
+    <xs:sequence>
+      <xs:element type="kolumnyType" name="kolumny"/>
+      <xs:element type="wykonawcaType" name="wykonawca" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cenaType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="waluta" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="premieraType">
+    <xs:sequence>
+      <xs:element name="dzień">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="19"/>
+            <xs:enumeration value="29"/>
+            <xs:enumeration value="10"/>
+            <xs:enumeration value="2"/>
+            <xs:enumeration value="08"/>
+            <xs:enumeration value="13"/>
+            <xs:enumeration value="04"/>
+            <xs:enumeration value="22"/>
+            <xs:enumeration value="12"/>
+            <xs:enumeration value="24"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="miesiąc">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="10"/>
+            <xs:enumeration value="03"/>
+            <xs:enumeration value="02"/>
+            <xs:enumeration value="01"/>
+            <xs:enumeration value="12"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="rok">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="2018"/>
+            <xs:enumeration value="2019"/>
+            <xs:enumeration value="1998"/>
+            <xs:enumeration value="1996"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="płytaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="tytuł"/>
+      <xs:element type="xs:string" name="nazwa-wykonawcy"/>
+      <xs:element name="gatunek">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Pop &amp; Rock"/>
+            <xs:enumeration value="Alternatywna"/>
+            <xs:enumeration value="Rap &amp; Hip Hop"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="cenaType" name="cena"/>
+      <xs:element name="ocena">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="4,64"/>
+            <xs:enumeration value="4,00"/>
+            <xs:enumeration value="3,00"/>
+            <xs:enumeration value="3,40"/>
+            <xs:enumeration value="2,00"/>
+            <xs:enumeration value="4,46"/>
+            <xs:enumeration value="5,00"/>
+            <xs:enumeration value="4,68"/>
+            <xs:enumeration value="3,36"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="premieraType" name="premiera"/>
+      <xs:element name="opis">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="
+                    Stare przysłowie mówi, że ze szczytu wszystkie drogi wiodą w dół. Ale choć jesienią 2016 roku Dawid
+                    Podsiadło był na szczycie – z dwiema diamentowymi płytami w dorobku, całym wagonem nagród i
+                    wyprzedaną wielką trasą koncertową – ani myślał schodzić. Zrobił więc sobie kilka miesięcy przerwy
+                    od sceny, by wymyślić się na nowo.
+
+                    Choć złota zasada mówi, że w zwycięskiej drużynie nie dokonuje się zmian, Podsiadło zrezygnował tym
+                    razem ze współpracy z Bogdanem Kondrackim, producentem jego dotychczasowych nagrań. Zaryzykował, ale
+                    powierzył swój los w ręce innego wybitnego fachowca – Bartosz Dziedzic stoi bowiem za sukcesami
+                    albumów „Granda” Moniki Brodki i „Składam się z ciągłych powtórzeń” Artura Rojka.
+                "/>
+            <xs:enumeration value="
+                    Billie Eilish i jej debiut płytowy „When We All Fall Asleep, Where Do We Go?”. Singlem promującym
+                    album jest utwór „Bury A Friend”.
+
+                    Billie Eilish to prawdziwy fenomen, który trudno porównać z jakimkolwiek innym współczesnym artystą.
+                    Od czasu debiutanckiego singla „Ocean Eyes”, Billie powoli, ale skutecznie przebijała się do
+                    czołówki światowego popu. Wszystko za sprawą bardzo szybko rozrastającego się legionu oddanych fanów
+                    z całego świata. Debiutancka EP-ka wokalistki, „Don’t Smile At Me”, nie znikała z zestawienia
+                    Billboard Top 200 i ma już ponad 5 miliardów globalnych streamów. Eilish regularnie wyprzedaje
+                    koncerty, grając coraz dłuższe trasy i w coraz większych obiektach.
+                "/>
+            <xs:enumeration value="
+                    In the Aeroplane Over the Sea – drugi i ostatni album indie rockowego zespołu Neutral Milk Hotel.
+                    Został wydany w Stanach Zjednoczonych 10 lutego 1998 roku przez wytwórnię Merge Records, a w maju
+                    1998 roku przez Blue Rose Records w Wielkiej Brytanii.
+                "/>
+            <xs:enumeration value="
+                    The title refers to Avery Island, a salt dome island in southern Louisiana, the band's home state.
+                    Avery Island is the headquarters of the McIlhenny Company, makers of Tabasco sauce.
+
+                    The UK version of this CD has two more tracks: &quot;Everything Is&quot; and &quot;Snow Song Pt. 1,&quot; both of which
+                    are taken from the &quot;Everything Is&quot; single, reportedly without Jeff Mangum's permission.[9] On the
+                    vinyl LP, &quot;Pree-Sisters Swallowing a Donkey's Eye&quot; is 3:28 long, as opposed to the significantly
+                    longer digital version at 13:49. The UK version also has a different cover, with artwork by Jill
+                    Carnes of Thimble Circus.
+                "/>
+            <xs:enumeration value="
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
+                    massa vitae feugiat dapibus, purus nunc congue quam, eget pellentesque mauris magna vel lacus.
+                    Vivamus justo justo, porttitor eget nisi sit amet, placerat rutrum turpis. Ut sollicitudin magna
+                    felis, nec tincidunt nisi rhoncus a. Suspendisse potenti. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos. Nullam tempus porta ligula, quis accumsan nibh.
+                    In elementum sapien dui, vitae fringilla ante tincidunt eget. Pellentesque nunc ante, gravida in
+                    purus et, finibus dignissim magna. Proin aliquet vitae mi eget mollis. Integer a malesuada mauris.
+                    Cras eu rhoncus leo, ac rhoncus elit.
+                "/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="bestseller" use="optional"/>
+    <xs:attribute type="xs:string" name="id-wykonawcy" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="płytyType">
+    <xs:sequence>
+      <xs:element type="płytaType" name="płyta" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="tabela-płytType">
+    <xs:sequence>
+      <xs:element type="kolumnyType" name="kolumny"/>
+      <xs:element type="płytyType" name="płyty"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="__ROOT__Type">
+    <xs:sequence>
+      <xs:element type="nagłówekType" name="nagłówek"/>
+      <xs:element type="wykonawcyType" name="wykonawcy"/>
+      <xs:element type="tabela-płytType" name="tabela-płyt"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="version"/>
+  </xs:complexType>
+</xs:schema>
