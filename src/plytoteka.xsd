@@ -23,7 +23,7 @@
     </xs:complexType>
     <xs:simpleType name="index">
         <xs:restriction base="xs:nonNegativeInteger">
-            <xs:length value="6"/>
+            <xs:pattern value="\d{6}"/>
         </xs:restriction>
     </xs:simpleType>
 
@@ -96,7 +96,7 @@
     <xs:simpleType name="ocenaType">
         <xs:restriction base="xs:double">
             <xs:minInclusive value="1.0"/>
-            <xs:maxExclusive value="5.0"/>
+            <xs:maxInclusive value="5"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="polishDecimal">
