@@ -44,7 +44,7 @@
     <xs:complexType name="wykonawcyType">
         <xs:sequence>
             <xs:element type="kolumnyType" name="kolumny"/>
-            <xs:element type="wykonawcaType" name="wykonawca" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:group ref="wykonawcaGroup" minOccurs="1" maxOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="wykonawcaType">
@@ -54,7 +54,11 @@
         </xs:sequence>
         <xs:attribute type="xs:string" name="id-wykonawcy" use="required"/>
     </xs:complexType>
-
+    <xs:group name="wykonawcaGroup">
+        <xs:sequence>
+            <xs:element type="wykonawcaType" name="wykonawca" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:group>
     <xs:complexType name="tabelaPłytType">
         <xs:sequence>
             <xs:element type="kolumnyType" name="kolumny"/>
@@ -112,9 +116,9 @@
 
     <xs:complexType name="__ROOT__Type">
         <xs:sequence>
-            <xs:element type="nagłówekType" name="nagłówek"/>
-            <xs:element type="wykonawcyType" name="wykonawcy"/>
-            <xs:element type="tabelaPłytType" name="tabela-płyt"/>
+            <xs:element type="nagłówekType" name="nagłówek" maxOccurs="1"/>
+            <xs:element type="wykonawcyType" name="wykonawcy" maxOccurs="1"/>
+            <xs:element type="tabelaPłytType" name="tabela-płyt" maxOccurs="1"/>
         </xs:sequence>
         <xs:attribute type="xs:string" name="version"/>
     </xs:complexType>
