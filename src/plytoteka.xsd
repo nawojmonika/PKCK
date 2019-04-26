@@ -11,7 +11,7 @@
   </xs:complexType>
   <xs:complexType name="autorzyType">
     <xs:sequence>
-      <xs:element type="autorType" name="autor"/>
+      <xs:element type="autorType" name="autor" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="autorType">
@@ -69,10 +69,9 @@
   </xs:complexType>
   <xs:complexType name="płytyType">
     <xs:sequence>
-      <xs:element type="płytaType" name="płyta"/>
+      <xs:element type="płytaType" name="płyta" maxOccurs="unbounded"/>
     </xs:sequence>
   </xs:complexType>
-
   <xs:complexType name="płytaType">
       <xs:sequence>
         <xs:element type="xs:string" name="tytuł"/>
