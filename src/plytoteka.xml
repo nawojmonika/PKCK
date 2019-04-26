@@ -38,67 +38,67 @@
             <kolumna>Wykonawca</kolumna>
             <kolumna>Ocena</kolumna>
         </kolumny>
-        <wykonawca id-wykonawcy="_1">
+        <wykonawca id="_1">
             <nazwa>Podsiadło Dawid</nazwa>
             <ocena>4.75</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_2">
+        <wykonawca id="_2">
             <nazwa>Eilish Billie</nazwa>
             <ocena>4.3</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_3">
+        <wykonawca id="_3">
             <nazwa>Neutral Milk Hotel</nazwa>
             <ocena>4.4</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_4">
+        <wykonawca id="_4">
             <nazwa>Fisz, Emade, Tworzywo</nazwa>
             <ocena>3.4</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_5">
+        <wykonawca id="_5">
             <nazwa>Dido</nazwa>
             <ocena>4.0</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_6">
+        <wykonawca id="_6">
             <nazwa>Kortez</nazwa>
             <ocena>3.7</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_7">
+        <wykonawca id="_7">
             <nazwa>Lady Pank</nazwa>
             <ocena>4.3</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_8">
+        <wykonawca id="_8">
             <nazwa>PRO8L3M</nazwa>
             <ocena>3.0</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_9">
+        <wykonawca id="_9">
             <nazwa>Various Artists</nazwa>
             <ocena>4.7</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_10">
+        <wykonawca id="_10">
             <nazwa>Sokół</nazwa>
             <ocena>3.7</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_11">
+        <wykonawca id="_11">
             <nazwa>Queen</nazwa>
             <ocena>4.9</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_12">
+        <wykonawca id="_12">
             <nazwa>Majewska Alicja</nazwa>
             <ocena>3.0</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_13">
+        <wykonawca id="_13">
             <nazwa>Zawiałow Daria</nazwa>
             <ocena>4.0</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_14">
+        <wykonawca id="_14">
             <nazwa>Tymek</nazwa>
             <ocena>4.3</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_15">
+        <wykonawca id="_15">
             <nazwa>Zalewski Krzysztof</nazwa>
             <ocena>3.3</ocena>
         </wykonawca>
-        <wykonawca id-wykonawcy="_16">
+        <wykonawca id="_16">
             <nazwa>Domagała Paweł</nazwa>
             <ocena>4.0</ocena>
         </wykonawca>

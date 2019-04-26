@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="__ROOT__" type="__ROOT__Type"/>
+    <xs:element name="__ROOT__" type="__ROOT__Type">
+        <xs:key name="WykonawcaKey">
+            <xs:selector xpath="wykonawcy/wykonawca"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+        <xs:keyref name="WykonawcaKeyRef" refer="WykonawcaKey">
+            <xs:selector xpath="tabela-płyt/płyty/płyta"/>
+            <xs:field xpath="@id-wykonawcy"/>
+        </xs:keyref>
+    </xs:element>
     <xs:complexType name="nagłówekType">
         <xs:sequence>
             <xs:element type="autorzyType" name="autorzy"/>
@@ -52,7 +61,7 @@
             <xs:element type="xs:string" name="nazwa"/>
             <xs:element type="ocenaType" name="ocena"/>
         </xs:sequence>
-        <xs:attribute type="xs:string" name="id-wykonawcy" use="required"/>
+        <xs:attribute type="xs:string" name="id" use="required"/>
     </xs:complexType>
     <xs:group name="wykonawcaGroup">
         <xs:sequence>
