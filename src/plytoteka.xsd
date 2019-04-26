@@ -7,7 +7,6 @@
       <xs:element type="dataType" name="data-oddania"/>
     </xs:sequence>
     <xs:attribute name="id" type="xs:string" />
-    <xs:attribute type="xs:string" name="id-wykonawcy" use="optional"/>
   </xs:complexType>
   <xs:complexType name="autorzyType">
     <xs:sequence>
@@ -55,7 +54,7 @@
       <xs:element type="xs:string" name="nazwa"/>
       <xs:element type="polishDecimal" name="ocena"/>
     </xs:sequence>
-    <xs:attribute type="xs:string" name="id-wykonawcy" use="optional"/>
+    <xs:attribute type="xs:string" name="id-wykonawcy" use="required"/>
   </xs:complexType>
 
   <xs:complexType name="tabelaPłytType">
@@ -80,15 +79,9 @@
         <xs:element type="dataType" name="premiera" />
         <xs:element type="xs:string" name="opis" />
       </xs:sequence>
-      <xs:attribute name="bestseller" type="bestsellerType" />
+      <xs:attribute name="bestseller" type="xs:boolean" />
       <xs:attribute name="id-wykonawcy" type="xs:string" />
   </xs:complexType>
-
-  <xs:simpleType name="bestsellerType">
-    <xs:restriction base="xs:string">
-        <xs:pattern value="tak|nie" />
-    </xs:restriction>
-  </xs:simpleType>
   <xs:complexType name="cenaType">
     <xs:simpleContent>
       <xs:extension base="polishDecimal" >

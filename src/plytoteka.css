@@ -47,7 +47,7 @@ tabela-płyt płyta {
     grid-template-areas: "tytuł nazwa-wykonawcy gatunek cena tabela-płyt-ocena premiera" "opis opis opis opis opis opis";
 }
 
-tabela-płyt płyta[bestseller="tak"]:before{
+tabela-płyt płyta[bestseller="true"]:before{
     content: "Bestseller";
     display: block;
     padding: 10px;
