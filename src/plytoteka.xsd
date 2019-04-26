@@ -85,9 +85,12 @@
             <xs:element type="dataType" name="premiera"/>
             <xs:element type="opisType" name="opis"/>
         </xs:sequence>
+      <xs:attributeGroup ref="płytaAttr"/>
+    </xs:complexType>
+    <xs:attributeGroup name="płytaAttr">
         <xs:attribute name="bestseller" type="xs:boolean"/>
         <xs:attribute name="id-wykonawcy" type="xs:string" use="required"/>
-    </xs:complexType>
+    </xs:attributeGroup>
     <xs:complexType name="cenaType">
         <xs:simpleContent>
             <xs:extension base="polishDecimal">
