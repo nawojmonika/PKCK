@@ -50,7 +50,7 @@
     <xs:complexType name="wykonawcaType">
         <xs:sequence>
             <xs:element type="xs:string" name="nazwa"/>
-            <xs:element type="polishDecimal" name="ocena"/>
+            <xs:element type="ocenaType" name="ocena"/>
         </xs:sequence>
         <xs:attribute type="xs:string" name="id-wykonawcy" use="required"/>
     </xs:complexType>
@@ -91,6 +91,11 @@
             <xs:enumeration value="PLN"/>
             <xs:enumeration value="USD"/>
             <xs:enumeration value="EUR"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="ocenaType">
+        <xs:restriction base="xs:double">
+            <xs:maxExclusive value="5.0"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="polishDecimal">
