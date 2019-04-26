@@ -87,7 +87,7 @@
   <xs:complexType name="wykonawcyType">
     <xs:sequence>
       <xs:element type="kolumnyType" name="kolumny"/>
-      <xs:element type="wykonawcaType" name="wykonawca" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="wykonawcaType" name="wykonawc" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="cenaType">
