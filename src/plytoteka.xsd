@@ -33,14 +33,14 @@
             <xs:element type="xs:date" name="data" minOccurs="1" maxOccurs="1"/>
         </xs:all>
     </xs:complexType>
-
-
     <xs:complexType name="kolumnyType">
-        <xs:sequence>
-            <xs:element name="kolumna" type="xs:string" maxOccurs="unbounded" minOccurs="0">
-            </xs:element>
-        </xs:sequence>
+        <xs:group ref="kolumnaGroup" minOccurs="1" maxOccurs="1"/>
     </xs:complexType>
+    <xs:group name="kolumnaGroup">
+        <xs:sequence>
+            <xs:element name="kolumna" type="xs:string" maxOccurs="unbounded" minOccurs="1"/>
+        </xs:sequence>
+    </xs:group>
     <xs:complexType name="wykonawcyType">
         <xs:sequence>
             <xs:element type="kolumnyType" name="kolumny"/>
