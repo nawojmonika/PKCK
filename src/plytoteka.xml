@@ -30,9 +30,7 @@
         </autorzy>
         <data-oddania>
             <dzień-tygodnia>Sobota</dzień-tygodnia>
-            <dzień>06</dzień>
-            <miesiąc>04</miesiąc>
-            <rok>2019</rok>
+            <data>2019-04-27</data>
         </data-oddania>
     </nagłówek>
     <wykonawcy>
@@ -122,9 +120,7 @@
                 <cena waluta="PLN">36,99</cena>
                 <ocena>4,64</ocena>
                 <premiera>
-                    <dzień>19</dzień>
-                    <miesiąc>10</miesiąc>
-                    <rok>2018</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Stare przysłowie mówi, że ze szczytu wszystkie drogi wiodą w dół. Ale choć jesienią 2016 roku Dawid
@@ -145,9 +141,7 @@
                 <cena waluta="PLN">51,99</cena>
                 <ocena>4,00</ocena>
                 <premiera>
-                    <dzień>29</dzień>
-                    <miesiąc>03</miesiąc>
-                    <rok>2019</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Billie Eilish i jej debiut płytowy „When We All Fall Asleep, Where Do We Go?”. Singlem promującym
@@ -168,9 +162,7 @@
                 <cena waluta="USD">6,99</cena>
                 <ocena>4,00</ocena>
                 <premiera>
-                    <dzień>10</dzień>
-                    <miesiąc>02</miesiąc>
-                    <rok>1998</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     In the Aeroplane Over the Sea – drugi i ostatni album indie rockowego zespołu Neutral Milk Hotel.
@@ -185,9 +177,7 @@
                 <cena waluta="USD">5,99</cena>
                 <ocena>3,00</ocena>
                 <premiera>
-                    <dzień>2</dzień>
-                    <miesiąc>03</miesiąc>
-                    <rok>1996</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     The title refers to Avery Island, a salt dome island in southern Louisiana, the band's home state.
@@ -207,9 +197,7 @@
                 <cena waluta="PLN">38,99</cena>
                 <ocena>4,00</ocena>
                 <premiera>
-                    <dzień>08</dzień>
-                    <miesiąc>03</miesiąc>
-                    <rok>2019</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -229,9 +217,7 @@
                 <cena waluta="PLN">39,99</cena>
                 <ocena>3,00</ocena>
                 <premiera>
-                    <dzień>13</dzień>
-                    <miesiąc>02</miesiąc>
-                    <rok>2019</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -251,9 +237,7 @@
                 <cena waluta="PLN">28,99</cena>
                 <ocena>3,40</ocena>
                 <premiera>
-                    <dzień>04</dzień>
-                    <miesiąc>01</miesiąc>
-                    <rok>2019</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -273,9 +257,7 @@
                 <cena waluta="PLN">28,99</cena>
                 <ocena>4,00</ocena>
                 <premiera>
-                    <dzień>22</dzień>
-                    <miesiąc>03</miesiąc>
-                    <rok>2019</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -295,9 +277,7 @@
                 <cena waluta="PLN">49,99</cena>
                 <ocena>2,00</ocena>
                 <premiera>
-                    <dzień>12</dzień>
-                    <miesiąc>03</miesiąc>
-                    <rok>2018</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -317,9 +297,7 @@
                 <cena waluta="PLN">27,99</cena>
                 <ocena>4,46</ocena>
                 <premiera>
-                    <dzień>08</dzień>
-                    <miesiąc>03</miesiąc>
-                    <rok>2019</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -339,9 +317,7 @@
                 <cena waluta="PLN">38,99</cena>
                 <ocena>2,00</ocena>
                 <premiera>
-                    <dzień>08</dzień>
-                    <miesiąc>03</miesiąc>
-                    <rok>2018</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -361,9 +337,7 @@
                 <cena waluta="PLN">38,99</cena>
                 <ocena>5,00</ocena>
                 <premiera>
-                    <dzień>19</dzień>
-                    <miesiąc>10</miesiąc>
-                    <rok>2018</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -383,9 +357,7 @@
                 <cena waluta="PLN">43,99</cena>
                 <ocena>3,00</ocena>
                 <premiera>
-                    <dzień>19</dzień>
-                    <miesiąc>12</miesiąc>
-                    <rok>2018</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -405,9 +377,7 @@
                 <cena waluta="PLN">34,99</cena>
                 <ocena>2,00</ocena>
                 <premiera>
-                    <dzień>24</dzień>
-                    <miesiąc>03</miesiąc>
-                    <rok>2019</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -427,9 +397,7 @@
                 <cena waluta="PLN">32,99</cena>
                 <ocena>3,00</ocena>
                 <premiera>
-                    <dzień>19</dzień>
-                    <miesiąc>12</miesiąc>
-                    <rok>2018</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -449,9 +417,7 @@
                 <cena waluta="PLN">31,99</cena>
                 <ocena>2,00</ocena>
                 <premiera>
-                    <dzień>24</dzień>
-                    <miesiąc>03</miesiąc>
-                    <rok>2019</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -471,9 +437,7 @@
                 <cena waluta="PLN">49,99</cena>
                 <ocena>4,68</ocena>
                 <premiera>
-                    <dzień>19</dzień>
-                    <miesiąc>12</miesiąc>
-                    <rok>2018</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -493,9 +457,7 @@
                 <cena waluta="PLN">34,99</cena>
                 <ocena>4,00</ocena>
                 <premiera>
-                    <dzień>19</dzień>
-                    <miesiąc>10</miesiąc>
-                    <rok>2018</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -515,9 +477,7 @@
                 <cena waluta="PLN">19,99</cena>
                 <ocena>3,36</ocena>
                 <premiera>
-                    <dzień>08</dzień>
-                    <miesiąc>03</miesiąc>
-                    <rok>2018</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,
@@ -537,9 +497,7 @@
                 <cena waluta="PLN">36,99</cena>
                 <ocena>4,00</ocena>
                 <premiera>
-                    <dzień>19</dzień>
-                    <miesiąc>10</miesiąc>
-                    <rok>2018</rok>
+                    <data>2019-03-01</data>
                 </premiera>
                 <opis>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel bibendum ante. Vestibulum rutrum,

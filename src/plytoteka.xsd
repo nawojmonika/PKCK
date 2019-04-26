@@ -24,9 +24,7 @@
   <xs:complexType name="dataType">
     <xs:all>
       <xs:element type="xs:string" name="dzień-tygodnia" minOccurs="0"/>
-      <xs:element type="xs:string" name="dzień" minOccurs="1"/>
-      <xs:element type="xs:string" name="miesiąc" minOccurs="1"/>
-      <xs:element type="xs:string" name="rok" minOccurs="1"/>
+      <xs:element type="xs:date" name="data" minOccurs="1" maxOccurs="1"/>
     </xs:all>
   </xs:complexType>
 
