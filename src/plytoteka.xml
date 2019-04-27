@@ -39,67 +39,82 @@
             <kolumna>Ocena</kolumna>
         </kolumny>
         <wykonawca id="_1">
-            <nazwa>Podsiadło Dawid</nazwa>
+            <artysta>
+                <imie>Dawid</imie>
+                <nazwisko>Podsiadło</nazwisko>
+            </artysta>
             <ocena>4.75</ocena>
         </wykonawca>
         <wykonawca id="_2">
-            <nazwa>Eilish Billie</nazwa>
+            <artysta>
+                <imie>Eilish</imie>
+                <nazwisko>Billie</nazwisko>
+            </artysta>
             <ocena>4.3</ocena>
         </wykonawca>
         <wykonawca id="_3">
-            <nazwa>Neutral Milk Hotel</nazwa>
+            <zespół>Neutral Milk Hotel</zespół>
             <ocena>4.4</ocena>
         </wykonawca>
         <wykonawca id="_4">
-            <nazwa>Fisz, Emade, Tworzywo</nazwa>
+            <zespół>Fisz, Emade, Tworzywo</zespół>
             <ocena>3.4</ocena>
         </wykonawca>
         <wykonawca id="_5">
-            <nazwa>Dido</nazwa>
+            <zespół>Dido</zespół>
             <ocena>4.0</ocena>
         </wykonawca>
         <wykonawca id="_6">
-            <nazwa>Kortez</nazwa>
+            <zespół>Kortez</zespół>
             <ocena>3.7</ocena>
         </wykonawca>
         <wykonawca id="_7">
-            <nazwa>Lady Pank</nazwa>
+            <zespół>Lady Pank</zespół>
             <ocena>4.3</ocena>
         </wykonawca>
         <wykonawca id="_8">
-            <nazwa>PRO8L3M</nazwa>
+            <zespół>PRO8L3M</zespół>
             <ocena>3.0</ocena>
         </wykonawca>
         <wykonawca id="_9">
-            <nazwa>Various Artists</nazwa>
+            <zespół>Various Artists</zespół>
             <ocena>4.7</ocena>
         </wykonawca>
         <wykonawca id="_10">
-            <nazwa>Sokół</nazwa>
+            <zespół>Sokół</zespół>
             <ocena>3.7</ocena>
         </wykonawca>
         <wykonawca id="_11">
-            <nazwa>Queen</nazwa>
+            <zespół>Queen</zespół>
             <ocena>4.9</ocena>
         </wykonawca>
         <wykonawca id="_12">
-            <nazwa>Majewska Alicja</nazwa>
+            <artysta>
+                <imie>Alicja</imie>
+                <nazwisko>Majewska</nazwisko>
+            </artysta>
             <ocena>3.0</ocena>
         </wykonawca>
         <wykonawca id="_13">
-            <nazwa>Zawiałow Daria</nazwa>
+            <artysta>
+                <imie>Daria</imie>
+                <nazwisko>Zawiałow</nazwisko>
+            </artysta>
             <ocena>4.0</ocena>
         </wykonawca>
         <wykonawca id="_14">
-            <nazwa>Tymek</nazwa>
+            <zespół>Tymek</zespół>
             <ocena>4.3</ocena>
         </wykonawca>
         <wykonawca id="_15">
-            <nazwa>Zalewski Krzysztof</nazwa>
+            <artysta>
+                <imie>Krzysztof</imie>
+                <nazwisko>Zalewski</nazwisko>
+            </artysta>
             <ocena>3.3</ocena>
         </wykonawca>
         <wykonawca id="_16">
-            <nazwa>Domagała Paweł</nazwa>
+            <zespół>Domagała Paweł</zespół>
             <ocena>4.0</ocena>
         </wykonawca>
     </wykonawcy>
