@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:wy="wykonawca">
+           xmlns:wy="wykonawca"
+xmlns:ga="gatunek">
     <xs:import namespace="wykonawca" schemaLocation="namespaces/wykonawca.xsd"/>
+    <xs:import namespace="gatunek" schemaLocation="namespaces/gatunek.xsd"/>
     <xs:element name="__ROOT__" type="__ROOT__Type">
         <xs:key name="WykonawcaKey">
             <xs:selector xpath="wykonawcy/wykonawca"/>
@@ -122,9 +124,24 @@
         </xs:restriction>
     </xs:simpleType>
 
+    <xs:complexType name="gatunki">
+        <xs:sequence>
+            <xs:element type="kolumnyType" name="kolumny" maxOccurs="1"/>
+            <xs:group ref="gatunkiGroup" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:group name="gatunkiGroup">
+        <xs:sequence >
+            <xs:element ref="ga:gatunek" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:group>
+
+
     <xs:complexType name="__ROOT__Type">
         <xs:sequence>
             <xs:element type="nagłówekType" name="nagłówek" maxOccurs="1"/>
+            <xs:element type="gatunki" name="gatunki" maxOccurs="1" minOccurs="1"/>
             <xs:element type="wykonawcyType" name="wykonawcy" maxOccurs="1"/>
             <xs:element type="tabelaPłytType" name="tabela-płyt" maxOccurs="1"/>
         </xs:sequence>

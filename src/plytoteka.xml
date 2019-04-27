@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" ?>
 <!--<!DOCTYPE __ROOT__ SYSTEM 'plytoteka.dtd'>-->
 <__ROOT__ version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="plytoteka.xsd"
-        xmlns:wy="wykonawca">
+        xmlns:wy="wykonawca" xmlns:ga="gatunek">
     <nagłówek id="nagłówek">
         <autorzy>
             <autor>
@@ -34,6 +34,14 @@
             <data>2019-04-27</data>
         </data-oddania>
     </nagłówek>
+    <gatunki>
+        <kolumny>
+            <kolumna>Gatunek muzyczny</kolumna>
+        </kolumny>
+            <ga:gatunek>Pop &amp; Rock</ga:gatunek>
+            <ga:gatunek>Alternatywna</ga:gatunek>
+            <ga:gatunek>Rap &amp; Hip Hop</ga:gatunek>
+    </gatunki>
     <wykonawcy>
         <kolumny>
             <kolumna>Wykonawca</kolumna>
