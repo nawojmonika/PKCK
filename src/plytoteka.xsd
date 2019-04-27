@@ -2,8 +2,7 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:wy="wykonawca"
-           xmlns:ga="gatunek"
-           xmlns:xhtml="http://www.w3.org/1999/xhtml">
+           xmlns:ga="gatunek">
     <xs:import namespace="wykonawca" schemaLocation="namespaces/wykonawca.xsd"/>
     <xs:import namespace="gatunek" schemaLocation="namespaces/gatunek.xsd"/>
     <xs:element name="__ROOT__" type="__ROOT__Type">
