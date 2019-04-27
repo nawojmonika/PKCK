@@ -22,6 +22,12 @@
             </xs:choice>
             <xs:element type="ws:ocenaType" name="ocena"/>
         </xs:sequence>
-        <xs:attribute type="xs:string" name="id" use="required"/>
+        <xs:attribute name="id" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="_[0-9]+"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
     </xs:complexType>
 </xs:schema>

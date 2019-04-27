@@ -2,7 +2,7 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:wy="wykonawca"
-xmlns:ga="gatunek">
+           xmlns:ga="gatunek">
     <xs:import namespace="wykonawca" schemaLocation="namespaces/wykonawca.xsd"/>
     <xs:import namespace="gatunek" schemaLocation="namespaces/gatunek.xsd"/>
     <xs:element name="__ROOT__" type="__ROOT__Type">
@@ -92,11 +92,17 @@ xmlns:ga="gatunek">
             <xs:element type="dateType" name="premiera"/>
             <xs:element type="opisType" name="opis"/>
         </xs:sequence>
-      <xs:attributeGroup ref="płytaAttr"/>
+        <xs:attributeGroup ref="płytaAttr"/>
     </xs:complexType>
     <xs:attributeGroup name="płytaAttr">
         <xs:attribute name="bestseller" type="xs:boolean"/>
-        <xs:attribute name="id-wykonawcy" type="xs:string" use="required"/>
+        <xs:attribute name="id-wykonawcy" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="_[0-9]+"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
     </xs:attributeGroup>
     <xs:complexType name="cenaType">
         <xs:simpleContent>
