@@ -41,15 +41,15 @@
         </kolumny>
         <wykonawca id="_1">
             <wy:artysta>
-                <imie>Dawid</imie>
-                <nazwisko>Podsiadło</nazwisko>
+                <wy:imie>Dawid</wy:imie>
+                <wy:nazwisko>Podsiadło</wy:nazwisko>
             </wy:artysta>
             <wy:ocena>4.75</wy:ocena>
         </wykonawca>
         <wykonawca id="_2">
             <wy:artysta>
-                <imie>Eilish</imie>
-                <nazwisko>Billie</nazwisko>
+                <wy:imie>Eilish</wy:imie>
+                <wy:nazwisko>Billie</wy:nazwisko>
             </wy:artysta>
             <wy:ocena>4.3</wy:ocena>
         </wykonawca>
@@ -91,15 +91,15 @@
         </wykonawca>
         <wykonawca id="_12">
             <wy:artysta>
-                <imie>Alicja</imie>
-                <nazwisko>Majewska</nazwisko>
+                <wy:imie>Alicja</wy:imie>
+                <wy:nazwisko>Majewska</wy:nazwisko>
             </wy:artysta>
             <wy:ocena>3.0</wy:ocena>
         </wykonawca>
         <wykonawca id="_13">
             <wy:artysta>
-                <imie>Daria</imie>
-                <nazwisko>Zawiałow</nazwisko>
+                <wy:imie>Daria</wy:imie>
+                <wy:nazwisko>Zawiałow</wy:nazwisko>
             </wy:artysta>
             <wy:ocena>4.0</wy:ocena>
         </wykonawca>
@@ -109,8 +109,8 @@
         </wykonawca>
         <wykonawca id="_15">
             <wy:artysta>
-                <imie>Krzysztof</imie>
-                <nazwisko>Zalewski</nazwisko>
+                <wy:imie>Krzysztof</wy:imie>
+                <wy:nazwisko>Zalewski</wy:nazwisko>
             </wy:artysta>
             <wy:ocena>3.3</wy:ocena>
         </wykonawca>
