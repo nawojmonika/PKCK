@@ -151,6 +151,40 @@ tabela-płyt cena:after{
     margin-left: 2px;
 }
 
+gatunki {
+    width: 40vw;
+    border: #000 solid 1px;
+    margin-bottom: 20px;
+}
+
+gatunki kolumny{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "gatunki-koluny";
+    font-weight: bold;
+    padding: 20px 15px;
+    background-color: rgb(52, 58, 64);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+gatunki kolumna {
+	grid-area: "gatunki-koluny";
+}
+
+gatunki gatunek {
+    display: grid;
+    padding: 20px 15px;
+    grid-template-columns: 100%;
+    grid-template-areas: "gatunek";
+}
+gatunki gatunek:nth-child(even) {
+    background-color: #666;
+    color: #fff;
+}
+gatunki gatunek {
+  grid-area: gatunek;    
+}
+
 wykonawcy {
     width: 40vw;
     border: #000 solid 1px;
