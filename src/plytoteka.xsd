@@ -86,7 +86,7 @@ xmlns:ga="gatunek">
         <xs:sequence>
             <xs:element type="xs:string" name="tytuł"/>
             <xs:element type="xs:string" name="nazwa-wykonawcy"/>
-            <xs:element type="xs:string" name="gatunek"/>
+            <xs:element ref="ga:gatunek"/>
             <xs:element type="cenaType" name="cena"/>
             <xs:element type="polishDecimal" name="ocena"/>
             <xs:element type="dateType" name="premiera"/>
