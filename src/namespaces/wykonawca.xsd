@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="wykonawca">
+    <xs:complexType name="artysta">
+        <xs:sequence>
+            <xs:element type="xs:string" name="imie"></xs:element>
+            <xs:element type="xs:string" name="nazwisko"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="ocenaType">
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="wykonawcaType">
+        <xs:sequence>
+            <xs:choice>
+                <xs:element type="xs:string" name="zespół"/>
+                <xs:element type="artysta" name="artysta"/>
+            </xs:choice>
+            <xs:element type="ocenaType" name="ocena"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id" use="required"/>
+    </xs:complexType>
+</xs:schema>

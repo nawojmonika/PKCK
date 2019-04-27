@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
-           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:wy="wykonawca">
+    <xs:import namespace="wykonawca" schemaLocation="namespaces/wykonawca.xsd"/>
     <xs:element name="__ROOT__" type="__ROOT__Type">
         <xs:key name="WykonawcaKey">
             <xs:selector xpath="wykonawcy/wykonawca"/>
@@ -14,7 +16,7 @@
     <xs:complexType name="nagłówekType">
         <xs:sequence>
             <xs:element type="autorzyType" name="autorzy"/>
-            <xs:element type="dataType" name="data-oddania"/>
+            <xs:element type="dateType" name="data-oddania"/>
         </xs:sequence>
         <xs:attribute name="id" type="xs:string"/>
     </xs:complexType>
@@ -36,7 +38,7 @@
         </xs:restriction>
     </xs:simpleType>
 
-    <xs:complexType name="dataType">
+    <xs:complexType name="dateType">
         <xs:all>
             <xs:element type="xs:string" name="dzień-tygodnia" minOccurs="0"/>
             <xs:element type="xs:date" name="data" minOccurs="1" maxOccurs="1"/>
@@ -56,28 +58,12 @@
             <xs:group ref="wykonawcaGroup" minOccurs="1" maxOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
-    <xs:complexType name="wykonawcaType">
-        <xs:sequence>
-            <xs:choice>
-                <xs:element type="xs:string" name="zespół"/>
-                <xs:element type="artysta" name="artysta"></xs:element>
-            </xs:choice>
-            <xs:element type="ocenaType" name="ocena"/>
-        </xs:sequence>
-        <xs:attribute type="xs:string" name="id" use="required"/>
-    </xs:complexType>
 
     <xs:group name="wykonawcaGroup">
         <xs:sequence>
-            <xs:element type="wykonawcaType" name="wykonawca" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element type="wy:wykonawcaType" name="wykonawca" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:group>
-    <xs:complexType name="artysta">
-        <xs:sequence>
-            <xs:element type="xs:string" name="imie"></xs:element>
-            <xs:element type="xs:string" name="nazwisko"></xs:element>
-        </xs:sequence>
-    </xs:complexType>
     <xs:complexType name="tabelaPłytType">
         <xs:sequence>
             <xs:element type="kolumnyType" name="kolumny"/>
@@ -101,7 +87,7 @@
             <xs:element type="xs:string" name="gatunek"/>
             <xs:element type="cenaType" name="cena"/>
             <xs:element type="polishDecimal" name="ocena"/>
-            <xs:element type="dataType" name="premiera"/>
+            <xs:element type="dateType" name="premiera"/>
             <xs:element type="opisType" name="opis"/>
         </xs:sequence>
       <xs:attributeGroup ref="płytaAttr"/>
@@ -122,11 +108,6 @@
             <xs:enumeration value="PLN"/>
             <xs:enumeration value="USD"/>
             <xs:enumeration value="EUR"/>
-        </xs:restriction>
-    </xs:simpleType>
-    <xs:simpleType name="ocenaType">
-        <xs:restriction base="xs:decimal">
-            <xs:fractionDigits value="2"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="polishDecimal">

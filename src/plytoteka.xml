@@ -2,7 +2,8 @@
 <?xml-stylesheet type="text/css" href="plytoteka.css"?>
 <?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" ?>
 <!--<!DOCTYPE __ROOT__ SYSTEM 'plytoteka.dtd'>-->
-<__ROOT__ version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="plytoteka.xsd">
+<__ROOT__ version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="plytoteka.xsd"
+        xmlns:wy="wykonawca">
     <nagłówek id="nagłówek">
         <autorzy>
             <autor>
@@ -39,83 +40,83 @@
             <kolumna>Ocena</kolumna>
         </kolumny>
         <wykonawca id="_1">
-            <artysta>
+            <wy:artysta>
                 <imie>Dawid</imie>
                 <nazwisko>Podsiadło</nazwisko>
-            </artysta>
-            <ocena>4.75</ocena>
+            </wy:artysta>
+            <wy:ocena>4.75</wy:ocena>
         </wykonawca>
         <wykonawca id="_2">
-            <artysta>
+            <wy:artysta>
                 <imie>Eilish</imie>
                 <nazwisko>Billie</nazwisko>
-            </artysta>
-            <ocena>4.3</ocena>
+            </wy:artysta>
+            <wy:ocena>4.3</wy:ocena>
         </wykonawca>
         <wykonawca id="_3">
-            <zespół>Neutral Milk Hotel</zespół>
-            <ocena>4.4</ocena>
+            <wy:zespół>Neutral Milk Hotel</wy:zespół>
+            <wy:ocena>4.4</wy:ocena>
         </wykonawca>
         <wykonawca id="_4">
-            <zespół>Fisz, Emade, Tworzywo</zespół>
-            <ocena>3.4</ocena>
+            <wy:zespół>Fisz, Emade, Tworzywo</wy:zespół>
+            <wy:ocena>3.4</wy:ocena>
         </wykonawca>
         <wykonawca id="_5">
-            <zespół>Dido</zespół>
-            <ocena>4.0</ocena>
+            <wy:zespół>Dido</wy:zespół>
+            <wy:ocena>4.0</wy:ocena>
         </wykonawca>
         <wykonawca id="_6">
-            <zespół>Kortez</zespół>
-            <ocena>3.7</ocena>
+            <wy:zespół>Kortez</wy:zespół>
+            <wy:ocena>3.7</wy:ocena>
         </wykonawca>
         <wykonawca id="_7">
-            <zespół>Lady Pank</zespół>
-            <ocena>4.3</ocena>
+            <wy:zespół>Lady Pank</wy:zespół>
+            <wy:ocena>4.3</wy:ocena>
         </wykonawca>
         <wykonawca id="_8">
-            <zespół>PRO8L3M</zespół>
-            <ocena>3.0</ocena>
+            <wy:zespół>PRO8L3M</wy:zespół>
+            <wy:ocena>3.0</wy:ocena>
         </wykonawca>
         <wykonawca id="_9">
-            <zespół>Various Artists</zespół>
-            <ocena>4.7</ocena>
+            <wy:zespół>Various Artists</wy:zespół>
+            <wy:ocena>4.7</wy:ocena>
         </wykonawca>
         <wykonawca id="_10">
-            <zespół>Sokół</zespół>
-            <ocena>3.7</ocena>
+            <wy:zespół>Sokół</wy:zespół>
+           <wy:ocena>3.7</wy:ocena>
         </wykonawca>
         <wykonawca id="_11">
-            <zespół>Queen</zespół>
-            <ocena>4.9</ocena>
+            <wy:zespół>Queen</wy:zespół>
+            <wy:ocena>4.9</wy:ocena>
         </wykonawca>
         <wykonawca id="_12">
-            <artysta>
+            <wy:artysta>
                 <imie>Alicja</imie>
                 <nazwisko>Majewska</nazwisko>
-            </artysta>
-            <ocena>3.0</ocena>
+            </wy:artysta>
+            <wy:ocena>3.0</wy:ocena>
         </wykonawca>
         <wykonawca id="_13">
-            <artysta>
+            <wy:artysta>
                 <imie>Daria</imie>
                 <nazwisko>Zawiałow</nazwisko>
-            </artysta>
-            <ocena>4.0</ocena>
+            </wy:artysta>
+            <wy:ocena>4.0</wy:ocena>
         </wykonawca>
         <wykonawca id="_14">
-            <zespół>Tymek</zespół>
-            <ocena>4.3</ocena>
+            <wy:zespół>Tymek</wy:zespół>
+            <wy:ocena>4.3</wy:ocena>
         </wykonawca>
         <wykonawca id="_15">
-            <artysta>
+            <wy:artysta>
                 <imie>Krzysztof</imie>
                 <nazwisko>Zalewski</nazwisko>
-            </artysta>
-            <ocena>3.3</ocena>
+            </wy:artysta>
+            <wy:ocena>3.3</wy:ocena>
         </wykonawca>
         <wykonawca id="_16">
-            <zespół>Domagała Paweł</zespół>
-            <ocena>4.0</ocena>
+            <wy:zespół>Domagała Paweł</wy:zespół>
+            <wy:ocena>4.0</wy:ocena>
         </wykonawca>
     </wykonawcy>
     <tabela-płyt>
