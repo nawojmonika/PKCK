@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="html " encoding="utf-8" />
+    <xsl:output method="xml" encoding="utf-8" indent="yes"/>
 
-    <xsl:template match="/lista_studentow">
-        <html>
-            <head>
-                <title>Lista studentów</title>
-            </head>
-            <body>
-                <h1>Lista studentów</h1>
-                <table>
-                    <xsl:for-each select="student">
-                        <xsl:sort select="nazwisko" data-type="text" lang="pl"/>
-                        <tr>
-                            <td><xsl:value-of select="nazwisko"/></td>
-                            <td><xsl:value-of select="imię"/></td>
-                            <td><xsl:value-of select="grupa"/></td>
-                        </tr>
-                    </xsl:for-each>
-                </table>
-            </body>
-        </html>
+    <xsl:template match="/">
+        <raport>
+            <tytuł>Raport sprzedaży</tytuł>
+            <xsl:for-each select="__ROOT__ /tabela-płyt/płyty/płyta">
+                <płyta>
+                    <wykonawca>
+                        <xsl:value-of select="nazwa-wykonawcy"/>
+                    </wykonawca>
+                    <nazwa_płyty>
+                        <xsl:value-of select="tytuł"/>
+                    </nazwa_płyty>
+                    <cena>
+                        <xsl:attribute name="waluta">
+                            <xsl:value-of select="cena/@waluta"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="cena"/>
+                    </cena>
+                </płyta>
+            </xsl:for-each>
+        </raport>
     </xsl:template>
 </xsl:stylesheet>

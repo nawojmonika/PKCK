@@ -129,6 +129,7 @@
     </wykonawcy>
     <tabela-płyt>
         <kolumny>
+            <kolumna>Zakup w szt.</kolumna>
             <kolumna>Tytuł</kolumna>
             <kolumna>Wykonawca</kolumna>
             <kolumna>Gatunek</kolumna>
@@ -138,6 +139,7 @@
         </kolumny>
         <płyty>
             <płyta bestseller="true" id-wykonawcy="_1">
+                <zakup>15</zakup>
                 <tytuł>Małomiasteczkowy</tytuł>
                 <nazwa-wykonawcy >Podsiadło Dawid</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -159,6 +161,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="true" id-wykonawcy="_2">
+                <zakup>4</zakup>
                 <tytuł>When We All Fall Asleep, Where Do We Go?</tytuł>
                 <nazwa-wykonawcy>Eilish Billie</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -180,10 +183,11 @@
                 </opis>
             </płyta>
             <płyta bestseller="false" id-wykonawcy="_3">
+                <zakup>1</zakup>
                 <tytuł>Areoplane over the sea</tytuł>
                 <nazwa-wykonawcy>Neutral Milk Hotel</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="USD">6,99</cena>
+                <cena waluta="PLN">6,99</cena>
                 <ocena>4.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -195,10 +199,11 @@
                 </opis>
             </płyta>
             <płyta bestseller="false" id-wykonawcy="_3">
+                <zakup>5</zakup>
                 <tytuł>On Avery Island</tytuł>
                 <nazwa-wykonawcy>Neutral Milk Hotel</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="USD">5,99</cena>
+                <cena waluta="PLN">5,99</cena>
                 <ocena>3.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -215,6 +220,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="true" id-wykonawcy="_4">
+                <zakup>1</zakup>
                 <tytuł>Radar</tytuł>
                 <nazwa-wykonawcy>Fisz, Emade, Tworzywo</nazwa-wykonawcy>
                 <ga:gatunek>Alternatywna</ga:gatunek>
@@ -235,6 +241,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="false" id-wykonawcy="_5">
+                <zakup>0</zakup>
                 <tytuł>Still On My Mind</tytuł>
                 <nazwa-wykonawcy>Dido</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -255,6 +262,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="true" id-wykonawcy="_6">
+                <zakup>6</zakup>
                 <tytuł>Mini dom</tytuł>
                 <nazwa-wykonawcy>Kortez</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -275,6 +283,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="true" id-wykonawcy="_7">
+                <zakup>8</zakup>
                 <tytuł>Ballady</tytuł>
                 <nazwa-wykonawcy>Lady Pank</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -295,6 +304,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="false" id-wykonawcy="_8">
+                <zakup>0</zakup>
                 <tytuł>Widmo</tytuł>
                 <nazwa-wykonawcy>PRO8L3M</nazwa-wykonawcy>
                 <ga:gatunek>Rap &amp; Hip Hop</ga:gatunek>
@@ -315,6 +325,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="false" id-wykonawcy="_9">
+                <zakup>1</zakup>
                 <tytuł>Fryderyk Festival 2019</tytuł>
                 <nazwa-wykonawcy>Various Artists</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -335,6 +346,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="true" id-wykonawcy="_10">
+                <zakup>8</zakup>
                 <tytuł>Wojtek Sokół</tytuł>
                 <nazwa-wykonawcy>Sokół</nazwa-wykonawcy>
                 <ga:gatunek>Rap &amp; Hip Hop</ga:gatunek>
@@ -355,6 +367,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="true" id-wykonawcy="_11">
+                <zakup>16</zakup>
                 <tytuł>Bohemian Rhapsody</tytuł>
                 <nazwa-wykonawcy>Queen</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -375,6 +388,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="true" id-wykonawcy="_12">
+                <zakup>5</zakup>
                 <tytuł>Żyć się chce</tytuł>
                 <nazwa-wykonawcy>Majewska Alicja</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -395,6 +409,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="false" id-wykonawcy="_13">
+                <zakup>0</zakup>
                 <tytuł>Helsinki</tytuł>
                 <nazwa-wykonawcy>Zawiałow Daria</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -415,6 +430,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="false" id-wykonawcy="_14">
+                <zakup>1</zakup>
                 <tytuł>Klubowe</tytuł>
                 <nazwa-wykonawcy>Tymek</nazwa-wykonawcy>
                 <ga:gatunek>Rap &amp; Hip Hop</ga:gatunek>
@@ -435,6 +451,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="false" id-wykonawcy="_6">
+                <zakup>0</zakup>
                 <tytuł>Mój dom</tytuł>
                 <nazwa-wykonawcy>Kortez</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -455,6 +472,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="true" id-wykonawcy="_9">
+                <zakup>10</zakup>
                 <tytuł>Męskie Granie 2018</tytuł>
                 <nazwa-wykonawcy>Various Artists</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -475,6 +493,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="false" id-wykonawcy="_15">
+                <zakup>1</zakup>
                 <tytuł>Złoto</tytuł>
                 <nazwa-wykonawcy>Zalewski Krzysztof</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -495,6 +514,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="true" id-wykonawcy="_13">
+                <zakup>5</zakup>
                 <tytuł>A kysz!</tytuł>
                 <nazwa-wykonawcy>Zawiałow Daria</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
@@ -515,6 +535,7 @@
                 </opis>
             </płyta>
             <płyta bestseller="false" id-wykonawcy="_16">
+                <zakup>0</zakup>
                 <tytuł>1984</tytuł>
                 <nazwa-wykonawcy>Domagała Paweł</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>

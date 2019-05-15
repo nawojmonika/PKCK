@@ -84,6 +84,7 @@
 
     <xs:complexType name="płytaType">
         <xs:sequence>
+            <xs:element type="xs:integer" name="zakup"/>
             <xs:element type="xs:string" name="tytuł"/>
             <xs:element type="xs:string" name="nazwa-wykonawcy"/>
             <xs:element ref="ga:gatunek"/>
