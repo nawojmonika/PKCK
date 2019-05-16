@@ -28,42 +28,44 @@
             <podsumowanie>
                 <tytuł>Podsumowanie</tytuł>
                 <element>
-                    <element>
-                        <nazwa>Data wygenerowania raportu:</nazwa>
-                        <wartość>
-                        </wartość>
-                    </element>
+                    <nazwa>Data wygenerowania raportu:</nazwa>
+                    <data-wygenerowania>
+                    </data-wygenerowania>
+                </element>
+                <element>
                     <nazwa>Liczba płyt:</nazwa>
-                    <wartość>
+                    <liczba-płyt>
                         <xsl:value-of select="count(__ROOT__ /tabela-płyt/płyty/płyta)"/>
-                    </wartość>
+                    </liczba-płyt>
                 </element>
                 <element>
                     <nazwa>Liczba gatunków muzyki:</nazwa>
-                    <wartość>
+                    <liczba-gatunków>
                         <xsl:value-of select="count(__ROOT__ /gatunki//ga:gatunek)"/>
-                    </wartość>
+                    </liczba-gatunków>
                 </element>
                 <element>
                     <nazwa>Wartość netto:</nazwa>
-                    <wartość>
-                        <xsl:variable name="cenaNetto" select="sum(__ROOT__ /tabela-płyt/płyty/płyta/cena)"></xsl:variable>
+                    <wartość-netto>
+                        <xsl:variable name="cenaNetto"
+                                      select="sum(__ROOT__ /tabela-płyt/płyty/płyta/cena)"/>
                         <xsl:value-of select='format-number($cenaNetto, "#.00")'/>
-                    </wartość>
+                    </wartość-netto>
                 </element>
                 <element>
                     <nazwa>Wartość brutto:</nazwa>
-                    <wartość>
-                        <xsl:variable name="cenaNetto" select="sum(__ROOT__ /tabela-płyt/płyty/płyta/cena)"></xsl:variable>
-                        <xsl:variable name="cenaBrutto" select="$cenaNetto + ($cenaNetto * 0.23)"></xsl:variable>
+                    <wartość-brutto>
+                        <xsl:variable name="cenaNetto"
+                                      select="sum(__ROOT__ /tabela-płyt/płyty/płyta/cena)"/>
+                        <xsl:variable name="cenaBrutto" select="$cenaNetto + ($cenaNetto * 0.23)"/>
                         <xsl:value-of select='format-number($cenaBrutto, "#.00")'/>
-                    </wartość>
+                    </wartość-brutto>
                 </element>
                 <element>
                     <nazwa>Liczba bestselletów:</nazwa>
-                    <wartość>
+                    <liczba-bestsellerów>
                         <xsl:value-of select="count(__ROOT__ /tabela-płyt/płyty/płyta[@bestseller='true'])"/>
-                    </wartość>
+                    </liczba-bestsellerów>
                 </element>
             </podsumowanie>
         </raport>

@@ -106,28 +106,28 @@
     <podsumowanie>
         <tytuł>Podsumowanie</tytuł>
         <element>
-            <element>
-                <nazwa>Data wygenerowania raportu:</nazwa>
-                <wartość/>
-            </element>
+            <nazwa>Data wygenerowania raportu:</nazwa>
+            <data-wygenerowania>11-01-1234</data-wygenerowania>
+        </element>
+        <element>
             <nazwa>Liczba płyt:</nazwa>
-            <wartość>20</wartość>
+            <liczba-płyt>20</liczba-płyt>
         </element>
         <element>
             <nazwa>Liczba gatunków muzyki:</nazwa>
-            <wartość>3</wartość>
+            <liczba-gatunków>3</liczba-gatunków>
         </element>
         <element>
             <nazwa>Wartość netto:</nazwa>
-            <wartość>680.80</wartość>
+            <wartość-netto>680.80</wartość-netto>
         </element>
         <element>
             <nazwa>Wartość brutto:</nazwa>
-            <wartość>837.38</wartość>
+            <wartość-brutto>837.38</wartość-brutto>
         </element>
         <element>
             <nazwa>Liczba bestselletów:</nazwa>
-            <wartość>10</wartość>
+            <liczba-bestsellerów>10</liczba-bestsellerów>
         </element>
     </podsumowanie>
 </raport>
