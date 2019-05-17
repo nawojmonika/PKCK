@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ga="gatunek">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ga="gatunek">
     <xsl:output method="xml" encoding="utf-8" indent="yes"/>
     <xsl:template match="/__ROOT__">
         <raport>
@@ -33,6 +33,7 @@
                 <element>
                     <nazwa>Data wygenerowania raportu:</nazwa>
                     <data-wygenerowania>
+                        <xsl:value-of select="current-date()" />
                     </data-wygenerowania>
                 </element>
                 <element>
@@ -51,7 +52,7 @@
                     <nazwa>Wartość netto:</nazwa>
                     <wartość-netto>
                         <xsl:variable name="cenaNetto"
-                                      select="sum(tabela-płyt/płyty/płyta/cena)"/>
+                                      select="sum(płyta/cena)"/>
                         <xsl:value-of select='format-number($cenaNetto, "#.00")'/>
                     </wartość-netto>
                 </element>

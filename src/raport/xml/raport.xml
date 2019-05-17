@@ -1,152 +1,153 @@
-<?xml version="1.0" encoding="utf-8"?><raport xmlns:ga="gatunek">
-<sprzedaż>
-<tytuł>Raport sprzedaży</tytuł>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>15</sprzedaż>
-<wykonawca>Podsiadło Dawid</wykonawca>
-<nazwa>Małomiasteczkowy</nazwa>
-<cena waluta="PLN">36.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>4</sprzedaż>
-<wykonawca>Eilish Billie</wykonawca>
-<nazwa>When We All Fall Asleep, Where Do We Go?</nazwa>
-<cena waluta="PLN">51.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>1</sprzedaż>
-<wykonawca>Neutral Milk Hotel</wykonawca>
-<nazwa>Areoplane over the sea</nazwa>
-<cena waluta="PLN">6.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>5</sprzedaż>
-<wykonawca>Neutral Milk Hotel</wykonawca>
-<nazwa>On Avery Island</nazwa>
-<cena waluta="PLN">5.99</cena>
-</płyta>
-<płyta gatunek="Alternatywna">
-<sprzedaż>1</sprzedaż>
-<wykonawca>Fisz, Emade, Tworzywo</wykonawca>
-<nazwa>Radar</nazwa>
-<cena waluta="PLN">38.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>0</sprzedaż>
-<wykonawca>Dido</wykonawca>
-<nazwa>Still On My Mind</nazwa>
-<cena waluta="PLN">39.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>6</sprzedaż>
-<wykonawca>Kortez</wykonawca>
-<nazwa>Mini dom</nazwa>
-<cena waluta="PLN">28.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>8</sprzedaż>
-<wykonawca>Lady Pank</wykonawca>
-<nazwa>Ballady</nazwa>
-<cena waluta="PLN">28.99</cena>
-</płyta>
-<płyta gatunek="Rap &amp; Hip Hop">
-<sprzedaż>0</sprzedaż>
-<wykonawca>PRO8L3M</wykonawca>
-<nazwa>Widmo</nazwa>
-<cena waluta="PLN">49.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>1</sprzedaż>
-<wykonawca>Various Artists</wykonawca>
-<nazwa>Fryderyk Festival 2019</nazwa>
-<cena waluta="PLN">27.99</cena>
-</płyta>
-<płyta gatunek="Rap &amp; Hip Hop">
-<sprzedaż>8</sprzedaż>
-<wykonawca>Sokół</wykonawca>
-<nazwa>Wojtek Sokół</nazwa>
-<cena waluta="PLN">38.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>16</sprzedaż>
-<wykonawca>Queen</wykonawca>
-<nazwa>Bohemian Rhapsody</nazwa>
-<cena waluta="PLN">38.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>5</sprzedaż>
-<wykonawca>Majewska Alicja</wykonawca>
-<nazwa>Żyć się chce</nazwa>
-<cena waluta="PLN">43.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>0</sprzedaż>
-<wykonawca>Zawiałow Daria</wykonawca>
-<nazwa>Helsinki</nazwa>
-<cena waluta="PLN">34.99</cena>
-</płyta>
-<płyta gatunek="Rap &amp; Hip Hop">
-<sprzedaż>1</sprzedaż>
-<wykonawca>Tymek</wykonawca>
-<nazwa>Klubowe</nazwa>
-<cena waluta="PLN">32.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>0</sprzedaż>
-<wykonawca>Kortez</wykonawca>
-<nazwa>Mój dom</nazwa>
-<cena waluta="PLN">31.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>10</sprzedaż>
-<wykonawca>Various Artists</wykonawca>
-<nazwa>Męskie Granie 2018</nazwa>
-<cena waluta="PLN">49.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>1</sprzedaż>
-<wykonawca>Zalewski Krzysztof</wykonawca>
-<nazwa>Złoto</nazwa>
-<cena waluta="PLN">34.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>5</sprzedaż>
-<wykonawca>Zawiałow Daria</wykonawca>
-<nazwa>A kysz!</nazwa>
-<cena waluta="PLN">19.99</cena>
-</płyta>
-<płyta gatunek="Pop &amp; Rock">
-<sprzedaż>0</sprzedaż>
-<wykonawca>Domagała Paweł</wykonawca>
-<nazwa>1984</nazwa>
-<cena waluta="PLN">36.99</cena>
-</płyta>
-</sprzedaż>
-<podsumowanie>
-<tytuł>Podsumowanie</tytuł>
-<element>
-<nazwa>Data wygenerowania raportu:</nazwa>
-<data-wygenerowania/>
-</element>
-<element>
-<nazwa>Liczba płyt:</nazwa>
-<liczba-płyt>20</liczba-płyt>
-</element>
-<element>
-<nazwa>Liczba gatunków muzyki:</nazwa>
-<liczba-gatunków>3</liczba-gatunków>
-</element>
-<element>
-<nazwa>Wartość netto:</nazwa>
-<wartość-netto>680.80</wartość-netto>
-</element>
-<element>
-<nazwa>Wartość brutto:</nazwa>
-<wartość-brutto>837.38</wartość-brutto>
-</element>
-<element>
-<nazwa>Liczba bestselletów:</nazwa>
-<liczba-bestsellerów>10</liczba-bestsellerów>
-</element>
-</podsumowanie>
+<?xml version="1.0" encoding="utf-8"?>
+<raport xmlns:ga="gatunek">
+   <sprzedaż>
+      <tytuł>Raport sprzedaży</tytuł>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>15</sprzedaż>
+         <wykonawca>Podsiadło Dawid</wykonawca>
+         <nazwa>Małomiasteczkowy</nazwa>
+         <cena waluta="PLN">36.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>4</sprzedaż>
+         <wykonawca>Eilish Billie</wykonawca>
+         <nazwa>When We All Fall Asleep, Where Do We Go?</nazwa>
+         <cena waluta="PLN">51.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>1</sprzedaż>
+         <wykonawca>Neutral Milk Hotel</wykonawca>
+         <nazwa>Areoplane over the sea</nazwa>
+         <cena waluta="PLN">6.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>5</sprzedaż>
+         <wykonawca>Neutral Milk Hotel</wykonawca>
+         <nazwa>On Avery Island</nazwa>
+         <cena waluta="PLN">5.99</cena>
+      </płyta>
+      <płyta gatunek="Alternatywna">
+         <sprzedaż>1</sprzedaż>
+         <wykonawca>Fisz, Emade, Tworzywo</wykonawca>
+         <nazwa>Radar</nazwa>
+         <cena waluta="PLN">38.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>0</sprzedaż>
+         <wykonawca>Dido</wykonawca>
+         <nazwa>Still On My Mind</nazwa>
+         <cena waluta="PLN">39.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>6</sprzedaż>
+         <wykonawca>Kortez</wykonawca>
+         <nazwa>Mini dom</nazwa>
+         <cena waluta="PLN">28.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>8</sprzedaż>
+         <wykonawca>Lady Pank</wykonawca>
+         <nazwa>Ballady</nazwa>
+         <cena waluta="PLN">28.99</cena>
+      </płyta>
+      <płyta gatunek="Rap &amp; Hip Hop">
+         <sprzedaż>0</sprzedaż>
+         <wykonawca>PRO8L3M</wykonawca>
+         <nazwa>Widmo</nazwa>
+         <cena waluta="PLN">49.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>1</sprzedaż>
+         <wykonawca>Various Artists</wykonawca>
+         <nazwa>Fryderyk Festival 2019</nazwa>
+         <cena waluta="PLN">27.99</cena>
+      </płyta>
+      <płyta gatunek="Rap &amp; Hip Hop">
+         <sprzedaż>8</sprzedaż>
+         <wykonawca>Sokół</wykonawca>
+         <nazwa>Wojtek Sokół</nazwa>
+         <cena waluta="PLN">38.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>16</sprzedaż>
+         <wykonawca>Queen</wykonawca>
+         <nazwa>Bohemian Rhapsody</nazwa>
+         <cena waluta="PLN">38.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>5</sprzedaż>
+         <wykonawca>Majewska Alicja</wykonawca>
+         <nazwa>Żyć się chce</nazwa>
+         <cena waluta="PLN">43.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>0</sprzedaż>
+         <wykonawca>Zawiałow Daria</wykonawca>
+         <nazwa>Helsinki</nazwa>
+         <cena waluta="PLN">34.99</cena>
+      </płyta>
+      <płyta gatunek="Rap &amp; Hip Hop">
+         <sprzedaż>1</sprzedaż>
+         <wykonawca>Tymek</wykonawca>
+         <nazwa>Klubowe</nazwa>
+         <cena waluta="PLN">32.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>0</sprzedaż>
+         <wykonawca>Kortez</wykonawca>
+         <nazwa>Mój dom</nazwa>
+         <cena waluta="PLN">31.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>10</sprzedaż>
+         <wykonawca>Various Artists</wykonawca>
+         <nazwa>Męskie Granie 2018</nazwa>
+         <cena waluta="PLN">49.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>1</sprzedaż>
+         <wykonawca>Zalewski Krzysztof</wykonawca>
+         <nazwa>Złoto</nazwa>
+         <cena waluta="PLN">34.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>5</sprzedaż>
+         <wykonawca>Zawiałow Daria</wykonawca>
+         <nazwa>A kysz!</nazwa>
+         <cena waluta="PLN">19.99</cena>
+      </płyta>
+      <płyta gatunek="Pop &amp; Rock">
+         <sprzedaż>0</sprzedaż>
+         <wykonawca>Domagała Paweł</wykonawca>
+         <nazwa>1984</nazwa>
+         <cena waluta="PLN">36.99</cena>
+      </płyta>
+   </sprzedaż>
+   <podsumowanie>
+      <tytuł>Podsumowanie</tytuł>
+      <element>
+         <nazwa>Data wygenerowania raportu:</nazwa>
+         <data-wygenerowania>2019-05-17+02:00</data-wygenerowania>
+      </element>
+      <element>
+         <nazwa>Liczba płyt:</nazwa>
+         <liczba-płyt>20</liczba-płyt>
+      </element>
+      <element>
+         <nazwa>Liczba gatunków muzyki:</nazwa>
+         <liczba-gatunków>3</liczba-gatunków>
+      </element>
+      <element>
+         <nazwa>Wartość netto:</nazwa>
+         <wartość-netto>.00</wartość-netto>
+      </element>
+      <element>
+         <nazwa>Wartość brutto:</nazwa>
+         <wartość-brutto>837.38</wartość-brutto>
+      </element>
+      <element>
+         <nazwa>Liczba bestselletów:</nazwa>
+         <liczba-bestsellerów>10</liczba-bestsellerów>
+      </element>
+   </podsumowanie>
 </raport>
