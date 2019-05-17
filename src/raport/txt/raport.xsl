@@ -8,7 +8,14 @@
         <xsl:text>Waluta: </xsl:text>
         <xsl:value-of select="sprzedaż/@waluta"/>
         <xsl:value-of select="$enter" />
-        <xsl:text>Ilość Wykonawca Nazwa Cena Gatunek</xsl:text>
+
+        <xsl:variable name="nodeNames" select="distinct-values(sprzedaż/płyta/*/name())"/>
+        <xsl:variable name="attrNames" select="distinct-values(sprzedaż/płyta/@*/name())"/>
+
+        <xsl:value-of select="$nodeNames"/>
+        <xsl:value-of select="'&#32;'"/>
+        <xsl:value-of select="$attrNames"/>
+
         <xsl:value-of select="$enter" />
         <xsl:for-each select="sprzedaż/płyta">
             <xsl:value-of select="*"/>
