@@ -10,8 +10,8 @@
             </head>
             <body>
                 <div id="menu">
-                    <a href="#podsumowanie-sprzedaży">Raport sprzedaży</a>
-                    <a href="#podsumowanie">Podsumowanie</a>
+                    <a href="#podsumowanie-sprzedaży">Raport sprzedaży </a>
+                    <a href="#podsumowanie">Podsumowanie </a>
                 </div>
                 <h2>
                     <xsl:value-of select="sprzedaż/tytuł"/>
@@ -44,7 +44,9 @@
                         </tr>
                     </xsl:for-each>
                 </table>
-                <a href="#menu">Przejdź do menu</a>
+                <div>
+                    <a href="#menu">Przejdź do menu</a>
+                </div>
                 <h2>
                     <xsl:value-of select="podsumowanie/tytuł"/>
                 </h2>
@@ -64,7 +66,9 @@
                             </xsl:for-each>
                         </tr>
                 </table>
-                <a href="#menu">Przejdź do menu</a>
+                <div>
+                    <a href="#menu">Przejdź do menu</a>
+                </div>
             </body>
         </html>
     </xsl:template>
