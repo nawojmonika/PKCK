@@ -33,7 +33,7 @@
                 <element>
                     <nazwa>Data wygenerowania raportu:</nazwa>
                     <data-wygenerowania>
-                        <xsl:value-of select="current-date()" />
+                        <xsl:value-of select="format-date(current-date(),  '[D01].[M01].[Y0001]')" />
                     </data-wygenerowania>
                 </element>
                 <element>
