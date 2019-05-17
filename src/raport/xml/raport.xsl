@@ -9,6 +9,7 @@
                 </xsl:attribute>
                 <tytuł>Raport sprzedaży</tytuł>
                 <xsl:for-each select="tabela-płyt/płyty/płyta">
+                    <xsl:sort select="zakup"/>
                     <płyta>
                         <xsl:attribute name="gatunek">
                             <xsl:value-of select="ga:gatunek"/>
