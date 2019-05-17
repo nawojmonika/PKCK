@@ -137,13 +137,13 @@
             <kolumna>Ocena</kolumna>
             <kolumna>Data premiery</kolumna>
         </kolumny>
-        <płyty>
+        <płyty waluta="PLN">
             <płyta bestseller="true" id-wykonawcy="_1">
                 <zakup>15</zakup>
                 <tytuł>Małomiasteczkowy</tytuł>
                 <nazwa-wykonawcy >Podsiadło Dawid</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">36.99</cena>
+                <cena >36.99</cena>
                 <ocena>4.64</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -165,7 +165,7 @@
                 <tytuł>When We All Fall Asleep, Where Do We Go?</tytuł>
                 <nazwa-wykonawcy>Eilish Billie</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">51.99</cena>
+                <cena >51.99</cena>
                 <ocena>4.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -187,7 +187,7 @@
                 <tytuł>Areoplane over the sea</tytuł>
                 <nazwa-wykonawcy>Neutral Milk Hotel</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">6.99</cena>
+                <cena >6.99</cena>
                 <ocena>4.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -203,7 +203,7 @@
                 <tytuł>On Avery Island</tytuł>
                 <nazwa-wykonawcy>Neutral Milk Hotel</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">5.99</cena>
+                <cena >5.99</cena>
                 <ocena>3.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -224,7 +224,7 @@
                 <tytuł>Radar</tytuł>
                 <nazwa-wykonawcy>Fisz, Emade, Tworzywo</nazwa-wykonawcy>
                 <ga:gatunek>Alternatywna</ga:gatunek>
-                <cena waluta="PLN">38.99</cena>
+                <cena >38.99</cena>
                 <ocena>4.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -245,7 +245,7 @@
                 <tytuł>Still On My Mind</tytuł>
                 <nazwa-wykonawcy>Dido</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">39.99</cena>
+                <cena >39.99</cena>
                 <ocena>3.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -266,7 +266,7 @@
                 <tytuł>Mini dom</tytuł>
                 <nazwa-wykonawcy>Kortez</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">28.99</cena>
+                <cena >28.99</cena>
                 <ocena>3.40</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -287,7 +287,7 @@
                 <tytuł>Ballady</tytuł>
                 <nazwa-wykonawcy>Lady Pank</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">28.99</cena>
+                <cena >28.99</cena>
                 <ocena>4.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -308,7 +308,7 @@
                 <tytuł>Widmo</tytuł>
                 <nazwa-wykonawcy>PRO8L3M</nazwa-wykonawcy>
                 <ga:gatunek>Rap &amp; Hip Hop</ga:gatunek>
-                <cena waluta="PLN">49.99</cena>
+                <cena >49.99</cena>
                 <ocena>2.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -329,7 +329,7 @@
                 <tytuł>Fryderyk Festival 2019</tytuł>
                 <nazwa-wykonawcy>Various Artists</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">27.99</cena>
+                <cena >27.99</cena>
                 <ocena>4.46</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -350,7 +350,7 @@
                 <tytuł>Wojtek Sokół</tytuł>
                 <nazwa-wykonawcy>Sokół</nazwa-wykonawcy>
                 <ga:gatunek>Rap &amp; Hip Hop</ga:gatunek>
-                <cena waluta="PLN">38.99</cena>
+                <cena >38.99</cena>
                 <ocena>2.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -371,7 +371,7 @@
                 <tytuł>Bohemian Rhapsody</tytuł>
                 <nazwa-wykonawcy>Queen</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">38.99</cena>
+                <cena >38.99</cena>
                 <ocena>5.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -392,7 +392,7 @@
                 <tytuł>Żyć się chce</tytuł>
                 <nazwa-wykonawcy>Majewska Alicja</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">43.99</cena>
+                <cena >43.99</cena>
                 <ocena>3.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -413,7 +413,7 @@
                 <tytuł>Helsinki</tytuł>
                 <nazwa-wykonawcy>Zawiałow Daria</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">34.99</cena>
+                <cena >34.99</cena>
                 <ocena>2.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -434,7 +434,7 @@
                 <tytuł>Klubowe</tytuł>
                 <nazwa-wykonawcy>Tymek</nazwa-wykonawcy>
                 <ga:gatunek>Rap &amp; Hip Hop</ga:gatunek>
-                <cena waluta="PLN">32.99</cena>
+                <cena >32.99</cena>
                 <ocena>3.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -455,7 +455,7 @@
                 <tytuł>Mój dom</tytuł>
                 <nazwa-wykonawcy>Kortez</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">31.99</cena>
+                <cena >31.99</cena>
                 <ocena>2.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -476,7 +476,7 @@
                 <tytuł>Męskie Granie 2018</tytuł>
                 <nazwa-wykonawcy>Various Artists</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">49.99</cena>
+                <cena >49.99</cena>
                 <ocena>4.68</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -497,7 +497,7 @@
                 <tytuł>Złoto</tytuł>
                 <nazwa-wykonawcy>Zalewski Krzysztof</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">34.99</cena>
+                <cena >34.99</cena>
                 <ocena>4.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -518,7 +518,7 @@
                 <tytuł>A kysz!</tytuł>
                 <nazwa-wykonawcy>Zawiałow Daria</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">19.99</cena>
+                <cena >19.99</cena>
                 <ocena>6.36</ocena>
                 <premiera>
                     <data>2019-03-01</data>
@@ -539,7 +539,7 @@
                 <tytuł>1984</tytuł>
                 <nazwa-wykonawcy>Domagała Paweł</nazwa-wykonawcy>
                 <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena waluta="PLN">36.99</cena>
+                <cena >36.99</cena>
                 <ocena>4.00</ocena>
                 <premiera>
                     <data>2019-03-01</data>
