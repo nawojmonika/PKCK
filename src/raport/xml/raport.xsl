@@ -48,19 +48,18 @@
                         <xsl:value-of select="count(gatunki//ga:gatunek)"/>
                     </liczba-gatunków>
                 </element>
+                <xsl:variable name="cenaNetto"
+                              select="sum( for $i in tabela-płyt/płyty/płyta return $i/zakup * $i/cena)"/>
                 <element>
                     <nazwa>Wartość netto:</nazwa>
                     <wartość-netto>
-                        <xsl:variable name="cenaNetto"
-                                      select="sum(płyta/cena)"/>
                         <xsl:value-of select='format-number($cenaNetto, "#.00")'/>
                     </wartość-netto>
                 </element>
                 <element>
                     <nazwa>Wartość brutto:</nazwa>
                     <wartość-brutto>
-                        <xsl:variable name="cenaNetto"
-                                      select="sum(tabela-płyt/płyty/płyta/cena)"/>
+
                         <xsl:variable name="cenaBrutto" select="$cenaNetto + ($cenaNetto * 0.23)"/>
                         <xsl:value-of select='format-number($cenaBrutto, "#.00")'/>
                     </wartość-brutto>
