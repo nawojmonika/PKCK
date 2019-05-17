@@ -31,19 +31,19 @@
             <podsumowanie>
                 <tytuł>Podsumowanie</tytuł>
                 <element>
-                    <nazwa>Data wygenerowania raportu:</nazwa>
+                    <nazwa>Data wygenerowania raportu</nazwa>
                     <data-wygenerowania>
                         <xsl:value-of select="format-date(current-date(),  '[D01].[M01].[Y0001]')" />
                     </data-wygenerowania>
                 </element>
                 <element>
-                    <nazwa>Liczba płyt:</nazwa>
+                    <nazwa>Liczba płyt</nazwa>
                     <liczba-płyt>
                         <xsl:value-of select="count(tabela-płyt/płyty/płyta)"/>
                     </liczba-płyt>
                 </element>
                 <element>
-                    <nazwa>Liczba gatunków muzyki:</nazwa>
+                    <nazwa>Liczba gatunków muzyki</nazwa>
                     <liczba-gatunków>
                         <xsl:value-of select="count(gatunki/ga:gatunek)"/>
                     </liczba-gatunków>
@@ -52,13 +52,13 @@
                               select="sum( for $i in tabela-płyt/płyty/płyta return $i/zakup * $i/cena)"/>
                 <xsl:variable name="waluta" select="tabela-płyt/płyty/@waluta"/>
                 <element>
-                    <nazwa>Wartość netto:</nazwa>
+                    <nazwa>Wartość netto</nazwa>
                     <wartość-netto>
                         <xsl:value-of select='concat(format-number($cenaNetto, "#.00"), " ", $waluta)'/>
                     </wartość-netto>
                 </element>
                 <element>
-                    <nazwa>Wartość brutto:</nazwa>
+                    <nazwa>Wartość brutto</nazwa>
                     <wartość-brutto>
 
                         <xsl:variable name="cenaBrutto" select="$cenaNetto + ($cenaNetto * 0.23)"/>
@@ -66,7 +66,7 @@
                     </wartość-brutto>
                 </element>
                 <element>
-                    <nazwa>Liczba bestselletów:</nazwa>
+                    <nazwa>Liczba bestselletów</nazwa>
                     <liczba-bestsellerów>
                         <xsl:value-of select="count(tabela-płyt/płyty/płyta[@bestseller='true'])"/>
                     </liczba-bestsellerów>

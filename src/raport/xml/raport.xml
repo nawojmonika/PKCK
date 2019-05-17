@@ -126,27 +126,27 @@
    <podsumowanie>
       <tytuł>Podsumowanie</tytuł>
       <element>
-         <nazwa>Data wygenerowania raportu:</nazwa>
+         <nazwa>Data wygenerowania raportu</nazwa>
          <data-wygenerowania>17.05.2019</data-wygenerowania>
       </element>
       <element>
-         <nazwa>Liczba płyt:</nazwa>
+         <nazwa>Liczba płyt</nazwa>
          <liczba-płyt>20</liczba-płyt>
       </element>
       <element>
-         <nazwa>Liczba gatunków muzyki:</nazwa>
+         <nazwa>Liczba gatunków muzyki</nazwa>
          <liczba-gatunków>3</liczba-gatunków>
       </element>
       <element>
-         <nazwa>Wartość netto:</nazwa>
+         <nazwa>Wartość netto</nazwa>
          <wartość-netto>3096.13 PLN</wartość-netto>
       </element>
       <element>
-         <nazwa>Wartość brutto:</nazwa>
+         <nazwa>Wartość brutto</nazwa>
          <wartość-brutto>3808.24 PLN</wartość-brutto>
       </element>
       <element>
-         <nazwa>Liczba bestselletów:</nazwa>
+         <nazwa>Liczba bestselletów</nazwa>
          <liczba-bestsellerów>10</liczba-bestsellerów>
       </element>
    </podsumowanie>
