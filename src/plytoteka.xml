@@ -160,28 +160,6 @@
                     albumów „Granda” Moniki Brodki i „Składam się z ciągłych powtórzeń” Artura Rojka.
                 </opis>
             </płyta>
-            <płyta bestseller="true" id-wykonawcy="_2">
-                <zakup>4</zakup>
-                <tytuł>When We All Fall Asleep, Where Do We Go?</tytuł>
-                <nazwa-wykonawcy>Eilish Billie</nazwa-wykonawcy>
-                <ga:gatunek>Pop &amp; Rock</ga:gatunek>
-                <cena >51.99</cena>
-                <ocena>4.00</ocena>
-                <premiera>
-                    <data>2019-03-01</data>
-                </premiera>
-                <opis>
-                    Billie Eilish i jej debiut płytowy „When We All Fall Asleep, Where Do We Go?”. Singlem promującym
-                    album jest utwór „Bury A Friend”.
-
-                    Billie Eilish to prawdziwy fenomen, który trudno porównać z jakimkolwiek innym współczesnym artystą.
-                    Od czasu debiutanckiego singla „Ocean Eyes”, Billie powoli, ale skutecznie przebijała się do
-                    czołówki światowego popu. Wszystko za sprawą bardzo szybko rozrastającego się legionu oddanych fanów
-                    z całego świata. Debiutancka EP-ka wokalistki, „Don’t Smile At Me”, nie znikała z zestawienia
-                    Billboard Top 200 i ma już ponad 5 miliardów globalnych streamów. Eilish regularnie wyprzedaje
-                    koncerty, grając coraz dłuższe trasy i w coraz większych obiektach.
-                </opis>
-            </płyta>
             <płyta bestseller="false" id-wykonawcy="_3">
                 <zakup>1</zakup>
                 <tytuł>Areoplane over the sea</tytuł>

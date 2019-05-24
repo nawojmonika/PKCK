@@ -15,12 +15,6 @@
          <cena>36.99</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
-         <ilość>4</ilość>
-         <wykonawca>Eilish Billie</wykonawca>
-         <nazwa>When We All Fall Asleep, Where Do We Go?</nazwa>
-         <cena>51.99</cena>
-      </płyta>
-      <płyta gatunek="Pop &amp; Rock">
          <ilość>1</ilość>
          <wykonawca>Neutral Milk Hotel</wykonawca>
          <nazwa>Areoplane over the sea</nazwa>
@@ -127,11 +121,11 @@
       <tytuł>Podsumowanie</tytuł>
       <element>
          <nazwa>Data wygenerowania raportu</nazwa>
-         <data-wygenerowania>17.05.2019</data-wygenerowania>
+         <data-wygenerowania>24.05.2019</data-wygenerowania>
       </element>
       <element>
          <nazwa>Liczba płyt</nazwa>
-         <liczba-płyt>20</liczba-płyt>
+         <liczba-płyt>19</liczba-płyt>
       </element>
       <element>
          <nazwa>Liczba gatunków muzyki</nazwa>
@@ -139,15 +133,15 @@
       </element>
       <element>
          <nazwa>Wartość netto</nazwa>
-         <wartość-netto>3096.13 PLN</wartość-netto>
+         <wartość-netto>2888.17 PLN</wartość-netto>
       </element>
       <element>
          <nazwa>Wartość brutto</nazwa>
-         <wartość-brutto>3808.24 PLN</wartość-brutto>
+         <wartość-brutto>3552.45 PLN</wartość-brutto>
       </element>
       <element>
          <nazwa>Liczba bestselletów</nazwa>
-         <liczba-bestsellerów>10</liczba-bestsellerów>
+         <liczba-bestsellerów>9</liczba-bestsellerów>
       </element>
    </podsumowanie>
 </raport>
