@@ -17,31 +17,22 @@
 
 
         <!--Header-->
-        <xsl:for-each select="distinct-values(sprzedaż/płyta/*/name())">
-            <xsl:variable name="string">
-                <xsl:value-of select="."/>
-            </xsl:variable>
-            <xsl:call-template name="apply-padding-to-string">
-                <xsl:with-param name="maxWidth" select="$maxWidth"/>
-                <xsl:with-param name="string" select="$string"/>
-            </xsl:call-template>
-        </xsl:for-each>
+        <xsl:call-template name="table-with-distinct-values">
+            <xsl:with-param name="maxWidth" select="$maxWidth"/>
+            <xsl:with-param name="nodes" select="distinct-values(sprzedaż/płyta/*/name())"/>
+        </xsl:call-template>
+        <xsl:call-template name="table-with-distinct-values">
+            <xsl:with-param name="maxWidth" select="$maxWidth"/>
+            <xsl:with-param name="nodes" select="distinct-values(sprzedaż/płyta/@*/name())"/>
+        </xsl:call-template>
         <xsl:value-of select="$enter"/>
         <!--Body-->
-        <xsl:for-each select="sprzedaż/płyta">
-            <xsl:for-each select="*">
-                <xsl:variable name="string">
-                    <xsl:for-each select="child::text()|child::node()">
-                        <xsl:value-of select="."/>
-                    </xsl:for-each>
-                </xsl:variable>
-                <xsl:call-template name="apply-padding-to-string">
-                    <xsl:with-param name="maxWidth" select="$maxWidth"/>
-                    <xsl:with-param name="string" select="$string"/>
-                </xsl:call-template>
-            </xsl:for-each>
-            <xsl:value-of select="$enter"/>
-        </xsl:for-each>
+        <xsl:call-template name="table">
+            <xsl:with-param name="maxWidth" select="$maxWidth"/>
+            <xsl:with-param name="nodes" select="sprzedaż/płyta"/>
+        </xsl:call-template>
+        <xsl:value-of select="$enter"/>
+
         <!--<xsl:variable name="nodeNames" select="distinct-values(sprzedaż/płyta/*/name())"/>-->
         <!--<xsl:variable name="attrNames" select="distinct-values(sprzedaż/płyta/@*/name())"/>-->
 
@@ -55,7 +46,6 @@
             <!--<xsl:value-of select="concat(' ', @gatunek )"/>-->
             <!--<xsl:value-of select="$enter"/>-->
         <!--</xsl:for-each>-->
-        <xsl:value-of select="$enter"/>
         <xsl:value-of select="podsumowanie/tytuł"/>
         <xsl:value-of select="$enter"/>
         <xsl:for-each select="podsumowanie/element">
@@ -96,4 +86,42 @@
         </xsl:call-template>
         <xsl:text>&#32;</xsl:text>
     </xsl:template>
+
+    <xsl:template name="table">
+        <xsl:param name="nodes" />
+        <xsl:param name="maxWidth" select="0"/>
+        <xsl:variable name="enter" select="'&#13;'"/>
+
+        <xsl:for-each select="$nodes">
+            <xsl:for-each select="*">
+                <xsl:variable name="string">
+                    <xsl:for-each select="child::text()|child::node()">
+                        <xsl:value-of select="."/>
+                    </xsl:for-each>
+                </xsl:variable>
+                <xsl:call-template name="apply-padding-to-string">
+                    <xsl:with-param name="maxWidth" select="$maxWidth"/>
+                    <xsl:with-param name="string" select="$string"/>
+                </xsl:call-template>
+            </xsl:for-each>
+            <xsl:value-of select="@*"/>
+            <xsl:value-of select="$enter"/>
+        </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template name="table-with-distinct-values">
+        <xsl:param name="nodes" />
+        <xsl:param name="maxWidth" select="0"/>
+
+        <xsl:for-each select="$nodes">
+            <xsl:variable name="string">
+                <xsl:value-of select="."/>
+            </xsl:variable>
+            <xsl:call-template name="apply-padding-to-string">
+                <xsl:with-param name="maxWidth" select="$maxWidth"/>
+                <xsl:with-param name="string" select="$string"/>
+            </xsl:call-template>
+        </xsl:for-each>
+    </xsl:template>
+
 </xsl:stylesheet>
