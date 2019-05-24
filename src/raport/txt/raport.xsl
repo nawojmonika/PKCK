@@ -21,17 +21,10 @@
             <xsl:variable name="string">
                 <xsl:value-of select="."/>
             </xsl:variable>
-            <xsl:variable name="padding">
-                <xsl:call-template name="get-padding-value">
-                    <xsl:with-param name="maxWidth" select="$maxWidth"/>
-                    <xsl:with-param name="stringLength" select="string-length($string)"/>
-                </xsl:call-template>
-            </xsl:variable>
-            <xsl:value-of select="$string"/>
-            <xsl:call-template name="append-pad">
-                <xsl:with-param name="length" select="$padding"/>
+            <xsl:call-template name="apply-padding-to-string">
+                <xsl:with-param name="maxWidth" select="$maxWidth"/>
+                <xsl:with-param name="string" select="$string"/>
             </xsl:call-template>
-            <xsl:text>&#32;</xsl:text>
         </xsl:for-each>
         <xsl:value-of select="$enter"/>
         <!--Body-->
@@ -42,17 +35,10 @@
                         <xsl:value-of select="."/>
                     </xsl:for-each>
                 </xsl:variable>
-                <xsl:variable name="padding">
-                    <xsl:call-template name="get-padding-value">
-                        <xsl:with-param name="maxWidth" select="$maxWidth"/>
-                        <xsl:with-param name="stringLength" select="string-length($string)"/>
-                    </xsl:call-template>
-                </xsl:variable>
-                <xsl:value-of select="$string"/>
-                <xsl:call-template name="append-pad">
-                    <xsl:with-param name="length" select="$padding"/>
+                <xsl:call-template name="apply-padding-to-string">
+                    <xsl:with-param name="maxWidth" select="$maxWidth"/>
+                    <xsl:with-param name="string" select="$string"/>
                 </xsl:call-template>
-                <xsl:text>&#32;</xsl:text>
             </xsl:for-each>
             <xsl:value-of select="$enter"/>
         </xsl:for-each>
@@ -93,5 +79,21 @@
                 <xsl:with-param name="length" select="$length - 1"/>
             </xsl:call-template>
         </xsl:if>
+    </xsl:template>
+
+    <xsl:template name="apply-padding-to-string">
+        <xsl:param name="maxWidth" select="0"/>
+        <xsl:param name="string" select="''"/>
+        <xsl:variable name="padding">
+            <xsl:call-template name="get-padding-value">
+                <xsl:with-param name="maxWidth" select="$maxWidth"/>
+                <xsl:with-param name="stringLength" select="string-length($string)"/>
+            </xsl:call-template>
+        </xsl:variable>
+        <xsl:value-of select="$string"/>
+        <xsl:call-template name="append-pad">
+            <xsl:with-param name="length" select="$padding"/>
+        </xsl:call-template>
+        <xsl:text>&#32;</xsl:text>
     </xsl:template>
 </xsl:stylesheet>
