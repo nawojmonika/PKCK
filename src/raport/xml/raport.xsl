@@ -24,7 +24,9 @@
                             <xsl:value-of select="tytuł"/>
                         </nazwa>
                         <cena>
-                            <xsl:value-of select="cena"/>
+                            <xsl:variable name="cena" select="cena"/>
+                            <xsl:variable name="waluta" select="../@waluta"/>
+                            <xsl:value-of select='concat(format-number($cena, "#,00"), " ", $waluta)'/>
                         </cena>
                     </płyta>
                 </xsl:for-each>
@@ -55,7 +57,7 @@
                 <element>
                     <nazwa>Wartość netto</nazwa>
                     <wartość-netto>
-                        <xsl:value-of select='concat(format-number($cenaNetto, "#.00"), " ", $waluta)'/>
+                        <xsl:value-of select='concat(format-number($cenaNetto, "#,00"), " ", $waluta)'/>
                     </wartość-netto>
                 </element>
                 <element>
@@ -63,7 +65,7 @@
                     <wartość-brutto>
 
                         <xsl:variable name="cenaBrutto" select="$cenaNetto + ($cenaNetto * 0.23)"/>
-                        <xsl:value-of select='concat(format-number($cenaBrutto, "#.00"), " ", $waluta)'/>
+                        <xsl:value-of select='concat(format-number($cenaBrutto, "#,00"), " ", $waluta)'/>
                     </wartość-brutto>
                 </element>
                 <element>

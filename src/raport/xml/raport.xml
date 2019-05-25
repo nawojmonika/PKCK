@@ -6,122 +6,122 @@
          <ilość>1</ilość>
          <wykonawca>Fisz, Emade, Tworzywo</wykonawca>
          <nazwa>Radar</nazwa>
-         <cena>38.99</cena>
+         <cena>39 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>15</ilość>
          <wykonawca>Podsiadło Dawid</wykonawca>
          <nazwa>Małomiasteczkowy</nazwa>
-         <cena>36.99</cena>
+         <cena>37 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>1</ilość>
          <wykonawca>Neutral Milk Hotel</wykonawca>
          <nazwa>Areoplane over the sea</nazwa>
-         <cena>6.99</cena>
+         <cena>27 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>5</ilość>
          <wykonawca>Neutral Milk Hotel</wykonawca>
          <nazwa>On Avery Island</nazwa>
-         <cena>5.99</cena>
+         <cena>26 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>0</ilość>
          <wykonawca>Dido</wykonawca>
          <nazwa>Still On My Mind</nazwa>
-         <cena>39.99</cena>
+         <cena>40 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>6</ilość>
          <wykonawca>Kortez</wykonawca>
          <nazwa>Mini dom</nazwa>
-         <cena>28.99</cena>
+         <cena>29 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>8</ilość>
          <wykonawca>Lady Pank</wykonawca>
          <nazwa>Ballady</nazwa>
-         <cena>28.99</cena>
+         <cena>29 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>1</ilość>
          <wykonawca>Various Artists</wykonawca>
          <nazwa>Fryderyk Festival 2019</nazwa>
-         <cena>27.99</cena>
+         <cena>28 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>16</ilość>
          <wykonawca>Queen</wykonawca>
          <nazwa>Bohemian Rhapsody</nazwa>
-         <cena>38.99</cena>
+         <cena>39 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>5</ilość>
          <wykonawca>Majewska Alicja</wykonawca>
          <nazwa>Żyć się chce</nazwa>
-         <cena>43.99</cena>
+         <cena>44 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>0</ilość>
          <wykonawca>Zawiałow Daria</wykonawca>
          <nazwa>Helsinki</nazwa>
-         <cena>34.99</cena>
+         <cena>35 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>0</ilość>
          <wykonawca>Kortez</wykonawca>
          <nazwa>Mój dom</nazwa>
-         <cena>31.99</cena>
+         <cena>32 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>10</ilość>
          <wykonawca>Various Artists</wykonawca>
          <nazwa>Męskie Granie 2018</nazwa>
-         <cena>49.99</cena>
+         <cena>50 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>1</ilość>
          <wykonawca>Zalewski Krzysztof</wykonawca>
          <nazwa>Złoto</nazwa>
-         <cena>34.99</cena>
+         <cena>35 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>5</ilość>
          <wykonawca>Zawiałow Daria</wykonawca>
          <nazwa>A kysz!</nazwa>
-         <cena>19.99</cena>
+         <cena>20 PLN</cena>
       </płyta>
       <płyta gatunek="Pop &amp; Rock">
          <ilość>0</ilość>
          <wykonawca>Domagała Paweł</wykonawca>
          <nazwa>1984</nazwa>
-         <cena>36.99</cena>
+         <cena>37 PLN</cena>
       </płyta>
       <płyta gatunek="Rap &amp; Hip Hop">
          <ilość>0</ilość>
          <wykonawca>PRO8L3M</wykonawca>
          <nazwa>Widmo</nazwa>
-         <cena>49.99</cena>
+         <cena>50 PLN</cena>
       </płyta>
       <płyta gatunek="Rap &amp; Hip Hop">
          <ilość>8</ilość>
          <wykonawca>Sokół</wykonawca>
          <nazwa>Wojtek Sokół</nazwa>
-         <cena>38.99</cena>
+         <cena>39 PLN</cena>
       </płyta>
       <płyta gatunek="Rap &amp; Hip Hop">
          <ilość>1</ilość>
          <wykonawca>Tymek</wykonawca>
          <nazwa>Klubowe</nazwa>
-         <cena>32.99</cena>
+         <cena>33 PLN</cena>
       </płyta>
    </sprzedaż>
    <podsumowanie>
       <tytuł>Podsumowanie</tytuł>
       <element>
          <nazwa>Data wygenerowania raportu</nazwa>
-         <data-wygenerowania>24.05.2019</data-wygenerowania>
+         <data-wygenerowania>25.05.2019</data-wygenerowania>
       </element>
       <element>
          <nazwa>Liczba płyt</nazwa>
@@ -133,11 +133,11 @@
       </element>
       <element>
          <nazwa>Wartość netto</nazwa>
-         <wartość-netto>2888.17 PLN</wartość-netto>
+         <wartość-netto>30,08 PLN</wartość-netto>
       </element>
       <element>
          <nazwa>Wartość brutto</nazwa>
-         <wartość-brutto>3552.45 PLN</wartość-brutto>
+         <wartość-brutto>37,00 PLN</wartość-brutto>
       </element>
       <element>
          <nazwa>Liczba bestselletów</nazwa>
